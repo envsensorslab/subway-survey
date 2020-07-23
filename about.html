@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>MBTA Subway Conditions Survey 2018-2019</title>
+        <link rel=icon type=image/png href=favicon.png>
+        <link href=https://fonts.googleapis.com/css?family=Lato&display=swap rel=stylesheet>
+        <link rel=stylesheet href=https://unpkg.com/leaflet@1.5.1/dist/leaflet.css crossorigin=/>
+        <script src=https://unpkg.com/leaflet@1.5.1/dist/leaflet.js crossorigin=></script>
+        <script src=dist/leaflet.ajax.min.js></script>
+        <link rel=stylesheet type=text/css href=style.css>
+    </head>
+    <body>
+        <div id=outer>
+
+            <div id=header>
+                <a class=header-link href=https://northeastern.edu>
+                    <img src=img/lockup.png id=logo></img>
+                </a>
+                <div class=header-component>
+                    <a class=header-link href=https://northeastern.edu/envsensorslab/>
+                        <b>Environmental Sensors Lab</b>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    MBTA Subway Conditions Survey 2018-2019
+                </div>
+                <div id=header-right>
+                    <div class=header-component>
+                        <b><a class=header-link href=index.html>System</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class=header-link href=commute.html>Commute</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class="header-link header-selected" href=about.html>About</a></b>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id=about>
+                <h2>About</h2>
+                <p>The MBTA Subway Conditions Survey was a survey of noise, vibration, particulate density, temperature, and humidity within the vehicles of the MBTA light rail system. The original survey was carried out in May 2018, with a follow-up survey focusing on particulate matter carried out in October-December 2019. The goals of this project were as follows:</p>
+                <ol>
+                    <li>Develop a multimodal surveying process for simultaneously characterizing many of the major potential hazards encountered by riders of subway systems, as identified by <a href=https://dx.doi.org/10.1093%2Fjurban%2Fjti004>Gershon et al., 2005</a>, as well as some other quantities;</li>
+                    <li>Quantify various environmental conditions within the subway, as experienced by those who ride it;</li>
+                    <li>Document the process and publish as open source all associated software tools, to encourage future studies; and</li>
+                    <li>Make the sampled data available to the public in a way that is easily digestible for those who are interested.</li>
+                </ol>
+
+                <br><h2>Data collection process</h2>
+                <p>Data was collected via a multimodal sensor platform consisting of several sensors and a tablet computer attached to a wooden base. The different sensors chosen for the study and the primary quantity that they surveyed are shown below.</p>
+                <p><img src=img/platform.png class=figure style="max-height: 400px;"></p>
+                <table class=about-table>
+                    <tr class=heading-row>
+                        <th>Sensor</th>
+                        <th>Quantity</th>
+                        <th>Specs</th>
+                    </tr>
+                    <tr>
+                        <td>Dylos DC1700 portable air quality monitor</td>
+                        <td>Particulate matter</td>
+                        <td>via <a href=http://www.dylosproducts.com/dc1700.html>Dylos Corporation</a></td>
+                    </tr>
+                    <tr>
+                        <td>Arduino and ADXL356 triaxis accelerometer</td>
+                        <td>Vibration</td>
+                        <td>via <a href=https://cdn.sparkfun.com/assets/1/3/5/9/6/Redboardv2.pdf>SparkFun</a> and <a href=https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf>Analog Devices</a></td>
+                    </tr>
+                    <tr>
+                        <td>3M SD-200 sound level monitor</td>
+                        <td>Sound pressure level (noise)</td>
+                        <td>via <a href=https://multimedia.3m.com/mws/media/701679O/3m-sound-detector-sd-200-kit-user-instructions.pdf>3M</a></td>
+                    </tr>
+                    <tr>
+                        <td>HOBO U-12 data logger</td>
+                        <td>Temperature, relative humidity, light intensity</td>
+                        <td>via <a href=https://www.onsetcomp.com/files/manual_pdfs/13129-C%20U12-013%20Manual.pdf>Onset Computer Corporation</a></td>
+                    </tr>
+                </table>
+                <p>Surveying was carried out over two distinct time periods: <b>off-peak hours</b>, consisting of weekdays after 9 PM on  and most weekend hours, and morning <b>rush hours</b>, consisting of 7 AM - 9 AM on weekdays. The purpose of surveying during off-peak hours was to understand the baseline conditions of the subway system, without pasenger influence; rush hours were sampled to better understand the actual conditions as experienced by most commuters. The May 2018 pilot study, involving all of the equipment mentioned above, took place only during off-peak hours. A follow up study in October-December 2019 was carried out during both off-peak hours and rush hours but only sampled particulate matter data.</p>
+
+                <br><h2>Reference values and limitations</h2>
+                <p>To help contextualize the values obtained from the various sensors in this study, some reference values have been provided in the graphs as light grey dotted lines. These reference values are reported in the table below, along with their sources and a brief description.</p>
+                <table class=about-table>
+                    <tr class=heading-row>
+                        <th>Quantity</th>
+                        <th>Value</th>
+                        <th>Source</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Sound pressure level</td>
+                        <td>85 dBA</td>
+                        <td><a href=https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95>OSHA 1910.95</a>; <a href=https://www.cdc.gov/niosh/docs/98-126/default.html>NIOSH 98-126</a></td>
+                        <td>8-hour daily exposure limit</td>
+                    </tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>84.2°F (29°C)</td>
+                        <td><a href=https://doi-org.ezproxy.neu.edu/10.1016/j.buildenv.2013.06.012>Cui et al., 2013</a></td>
+                        <td>Threshold for thermal comfort</td>
+                    </tr>
+                    <tr>
+                        <td>Relative humidity</td>
+                        <td>65%</td>
+                        <td><a href=https://www.ashrae.org/File%20Library/Technical%20Resources/Technical%20FAQs/TC-04.03-FAQ-12.pdf>ASHRAE 26.1-2016</a>
+                        <td>ASHRAE recommendation</td>
+                    </tr>
+                    <tr>
+                        <td>Dylos small particles</td>
+                        <td>2777/ft³ to 6448/ft³</td>
+                        <td><a href=https://www.epa.gov/criteria-air-pollutants/naaqs-table>EPA, 2016</a>; <a href=https://doi.org/10.1039/c5em00365b>Dacunto et al., 2015</a></td>
+                        <td>EPA primary standard, 1-year averaging period</td>
+                    </tr>
+                </table>
+                <p>The reference values for Dylos small particles, which can roughly be seen as a proxy for PM2.5, have been obtained by using the constants and equations from <a href=https://doi.org/10.1039/c5em00365b>Dacunto et al., 2015</a> to convert the EPA PM2.5 primary standard, reported in μg/m³, to the particle number concentration reported by the Dylos DC1700.</p>
+                <p>There is significant variability in the output of this process depending on the assumptions made about the source of particulates; in their paper, Dacunto et al. presented multiple different values that can be used to parameterize the conversion process, obtained by studying emission sources ranging from food preparation to cigarette smoke. The reference values of 2777/ft³ and 6448/ft³ represent the maximum range of outputs assuming the most relevant emissions sources studied by Dacunto et al. (cigarette smoke and burning wood).
+                <p>Numbers in the vibration data are not directly comparable to existing literature due to limitations in the sampling rate of the sensor used; for this reason, no external reference values are provided for the vibration data. To meaningfully compare vibration data to other studies, it must first be weighted according to the filters defined in <a href=https://www.iso.org/standard/7612.html>ISO 2631-1:1997</a>, which help to account for differences between accelerometer response and actual response by the human body. This is somewhat similar to the process of mixing and equalizing music.</p>
+
+                <br><h2>Acknowledgements</h2>
+                <p>Initial planning, sampling, analysis, visualization, and creation of this website were carried out by Edgar Castro under the supervision of Dr. Amy Mueller, P.I. of the Environmental Sensors Lab at Northeastern University. We thank Dr. Matthew Eckelman for lending his expertise in air quality monitoring and for providing us with the Dylos DC1700 that was used for this study. We also thank Nick Boyd of MassDOT, Norman Michaud of the MBTA, and Preston Horton of the MBTA for their help in coordinating sampling efforts.</p>
+                <p>This project was funded through Northeastern University's Faculty Startup Funds and the University's Office of Undergraduate Research and Fellowships.</p>
+
+                <br><br><br>
+            </div>
+
+        </div>
+
+        <script src=colormaps.js></script>
+        <script src=main.js></script>
+    </body>
+</html>

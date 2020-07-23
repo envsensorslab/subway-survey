@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>subway survey visualization test</title>
+        <link rel=icon type=image/png href=favicon.png>
+        <link href=https://fonts.googleapis.com/css?family=Lato&display=swap rel=stylesheet>
+        <link rel=stylesheet href=https://unpkg.com/leaflet@1.5.1/dist/leaflet.css crossorigin=/>
+        <script src=https://unpkg.com/leaflet@1.5.1/dist/leaflet.js crossorigin=></script>
+        <script src=dist/leaflet.ajax.min.js></script>
+        <link rel=stylesheet type=text/css href=style.css>
+    </head>
+    <body>
+        <div id=outer>
+
+            <div id=header>
+                <a class=header-link href=https://northeastern.edu>
+                    <img src=img/lockup.png id=logo></img>
+                </a>
+                <div class=header-component>
+                    <a class=header-link href=https://northeastern.edu/envsensorslab/>
+                        <b>Environmental Sensors Lab</b>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    Subway Particulate Matter Survey
+                </div>
+                <div class=header-component>
+                    <b class=warning>PRELIMINARY</b>
+                </div>
+                <div id=header-right>
+                    <div class=header-component>
+                        <b><a class=header-link href=map.html>Map</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class="header-link header-selected" href=analysis.html>Analysis</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class=header-link href=about.html>About</a></b>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id=about>
+                <h2>Sampling procedure</h2>
+                <p class=warning>TODO</p>
+
+                <br><h2>Hypothesis testing</h2>
+                <p>In order to assess the impacts of passenger load and car direction on the concentration of aerosols, simple hypothesis testing is used. First, track segments were grouped geospatially and according to similar structural properties such as the type of car used and the grades of track constituting that track segment, i.e. above vs below ground tracks. The resulting groupings can be seen in the figure below.</p>
+
+                <img src=img/segment_groups_map.jpg class=figure>
+                <div class=caption>Track segments of the MBTA rapid transit system grouped by similar properties</div>
+
+                <p>For each group, four hypothesis tests were performed, two tests each to determine the presence of statistically significant differences between passenger loads and between car directions. For each test, the other binary variable was held constant to obtain a subset of the data. Where the p-value of the Shapiro-Wilk test for normality was less than 0.05, a Mann-Whitney U test was used; otherwise, a T-test for independent samples was used. The results of the hypothesis tests can be seen in the table below. Cells have been left blank where there wasn't enough data to perform a test.</p>
+
+                <div class=caption>Hypothesis testing results (scrollable)</div>
+                <iframe src=hypothesis-testing.html width=100% height=587px frameborder=0></iframe>
+
+                <p>Based on these results, it appears that both the load and direction have a statistically significant impact on particulate concentrations and both of these properties need to be taken into account in assessing exposure. The difference between directions appears to be less significant during rush hour, which could possibly be explained by the airflow of the cars being reduced by crowding.</p>
+
+                <br><h2>Exposure assessment</h2>
+                <p class=warning>TODO</p>
+            </div>
+
+        </div>
+
+        <script src=viridis.js></script>
+        <script src=main.js></script>
+    </body>
+</html>

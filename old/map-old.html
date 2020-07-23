@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>MBTA Subway Conditions Survey 2018-2019</title>
+        <link rel=icon type=image/png href=favicon.png>
+
+        <link href=https://fonts.googleapis.com/css?family=Lato&display=swap rel=stylesheet>
+        <!-- using local, static versions to avoid CORS blocking
+        <link rel=stylesheet href=https://unpkg.com/leaflet@1.5.1/dist/leaflet.css crossorigin=/>
+        <script src=https://unpkg.com/leaflet@1.5.1/dist/leaflet.js crossorigin=></script>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        -->
+        <link rel=stylesheet href=dist/leaflet@1.5.1/leaflet.css>
+        <script src=dist/leaflet@1.5.1/leaflet.js></script>
+        <script src=dist/leaflet.ajax.js></script>
+        <script src=dist/d3.v4.js></script>
+
+        <link rel=stylesheet type=text/css href=style.css>
+    </head>
+    <body>
+
+        <div id=legend-inner>
+            <b id=colorbar-label>Mean<br>small<br>particles</b>
+            <br>[count/ft<sup>3</sup>]
+            <br><br>
+            <div id=colorbar class="colorbar-color colorbar-container-component"></div>
+            <div id=colorbar-ticks class=colorbar-container-component>
+                <span id=colorbar-max>12406</span>
+                <span id=colorbar-mid>6203</span>
+                <span id=colorbar-min>0</span>
+            </div>
+            <!--
+            <br>
+            <div class="colorbar-color colorbar-key-item" style="background-color:red;"></div>
+            <div class="colorbar-key-label">High</div>
+            -->
+        </div>
+
+        <div id=outer>
+
+            <div id=header>
+                <a class=unstyled-link href=https://northeastern.edu>
+                    <img src=img/lockup.png id=logo></img>
+                </a>
+                <div class=header-component>
+                    <a class=header-link href=https://northeastern.edu/envsensorslab/>
+                        <b>Environmental Sensors Lab</b>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    MBTA Subway Conditions Survey 2018-2019
+                </div>
+                <div id=header-right>
+                    <div class=header-component>
+                        <b><a class="header-link header-selected" href=map.html>System</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class=header-link href=exposure.html>Commute</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class=header-link href=about.html>About</a></b>
+                    </div>
+                </div>
+            </div>
+
+            <div id=inner>
+                <div id=map-container>
+                    <div id=map></div>
+                </div>
+                <div id=controls>
+                    <h2>System conditions assessment tool</h2>
+                    <br>
+                    Displaying 
+                    <select id=metric-select>
+                        <option value=mean>mean</option>
+                        <option value=median>median</option>
+                        <!--
+                        <option value=min>min</option>
+                        <option value=max>max</option>
+                        -->
+                    </select>
+                    readings
+
+                    <br><br>
+                    <div id=info-instructions>
+                        <h3>Instructions</h3>
+                        <ul>
+                            <li>Click on a track segment for more information</li>
+                            <li>Click and drag on the map to pan</li>
+                            <li>Use the scroll wheel on the map or click on the zoom buttons at the top left to zoom</li>
+                        </ul>
+                    </div>
+
+                    <div id=info style="display:none">
+                        <h3>Selected track segment info</h3>
+
+                        <b id=start-station></b> to <b id=end-station></b> is a <b><span id=length></span>-mile long</b>, <b id=under-over></b> segment of the <b id=line-phrase><span id=line></span> <span id=route></span> line</b>. An average of ____ people ride this segment every day, primarily from the neighbourhoods of ____ and ____.
+                        <br><br>
+
+                        <div hidden>
+                            Displaying
+                            <select id=info-select>
+                                <option value=histogram>histogram</option>
+                                <option value=table>table</option>
+                            </select>
+                            <br><br>
+                        </div>
+
+                        <table id=stats style="display:none">
+                            <caption id=stats-title>Small particles [count/ft<sup>3</sup>]</caption>
+                            <tr><td>Mean</td><td id=mean></td></tr>
+                            <tr><td>Standard Deviation</td><td id=std></td></tr>
+                            <tr><td>Minimum</td><td id=min></td></tr>
+                            <tr><td>Median</td><td id=med></td></tr>
+                            <tr><td>Maximum</td><td id=max></td></tr>
+                        </table>
+
+                        <div id=histogram>
+                            <div class=caption>Distribution of sensor readings at this location</div>
+                            <br><div id=histogram-div></div>
+                            <div class=caption>Small particles [count/ft<sup>3</sup>]</div>
+                        </div>
+
+                        <br>There are <b id=count></b> samples taken from this track segment.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src=viridis.js></script>
+        <script src=system.js></script>
+        <script src=histogram.js></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+[
+    ["Copley", ["E", "B/C/D/E"]],
+    ["Copley", ["B/C/D", "B/C/D/E"]],
+
+    ["Downtown Crossing", ["Orange", "Ashmont/Braintree"]],
+
+    ["Government Center", ["Blue", "B/C/D/E"]],
+    ["Government Center", ["Blue", "C/E"]],
+    ["Government Center", ["B/C/D/E", "C/E"]],
+
+    ["Haymarket", ["C/E", "Orange"]],
+
+    ["JFK/UMass", ["Ashmont", "Ashmont/Braintree"]],
+    ["JFK/UMass", ["Braintree", "Ashmont/Braintree"]],
+
+    ["Kenmore", ["B", "B/C/D"]],
+    ["Kenmore", ["B/C/D", "C"]],
+    ["Kenmore", ["B/C/D", "D"]],
+
+    ["North Station", ["C/E", "Orange"]],
+    ["North Station", ["E", "Orange"]],
+    ["North Station", ["C/E", "E"]],
+
+    ["Park Street", ["B/C/D/E", "Ashmont/Braintree"]],
+
+    ["State", ["Blue", "Orange"]]
+]

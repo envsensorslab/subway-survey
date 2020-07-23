@@ -1,0 +1,62 @@
+{
+    "noise_level": [
+        {
+            "label": "OSHA/NIOSH 8-hour daily exposre limit",
+            "value": 85
+        }
+    ],
+    "temperature": [
+        {
+            "label": "thermal comfort threshold",
+            "value": 84.2
+        }
+    ],
+    "humidity": [
+        {
+            "label": "ASHRAE recommendation",
+            "value": 65
+        }
+    ],
+    "particulates_off_peak_small": [
+        {
+            "label": "highest rush hour average",
+            "value": 21530,
+            "noplot": true
+        },
+        {
+            "label": "NAAQS primary standard, 1-year averaging period (estimated range)",
+            "upper": 6448,
+            "lower": 2777
+        }
+    ],
+    "particulates_rush_hour_small": [
+        {
+            "label": "highest rush hour average",
+            "value": 21530,
+            "noplot": true
+        },
+        {
+            "label": "NAAQS primary standard, 1-year averaging period (estimated range)",
+            "upper": 6448,
+            "lower": 2777
+        }
+    ],
+    "particulates_off_peak_large": [
+        {
+            "label": "highest rush hour average",
+            "value": 1661
+        }
+    ],
+    "particulates_rush_hour_large": [
+        {
+            "label": "highest rush hour average",
+            "value": 1661
+        }
+    ],
+    "vibration": [
+        {
+            "label": "highest observed root-mean-square",
+            "value": 2520
+        }
+    ]
+}

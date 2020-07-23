@@ -1,0 +1,695 @@
+TIME,SMALLPARTICLES,LARGEPARTICLES,station_idx,STATION,LINE,ROUTE,TERMINUS,load
+2019-10-27 22:32:00,3607,128,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-24 22:33:00,1566,124,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-24 22:33:00,1566,124,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-24 23:18:00,3164,215,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-24 23:18:00,3164,215,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-25 07:32:00,6448,331,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-11-26 22:17:00,927,33,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-27 23:01:00,6066,287,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-27 23:01:00,6066,287,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-27 23:41:00,1295,52,35,Copley,Green,B/C/D/E,N,baseline
+2019-11-27 23:41:00,1295,52,35,Copley,Green,B/C/D/E,N,baseline
+2019-12-02 07:45:00,1268,47,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-02 07:45:00,1268,47,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-02 08:48:00,1560,45,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-02 08:49:00,1470,32,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-02 08:48:00,1560,45,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-02 08:49:00,1470,32,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-09 07:08:00,6662,520,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-12-09 07:08:00,6662,520,35,Copley,Green,B/C/D/E,N,rush_hour
+2019-11-03 20:21:00,1126,26,78,Orient Heights,Blue,Blue,N,
+2019-11-03 21:12:00,1174,17,78,Orient Heights,Blue,Blue,N,
+2019-11-04 08:05:00,1289,21,78,Orient Heights,Blue,Blue,N,rush_hour
+2019-11-04 08:23:00,475,19,78,Orient Heights,Blue,Blue,N,rush_hour
+2019-11-05 23:28:00,410,7,78,Orient Heights,Blue,Blue,N,baseline
+2019-11-06 22:17:00,1482,25,78,Orient Heights,Blue,Blue,N,baseline
+2019-11-03 20:26:00,828,31,88,Revere Beach,Blue,Blue,N,
+2019-11-03 21:17:00,523,15,88,Revere Beach,Blue,Blue,N,
+2019-11-04 08:10:00,536,22,88,Revere Beach,Blue,Blue,N,rush_hour
+2019-11-04 08:17:00,735,29,88,Revere Beach,Blue,Blue,N,rush_hour
+2019-11-06 22:22:00,751,20,88,Revere Beach,Blue,Blue,N,baseline
+2019-11-06 23:16:00,1125,43,88,Revere Beach,Blue,Blue,N,baseline
+2019-11-03 20:50:00,7432,178,4,Aquarium,Blue,Blue,N,
+2019-11-03 21:42:00,7674,198,4,Aquarium,Blue,Blue,N,
+2019-11-04 07:44:00,5321,187,4,Aquarium,Blue,Blue,N,rush_hour
+2019-11-04 08:35:00,11640,270,4,Aquarium,Blue,Blue,N,rush_hour
+2019-11-05 22:05:00,3067,71,4,Aquarium,Blue,Blue,N,baseline
+2019-11-05 22:56:00,2363,70,4,Aquarium,Blue,Blue,N,baseline
+2019-11-06 22:08:00,4203,99,4,Aquarium,Blue,Blue,N,baseline
+2019-11-06 22:46:00,5470,188,4,Aquarium,Blue,Blue,N,baseline
+2019-11-03 20:53:00,3890,75,48,Government Center,Blue,Blue,N,
+2019-11-03 21:45:00,4181,95,48,Government Center,Blue,Blue,N,
+2019-11-04 07:38:00,268,16,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:39:00,375,25,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:40:00,482,33,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:41:00,604,47,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:42:00,1355,47,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:43:00,2985,72,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:44:00,5321,187,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:45:00,7154,149,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:46:00,9381,250,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:47:00,8743,218,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-04 07:53:00,4533,307,48,Government Center,Blue,Blue,N,rush_hour
+2019-11-05 22:02:00,2012,109,48,Government Center,Blue,Blue,N,baseline
+2019-11-05 22:47:00,6650,255,48,Government Center,Blue,Blue,N,baseline
+2019-11-05 23:39:00,4383,74,48,Government Center,Blue,Blue,N,baseline
+2019-11-06 23:32:00,10049,299,48,Government Center,Blue,Blue,N,baseline
+2019-11-03 20:59:00,1233,21,18,Bowdoin,Blue,Blue,Y,
+2019-11-03 21:00:00,1940,63,18,Bowdoin,Blue,Blue,Y,
+2019-11-03 21:02:00,2122,45,101,State,Blue,Blue,N,
+2019-11-04 08:37:00,10429,266,101,State,Blue,Blue,N,rush_hour
+2019-11-05 22:04:00,2515,74,101,State,Blue,Blue,N,baseline
+2019-11-05 22:55:00,1946,58,101,State,Blue,Blue,N,baseline
+2019-11-06 22:07:00,3948,122,101,State,Blue,Blue,N,baseline
+2019-11-06 22:47:00,8193,261,101,State,Blue,Blue,N,baseline
+2019-11-06 22:55:00,9345,779,101,State,Blue,Blue,N,baseline
+2019-11-06 22:56:00,3708,208,101,State,Blue,Blue,N,baseline
+2019-11-03 21:08:00,4171,77,0,Airport,Blue,Blue,N,
+2019-11-04 07:14:00,5513,112,0,Airport,Blue,Blue,N,rush_hour
+2019-11-04 07:38:00,268,16,0,Airport,Blue,Blue,N,rush_hour
+2019-11-04 08:28:00,629,35,0,Airport,Blue,Blue,N,rush_hour
+2019-11-05 22:10:00,2930,54,0,Airport,Blue,Blue,N,baseline
+2019-11-05 23:01:00,3421,46,0,Airport,Blue,Blue,N,baseline
+2019-11-06 22:13:00,5974,219,0,Airport,Blue,Blue,N,baseline
+2019-11-06 22:41:00,993,24,0,Airport,Blue,Blue,N,baseline
+2019-11-03 21:15:00,833,39,11,Beachmont,Blue,Blue,N,
+2019-11-03 21:30:00,716,33,11,Beachmont,Blue,Blue,N,
+2019-11-04 07:21:00,550,15,11,Beachmont,Blue,Blue,N,rush_hour
+2019-11-04 08:08:00,604,14,11,Beachmont,Blue,Blue,N,rush_hour
+2019-11-04 08:19:00,633,21,11,Beachmont,Blue,Blue,N,rush_hour
+2019-11-05 22:33:00,1052,26,11,Beachmont,Blue,Blue,N,baseline
+2019-11-05 23:25:00,644,25,11,Beachmont,Blue,Blue,N,baseline
+2019-11-06 22:20:00,860,29,11,Beachmont,Blue,Blue,N,baseline
+2019-11-03 21:27:00,443,17,117,Wonderland,Blue,Blue,Y,
+2019-11-05 23:20:00,331,12,117,Wonderland,Blue,Blue,Y,baseline
+2019-11-05 23:21:00,334,8,117,Wonderland,Blue,Blue,Y,baseline
+2019-11-05 23:22:00,417,15,117,Wonderland,Blue,Blue,Y,baseline
+2019-11-04 07:12:00,9999,309,68,Maverick,Blue,Blue,N,rush_hour
+2019-11-04 07:41:00,604,47,68,Maverick,Blue,Blue,N,rush_hour
+2019-11-04 08:31:00,1779,42,68,Maverick,Blue,Blue,N,rush_hour
+2019-11-05 22:08:00,5723,82,68,Maverick,Blue,Blue,N,baseline
+2019-11-05 22:59:00,6906,104,68,Maverick,Blue,Blue,N,baseline
+2019-11-06 22:11:00,7076,126,68,Maverick,Blue,Blue,N,baseline
+2019-11-06 23:00:00,7103,285,68,Maverick,Blue,Blue,N,baseline
+2019-11-06 23:27:00,1513,41,68,Maverick,Blue,Blue,N,baseline
+2019-11-04 08:02:00,3798,98,118,Wood Island,Blue,Blue,N,rush_hour
+2019-11-04 08:26:00,400,14,118,Wood Island,Blue,Blue,N,rush_hour
+2019-11-05 22:38:00,652,11,118,Wood Island,Blue,Blue,N,baseline
+2019-11-06 23:23:00,1267,42,118,Wood Island,Blue,Blue,N,baseline
+2019-11-05 22:16:00,816,15,104,Suffolk Downs,Blue,Blue,N,baseline
+2019-11-06 22:36:00,1333,57,104,Suffolk Downs,Blue,Blue,N,baseline
+2019-11-06 10:07:00,987,104,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-06 11:33:00,1292,63,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-06 11:34:00,1001,58,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-06 11:35:00,732,49,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-06 11:36:00,619,31,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-11 07:43:00,1328,52,77,Oak Grove,Orange,Orange,Y,rush_hour
+2019-11-11 07:44:00,1327,41,77,Oak Grove,Orange,Orange,Y,rush_hour
+2019-11-11 07:45:00,1258,52,77,Oak Grove,Orange,Orange,Y,rush_hour
+2019-11-20 11:09:00,332,17,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-20 11:10:00,322,13,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-20 12:43:00,421,18,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-20 12:44:00,253,17,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-20 12:45:00,781,90,77,Oak Grove,Orange,Orange,Y,baseline
+2019-11-06 10:10:00,921,69,66,Malden Center,Orange,Orange,N,baseline
+2019-11-06 11:39:00,733,37,66,Malden Center,Orange,Orange,N,baseline
+2019-11-06 13:02:00,1568,98,66,Malden Center,Orange,Orange,N,baseline
+2019-11-11 07:38:00,1569,43,66,Malden Center,Orange,Orange,N,rush_hour
+2019-11-11 07:48:00,1224,36,66,Malden Center,Orange,Orange,N,rush_hour
+2019-11-20 11:13:00,362,11,66,Malden Center,Orange,Orange,N,baseline
+2019-11-20 12:39:00,491,11,66,Malden Center,Orange,Orange,N,baseline
+2019-11-20 12:47:00,601,53,66,Malden Center,Orange,Orange,N,baseline
+2019-11-06 10:15:00,1835,107,115,Wellington,Orange,Orange,N,baseline
+2019-11-06 11:25:00,1218,54,115,Wellington,Orange,Orange,N,baseline
+2019-11-11 07:33:00,1988,60,115,Wellington,Orange,Orange,N,rush_hour
+2019-11-11 07:34:00,2253,109,115,Wellington,Orange,Orange,N,rush_hour
+2019-11-11 07:53:00,2480,83,115,Wellington,Orange,Orange,N,rush_hour
+2019-11-11 07:54:00,1938,57,115,Wellington,Orange,Orange,N,rush_hour
+2019-11-20 11:18:00,550,15,115,Wellington,Orange,Orange,N,baseline
+2019-11-20 12:34:00,749,32,115,Wellington,Orange,Orange,N,baseline
+2019-11-06 10:19:00,984,54,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-06 11:21:00,2635,90,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-06 12:53:00,2647,86,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-11 07:28:00,4208,188,105,Sullivan Square,Orange,Orange,N,rush_hour
+2019-11-20 11:22:00,595,24,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-20 12:55:00,473,22,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-20 12:56:00,1461,116,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-20 12:57:00,3011,266,105,Sullivan Square,Orange,Orange,N,baseline
+2019-11-06 10:24:00,2018,127,74,North Station,Orange,Orange,N,baseline
+2019-11-06 11:16:00,5000,178,74,North Station,Orange,Orange,N,baseline
+2019-11-06 11:52:00,1416,56,74,North Station,Orange,Orange,N,baseline
+2019-11-11 07:23:00,11411,651,74,North Station,Orange,Orange,N,rush_hour
+2019-11-11 08:02:00,2882,135,74,North Station,Orange,Orange,N,rush_hour
+2019-11-20 13:03:00,1922,59,74,North Station,Orange,Orange,N,baseline
+2019-11-06 10:26:00,5451,214,54,Haymarket,Orange,Orange,N,baseline
+2019-11-06 10:27:00,6420,250,54,Haymarket,Orange,Orange,N,baseline
+2019-11-06 11:54:00,4127,166,54,Haymarket,Orange,Orange,N,baseline
+2019-11-06 12:47:00,5813,215,54,Haymarket,Orange,Orange,N,baseline
+2019-11-11 07:21:00,8425,303,54,Haymarket,Orange,Orange,N,rush_hour
+2019-11-20 11:29:00,2968,136,54,Haymarket,Orange,Orange,N,baseline
+2019-11-20 12:23:00,3983,87,54,Haymarket,Orange,Orange,N,baseline
+2019-11-06 10:34:00,6879,189,30,Chinatown,Orange,Orange,N,baseline
+2019-11-11 07:14:00,4294,118,30,Chinatown,Orange,Orange,N,rush_hour
+2019-11-20 11:35:00,5191,128,30,Chinatown,Orange,Orange,N,baseline
+2019-11-20 12:16:00,1361,37,30,Chinatown,Orange,Orange,N,baseline
+2019-11-06 10:36:00,5935,169,110,Tufts Medical Center,Orange,Orange,N,baseline
+2019-11-06 11:08:00,3731,122,110,Tufts Medical Center,Orange,Orange,N,baseline
+2019-11-06 12:39:00,3420,115,110,Tufts Medical Center,Orange,Orange,N,baseline
+2019-11-11 07:12:00,4566,92,110,Tufts Medical Center,Orange,Orange,N,rush_hour
+2019-11-20 11:37:00,4281,82,110,Tufts Medical Center,Orange,Orange,N,baseline
+2019-11-20 12:14:00,1977,62,110,Tufts Medical Center,Orange,Orange,N,baseline
+2019-11-06 10:44:00,1401,50,91,Roxbury Crossing,Orange,Orange,N,baseline
+2019-11-11 07:03:00,2195,76,91,Roxbury Crossing,Orange,Orange,N,rush_hour
+2019-11-20 11:46:00,1016,27,91,Roxbury Crossing,Orange,Orange,N,baseline
+2019-11-20 12:05:00,946,31,91,Roxbury Crossing,Orange,Orange,N,baseline
+2019-11-20 13:20:00,1080,26,91,Roxbury Crossing,Orange,Orange,N,baseline
+2019-11-06 10:46:00,994,34,59,Jackson Square,Orange,Orange,N,baseline
+2019-11-06 10:58:00,1621,61,59,Jackson Square,Orange,Orange,N,baseline
+2019-11-20 11:48:00,789,26,59,Jackson Square,Orange,Orange,N,baseline
+2019-11-20 12:03:00,1195,78,59,Jackson Square,Orange,Orange,N,baseline
+2019-11-06 11:11:00,3702,96,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-06 11:59:00,3487,70,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-06 12:42:00,4918,235,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-11 07:16:00,4400,98,38,Downtown Crossing,Orange,Orange,N,rush_hour
+2019-11-11 08:08:00,12165,512,38,Downtown Crossing,Orange,Orange,N,rush_hour
+2019-11-20 11:33:00,5054,130,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-20 12:18:00,3092,108,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-20 13:08:00,7582,320,38,Downtown Crossing,Orange,Orange,N,baseline
+2019-11-06 11:57:00,4498,109,102,State,Orange,Orange,N,baseline
+2019-11-11 08:05:00,10330,497,102,State,Orange,Orange,N,rush_hour
+2019-11-20 11:31:00,4491,143,102,State,Orange,Orange,N,baseline
+2019-11-20 12:20:00,4796,189,102,State,Orange,Orange,N,baseline
+2019-11-06 12:05:00,2210,86,9,Back Bay,Orange,Orange,N,baseline
+2019-11-11 07:10:00,3391,154,9,Back Bay,Orange,Orange,N,rush_hour
+2019-11-11 08:14:00,5538,255,9,Back Bay,Orange,Orange,N,rush_hour
+2019-11-20 11:39:00,3001,73,9,Back Bay,Orange,Orange,N,baseline
+2019-11-20 12:12:00,1736,45,9,Back Bay,Orange,Orange,N,baseline
+2019-11-06 12:07:00,2304,72,67,Massachusetts Ave,Orange,Orange,N,baseline
+2019-11-11 07:01:00,1532,35,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:02:00,2499,112,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:03:00,2195,76,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:04:00,2252,63,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:05:00,2010,59,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:06:00,2763,105,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-11 07:07:00,2151,45,67,Massachusetts Ave,Orange,Orange,N,rush_hour
+2019-11-20 11:42:00,2592,127,67,Massachusetts Ave,Orange,Orange,N,baseline
+2019-11-20 13:16:00,3211,122,67,Massachusetts Ave,Orange,Orange,N,baseline
+2019-11-06 12:09:00,1431,59,92,Ruggles,Orange,Orange,N,baseline
+2019-11-06 12:33:00,1511,57,92,Ruggles,Orange,Orange,N,baseline
+2019-11-11 07:05:00,2010,59,92,Ruggles,Orange,Orange,N,rush_hour
+2019-11-11 08:19:00,2888,68,92,Ruggles,Orange,Orange,N,rush_hour
+2019-11-20 11:44:00,1405,45,92,Ruggles,Orange,Orange,N,baseline
+2019-11-20 13:18:00,1740,47,92,Ruggles,Orange,Orange,N,baseline
+2019-11-06 12:14:00,1575,73,103,Stony Brook,Orange,Orange,N,baseline
+2019-11-20 13:24:00,1284,43,103,Stony Brook,Orange,Orange,N,baseline
+2019-11-06 12:16:00,1145,57,49,Green Street,Orange,Orange,N,baseline
+2019-11-06 12:26:00,1011,65,49,Green Street,Orange,Orange,N,baseline
+2019-11-11 06:56:00,1313,43,49,Green Street,Orange,Orange,N,rush_hour
+2019-11-11 08:26:00,2739,101,49,Green Street,Orange,Orange,N,rush_hour
+2019-11-20 13:25:00,1139,33,49,Green Street,Orange,Orange,N,baseline
+2019-11-06 12:20:00,1090,64,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-06 12:21:00,839,37,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-06 12:22:00,771,28,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-06 12:23:00,702,23,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-20 11:55:00,1187,83,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-20 11:56:00,1338,89,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-20 11:57:00,1231,76,46,Forest Hills,Orange,Orange,Y,baseline
+2019-11-06 12:51:00,8277,302,33,Community College,Orange,Orange,N,baseline
+2019-11-11 07:59:00,2311,82,33,Community College,Orange,Orange,N,rush_hour
+2019-11-20 12:27:00,4327,124,33,Community College,Orange,Orange,N,baseline
+2019-11-06 12:55:00,1520,53,7,Assembly,Orange,Orange,N,baseline
+2019-11-11 07:31:00,2420,81,7,Assembly,Orange,Orange,N,rush_hour
+2019-11-20 11:20:00,596,25,7,Assembly,Orange,Orange,N,baseline
+2019-11-20 12:31:00,1036,36,7,Assembly,Orange,Orange,N,baseline
+2019-11-10 21:48:00,697,21,93,Saint Marys Street,Green,C,N,
+2019-11-10 22:33:00,495,7,93,Saint Marys Street,Green,C,N,baseline
+2019-11-10 23:32:00,482,6,93,Saint Marys Street,Green,C,N,baseline
+2019-11-17 22:40:00,377,10,93,Saint Marys Street,Green,C,N,baseline
+2019-11-17 22:59:00,1375,50,93,Saint Marys Street,Green,C,N,baseline
+2019-12-02 08:38:00,131,9,93,Saint Marys Street,Green,C,N,rush_hour
+2019-12-02 08:38:00,131,9,93,Saint Marys Street,Green,C,N,rush_hour
+2019-11-10 21:53:00,373,6,95,Saint Paul Street C,Green,C,N,
+2019-11-10 21:54:00,348,4,95,Saint Paul Street C,Green,C,N,
+2019-11-10 23:01:00,2062,119,95,Saint Paul Street C,Green,C,N,baseline
+2019-11-10 23:02:00,2010,129,95,Saint Paul Street C,Green,C,N,baseline
+2019-11-10 23:29:00,522,10,95,Saint Paul Street C,Green,C,N,baseline
+2019-11-17 22:08:00,622,13,95,Saint Paul Street C,Green,C,N,baseline
+2019-11-17 23:02:00,573,16,95,Saint Paul Street C,Green,C,N,baseline
+2019-11-17 23:35:00,536,48,95,Saint Paul Street C,Green,C,N,baseline
+2019-12-02 08:33:00,126,5,95,Saint Paul Street C,Green,C,N,rush_hour
+2019-12-02 08:33:00,126,5,95,Saint Paul Street C,Green,C,N,rush_hour
+2019-11-10 21:56:00,326,3,34,Coolidge Corner,Green,C,N,
+2019-11-10 22:27:00,447,10,34,Coolidge Corner,Green,C,N,baseline
+2019-11-10 23:27:00,465,5,34,Coolidge Corner,Green,C,N,baseline
+2019-11-17 23:32:00,346,10,34,Coolidge Corner,Green,C,N,baseline
+2019-12-02 07:51:00,1453,59,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:52:00,1238,65,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:53:00,1027,37,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:54:00,794,42,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:55:00,537,24,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:56:00,378,14,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:57:00,297,9,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:58:00,266,7,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:59:00,217,5,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:51:00,1453,59,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:52:00,1238,65,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:53:00,1027,37,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:54:00,794,42,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:55:00,537,24,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:56:00,378,14,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:57:00,297,9,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:58:00,266,7,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 07:59:00,217,5,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 08:31:00,129,8,34,Coolidge Corner,Green,C,N,rush_hour
+2019-12-02 08:31:00,129,8,34,Coolidge Corner,Green,C,N,rush_hour
+2019-11-10 22:03:00,315,2,113,Washington Square,Green,C,N,baseline
+2019-11-10 22:04:00,301,2,113,Washington Square,Green,C,N,baseline
+2019-11-10 23:09:00,1780,161,113,Washington Square,Green,C,N,baseline
+2019-11-17 22:16:00,504,32,113,Washington Square,Green,C,N,baseline
+2019-12-02 08:05:00,174,6,113,Washington Square,Green,C,N,rush_hour
+2019-12-02 08:05:00,174,6,113,Washington Square,Green,C,N,rush_hour
+2019-12-02 08:25:00,139,15,113,Washington Square,Green,C,N,rush_hour
+2019-12-02 08:25:00,139,15,113,Washington Square,Green,C,N,rush_hour
+2019-11-10 22:07:00,291,2,37,Dean Road,Green,C,N,baseline
+2019-12-02 08:08:00,201,11,37,Dean Road,Green,C,N,rush_hour
+2019-12-02 08:08:00,201,11,37,Dean Road,Green,C,N,rush_hour
+2019-11-10 22:17:00,691,20,32,Cleveland Circle,Green,C,Y,baseline
+2019-11-10 23:17:00,560,7,32,Cleveland Circle,Green,C,Y,baseline
+2019-11-10 23:18:00,585,8,32,Cleveland Circle,Green,C,Y,baseline
+2019-11-17 22:23:00,428,30,32,Cleveland Circle,Green,C,Y,baseline
+2019-12-02 08:18:00,126,16,32,Cleveland Circle,Green,C,Y,rush_hour
+2019-12-02 08:18:00,126,16,32,Cleveland Circle,Green,C,Y,rush_hour
+2019-11-10 22:18:00,640,17,41,Englewood Avenue,Green,C,N,baseline
+2019-11-17 22:25:00,414,15,41,Englewood Avenue,Green,C,N,baseline
+2019-12-02 08:20:00,115,7,41,Englewood Avenue,Green,C,N,rush_hour
+2019-12-02 08:20:00,115,7,41,Englewood Avenue,Green,C,N,rush_hour
+2019-11-10 22:31:00,416,11,53,Hawes Street,Green,C,N,baseline
+2019-12-02 08:36:00,143,11,53,Hawes Street,Green,C,N,rush_hour
+2019-12-02 08:36:00,143,11,53,Hawes Street,Green,C,N,rush_hour
+2019-11-10 22:53:00,5197,408,61,Kenmore,Green,B/C/D,N,baseline
+2019-11-12 22:15:00,3159,153,61,Kenmore,Green,B/C/D,N,baseline
+2019-11-13 22:49:00,3234,91,61,Kenmore,Green,B/C/D,N,baseline
+2019-11-17 22:02:00,2751,167,61,Kenmore,Green,B/C/D,N,baseline
+2019-11-17 22:56:00,2730,150,61,Kenmore,Green,B/C/D,N,baseline
+2019-11-27 12:01:00,7708,806,61,Kenmore,Green,B/C/D,N,baseline
+2019-12-09 07:13:00,6571,453,61,Kenmore,Green,B/C/D,N,rush_hour
+2019-12-09 07:13:00,6571,453,61,Kenmore,Green,B/C/D,N,rush_hour
+2019-11-12 22:12:00,4821,286,57,Hynes Convention Center,Green,B/C/D,N,baseline
+2019-11-12 23:30:00,686,42,57,Hynes Convention Center,Green,B/C/D,N,baseline
+2019-11-13 23:58:00,3688,399,57,Hynes Convention Center,Green,B/C/D,N,baseline
+2019-12-02 08:44:00,670,20,57,Hynes Convention Center,Green,B/C/D,N,rush_hour
+2019-12-02 08:44:00,670,20,57,Hynes Convention Center,Green,B/C/D,N,rush_hour
+2019-12-09 08:40:00,5906,323,57,Hynes Convention Center,Green,B/C/D,N,rush_hour
+2019-12-09 08:40:00,5906,323,57,Hynes Convention Center,Green,B/C/D,N,rush_hour
+2019-11-12 22:17:00,1760,93,13,Blandford Street,Green,B,N,baseline
+2019-11-12 23:26:00,189,19,13,Blandford Street,Green,B,N,baseline
+2019-12-09 07:14:00,5408,347,13,Blandford Street,Green,B,N,rush_hour
+2019-12-09 07:14:00,5408,347,13,Blandford Street,Green,B,N,rush_hour
+2019-11-12 22:20:00,402,25,15,Boston University Central,Green,B,N,baseline
+2019-11-12 23:23:00,355,28,15,Boston University Central,Green,B,N,baseline
+2019-11-13 22:54:00,603,17,15,Boston University Central,Green,B,N,baseline
+2019-11-13 23:51:00,327,21,15,Boston University Central,Green,B,N,baseline
+2019-12-09 07:17:00,2000,69,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 07:17:00,2000,69,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:23:00,415,21,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:24:00,436,23,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:25:00,592,56,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:26:00,699,57,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:27:00,721,58,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:28:00,823,79,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:29:00,798,77,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:30:00,1077,137,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:31:00,1418,185,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:23:00,415,21,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:24:00,436,23,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:25:00,592,56,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:26:00,699,57,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:27:00,721,58,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:28:00,823,79,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:29:00,798,77,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:30:00,1077,137,15,Boston University Central,Green,B,N,rush_hour
+2019-12-09 08:31:00,1418,185,15,Boston University Central,Green,B,N,rush_hour
+2019-11-12 22:25:00,221,17,82,Pleasant Street,Green,B,N,baseline
+2019-11-12 23:18:00,213,9,82,Pleasant Street,Green,B,N,baseline
+2019-11-12 23:19:00,406,36,82,Pleasant Street,Green,B,N,baseline
+2019-11-13 22:59:00,228,7,82,Pleasant Street,Green,B,N,baseline
+2019-11-13 23:48:00,438,17,82,Pleasant Street,Green,B,N,baseline
+2019-12-09 08:10:00,371,15,82,Pleasant Street,Green,B,N,rush_hour
+2019-12-09 08:10:00,371,15,82,Pleasant Street,Green,B,N,rush_hour
+2019-11-12 22:26:00,239,17,8,Babcock Street,Green,B,N,baseline
+2019-11-12 23:17:00,175,5,8,Babcock Street,Green,B,N,baseline
+2019-11-13 23:46:00,390,26,8,Babcock Street,Green,B,N,baseline
+2019-12-09 08:09:00,364,16,8,Babcock Street,Green,B,N,rush_hour
+2019-12-09 08:09:00,364,16,8,Babcock Street,Green,B,N,rush_hour
+2019-11-12 22:30:00,243,25,52,Harvard Avenue,Green,B,N,baseline
+2019-11-12 22:31:00,643,48,52,Harvard Avenue,Green,B,N,baseline
+2019-11-12 23:13:00,204,6,52,Harvard Avenue,Green,B,N,baseline
+2019-11-13 23:42:00,345,26,52,Harvard Avenue,Green,B,N,baseline
+2019-12-09 08:03:00,379,18,52,Harvard Avenue,Green,B,N,rush_hour
+2019-12-09 08:03:00,379,18,52,Harvard Avenue,Green,B,N,rush_hour
+2019-11-12 22:32:00,947,50,50,Griggs Street,Green,B,N,baseline
+2019-12-09 08:02:00,376,17,50,Griggs Street,Green,B,N,rush_hour
+2019-12-09 08:02:00,376,17,50,Griggs Street,Green,B,N,rush_hour
+2019-11-12 22:33:00,598,27,2,Allston Street,Green,B,N,baseline
+2019-11-12 23:11:00,243,9,2,Allston Street,Green,B,N,baseline
+2019-11-13 23:08:00,309,14,2,Allston Street,Green,B,N,baseline
+2019-11-12 22:35:00,235,15,112,Warren Street,Green,B,N,baseline
+2019-11-13 23:39:00,340,18,112,Warren Street,Green,B,N,baseline
+2019-12-09 07:31:00,402,18,112,Warren Street,Green,B,N,rush_hour
+2019-12-09 07:31:00,402,18,112,Warren Street,Green,B,N,rush_hour
+2019-12-09 07:58:00,340,10,112,Warren Street,Green,B,N,rush_hour
+2019-12-09 07:59:00,366,15,112,Warren Street,Green,B,N,rush_hour
+2019-12-09 07:58:00,340,10,112,Warren Street,Green,B,N,rush_hour
+2019-12-09 07:59:00,366,15,112,Warren Street,Green,B,N,rush_hour
+2019-11-12 22:37:00,212,18,114,Washington Street,Green,B,N,baseline
+2019-11-12 22:38:00,197,17,114,Washington Street,Green,B,N,baseline
+2019-11-12 22:40:00,149,12,107,Sutherland Road,Green,B,N,baseline
+2019-11-12 22:41:00,214,24,31,Chiswick Road,Green,B,N,baseline
+2019-11-12 23:05:00,91,3,31,Chiswick Road,Green,B,N,baseline
+2019-11-13 23:15:00,400,22,31,Chiswick Road,Green,B,N,baseline
+2019-11-12 22:52:00,240,4,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:53:00,244,9,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:54:00,202,6,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:55:00,170,5,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:56:00,136,7,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:57:00,154,5,14,Boston College,Green,B,Y,baseline
+2019-11-12 22:58:00,182,6,14,Boston College,Green,B,Y,baseline
+2019-11-13 23:27:00,802,112,14,Boston College,Green,B,Y,baseline
+2019-12-09 07:25:00,504,21,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:26:00,491,17,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:27:00,417,12,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:28:00,401,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:29:00,390,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:30:00,403,20,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:31:00,402,18,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:32:00,404,19,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:33:00,372,14,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:34:00,359,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:35:00,361,12,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:36:00,370,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:37:00,430,18,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:38:00,400,14,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:39:00,372,8,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:40:00,340,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:41:00,338,10,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:42:00,333,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:43:00,365,7,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:25:00,504,21,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:26:00,491,17,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:27:00,417,12,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:28:00,401,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:29:00,390,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:30:00,403,20,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:31:00,402,18,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:32:00,404,19,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:33:00,372,14,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:34:00,359,11,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:35:00,361,12,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:36:00,370,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:37:00,430,18,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:38:00,400,14,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:39:00,372,8,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:40:00,340,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:41:00,338,10,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:42:00,333,9,14,Boston College,Green,B,Y,rush_hour
+2019-12-09 07:43:00,365,7,14,Boston College,Green,B,Y,rush_hour
+2019-11-12 23:15:00,180,5,79,Packards Corner,Green,B,N,baseline
+2019-12-09 08:06:00,463,31,79,Packards Corner,Green,B,N,rush_hour
+2019-12-09 08:07:00,438,20,79,Packards Corner,Green,B,N,rush_hour
+2019-12-09 08:06:00,463,31,79,Packards Corner,Green,B,N,rush_hour
+2019-12-09 08:07:00,438,20,79,Packards Corner,Green,B,N,rush_hour
+2019-11-13 22:58:00,251,7,94,Saint Paul Street B,Green,B,N,baseline
+2019-11-13 23:17:00,298,8,29,Chestnut Hill Avenue,Green,B,N,baseline
+2019-12-09 07:51:00,269,8,29,Chestnut Hill Avenue,Green,B,N,rush_hour
+2019-12-09 07:51:00,269,8,29,Chestnut Hill Avenue,Green,B,N,rush_hour
+2019-11-13 23:19:00,245,5,100,South Street,Green,B,N,baseline
+2019-12-09 07:38:00,400,14,100,South Street,Green,B,N,rush_hour
+2019-12-09 07:38:00,400,14,100,South Street,Green,B,N,rush_hour
+2019-11-17 22:14:00,413,12,21,Brandon Hall,Green,C,N,baseline
+2019-11-17 22:31:00,390,15,42,Fairbanks Street,Green,C,N,baseline
+2019-11-17 22:33:00,402,16,106,Summit Ave/Winchester St,Green,C,N,baseline
+2019-11-19 22:00:00,7951,191,36,Davis,Red,Ashmont/Braintree,N,baseline
+2019-11-20 21:47:00,4290,93,36,Davis,Red,Ashmont/Braintree,N,
+2019-11-20 23:23:00,6780,155,36,Davis,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:34:00,11422,779,36,Davis,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 09:06:00,11029,509,36,Davis,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 22:02:00,8347,200,83,Porter,Red,Ashmont/Braintree,N,baseline
+2019-11-20 21:49:00,7922,185,83,Porter,Red,Ashmont/Braintree,N,
+2019-11-20 23:21:00,6098,129,83,Porter,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:36:00,11749,712,83,Porter,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 22:15:00,3511,72,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-11-19 23:20:00,8253,137,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-11-19 23:21:00,8158,128,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-11-19 23:22:00,7870,101,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-11-19 23:23:00,7541,169,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-11-20 22:03:00,3285,61,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-12-04 22:00:00,11694,1088,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-12-04 23:34:00,11020,596,81,Park Street,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:52:00,8836,435,81,Park Street,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:47:00,15143,730,81,Park Street,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 22:18:00,7569,235,99,South Station,Red,Ashmont/Braintree,N,baseline
+2019-12-03 23:14:00,8548,175,99,South Station,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:55:00,9809,583,99,South Station,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:42:00,18644,1369,99,South Station,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:43:00,17464,1020,99,South Station,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 22:26:00,8143,180,58,JFK/UMass,Red,Ashmont/Braintree,N,baseline
+2019-11-20 22:56:00,594,12,58,JFK/UMass,Red,Ashmont/Braintree,N,baseline
+2019-12-03 22:04:00,7126,183,58,JFK/UMass,Red,Ashmont/Braintree,N,baseline
+2019-12-03 22:35:00,441,8,58,JFK/UMass,Red,Ashmont/Braintree,N,baseline
+2019-12-04 22:14:00,9560,197,58,JFK/UMass,Red,Ashmont/Braintree,N,baseline
+2019-12-16 08:28:00,1407,119,58,JFK/UMass,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 22:39:00,714,22,86,Quincy Center,Red,Braintree,N,baseline
+2019-11-19 22:42:00,735,32,85,Quincy Adams,Red,Braintree,N,baseline
+2019-11-19 22:53:00,571,18,85,Quincy Adams,Red,Braintree,N,baseline
+2019-11-19 22:48:00,487,17,20,Braintree,Red,Braintree,Y,baseline
+2019-11-20 22:35:00,871,23,20,Braintree,Red,Braintree,Y,baseline
+2019-11-19 23:00:00,781,17,116,Wollaston,Red,Braintree,N,baseline
+2019-11-20 22:22:00,1063,20,116,Wollaston,Red,Braintree,N,baseline
+2019-11-20 22:23:00,928,18,116,Wollaston,Red,Braintree,N,baseline
+2019-11-19 23:02:00,707,19,73,North Quincy,Red,Braintree,N,baseline
+2019-11-20 22:20:00,1560,22,73,North Quincy,Red,Braintree,N,baseline
+2019-11-20 22:49:00,522,12,73,North Quincy,Red,Braintree,N,baseline
+2019-11-19 23:12:00,906,23,3,Andrew,Red,Ashmont/Braintree,N,baseline
+2019-11-20 22:10:00,9563,233,3,Andrew,Red,Ashmont/Braintree,N,baseline
+2019-12-16 08:00:00,21350,1671,3,Andrew,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 23:14:00,3564,70,23,Broadway,Red,Ashmont/Braintree,N,baseline
+2019-11-20 22:08:00,7209,163,23,Broadway,Red,Ashmont/Braintree,N,baseline
+2019-12-03 21:59:00,8890,410,23,Broadway,Red,Ashmont/Braintree,N,
+2019-12-04 22:05:00,9550,281,23,Broadway,Red,Ashmont/Braintree,N,baseline
+2019-12-16 08:34:00,6671,446,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:35:00,10207,792,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:36:00,24446,2561,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:37:00,18747,1580,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:38:00,16414,1249,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:39:00,16024,1116,23,Broadway,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 23:27:00,4318,72,26,Central,Red,Ashmont/Braintree,N,baseline
+2019-11-20 23:14:00,4991,161,26,Central,Red,Ashmont/Braintree,N,baseline
+2019-12-04 23:41:00,7975,412,26,Central,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:44:00,11450,563,26,Central,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 08:56:00,9446,446,26,Central,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 23:31:00,5188,77,51,Harvard,Red,Ashmont/Braintree,N,baseline
+2019-11-20 23:18:00,4576,117,51,Harvard,Red,Ashmont/Braintree,N,baseline
+2019-12-03 23:30:00,4500,60,51,Harvard,Red,Ashmont/Braintree,N,baseline
+2019-12-04 23:15:00,1751,55,51,Harvard,Red,Ashmont/Braintree,N,baseline
+2019-12-16 07:40:00,12525,694,51,Harvard,Red,Ashmont/Braintree,N,rush_hour
+2019-12-16 09:00:00,10125,504,51,Harvard,Red,Ashmont/Braintree,N,rush_hour
+2019-11-19 23:40:00,8253,98,1,Alewife,Red,Ashmont/Braintree,Y,baseline
+2019-11-19 23:41:00,8053,115,1,Alewife,Red,Ashmont/Braintree,Y,baseline
+2019-11-19 23:42:00,7352,91,1,Alewife,Red,Ashmont/Braintree,Y,baseline
+2019-11-19 23:43:00,6916,127,1,Alewife,Red,Ashmont/Braintree,Y,baseline
+2019-11-19 23:44:00,6633,156,1,Alewife,Red,Ashmont/Braintree,Y,baseline
+2019-11-20 21:43:00,7973,150,1,Alewife,Red,Ashmont/Braintree,Y,
+2019-11-20 21:44:00,6898,163,1,Alewife,Red,Ashmont/Braintree,Y,
+2019-12-16 07:30:00,11209,660,1,Alewife,Red,Ashmont/Braintree,Y,rush_hour
+2019-12-16 07:31:00,9893,501,1,Alewife,Red,Ashmont/Braintree,Y,rush_hour
+2019-11-20 22:00:00,6433,144,27,Charles/MGH,Red,Ashmont/Braintree,N,baseline
+2019-11-20 23:05:00,8787,206,39,Downtown Crossing,Red,Ashmont/Braintree,N,baseline
+2019-12-03 21:55:00,8050,443,39,Downtown Crossing,Red,Ashmont/Braintree,N,
+2019-12-16 08:45:00,20307,1206,39,Downtown Crossing,Red,Ashmont/Braintree,N,rush_hour
+2019-11-24 22:17:00,151,7,69,Mission Park,Green,E,N,baseline
+2019-11-24 22:17:00,151,7,69,Mission Park,Green,E,N,baseline
+2019-11-24 23:31:00,115,11,69,Mission Park,Green,E,N,baseline
+2019-11-24 23:31:00,115,11,69,Mission Park,Green,E,N,baseline
+2019-11-25 08:05:00,987,9,69,Mission Park,Green,E,N,rush_hour
+2019-11-26 23:10:00,411,3,69,Mission Park,Green,E,N,baseline
+2019-11-27 22:09:00,700,14,69,Mission Park,Green,E,N,baseline
+2019-11-27 22:10:00,689,9,69,Mission Park,Green,E,N,baseline
+2019-11-27 22:09:00,700,14,69,Mission Park,Green,E,N,baseline
+2019-11-27 22:10:00,689,9,69,Mission Park,Green,E,N,baseline
+2019-11-27 23:15:00,1530,101,69,Mission Park,Green,E,N,baseline
+2019-11-27 23:15:00,1530,101,69,Mission Park,Green,E,N,baseline
+2019-11-24 22:21:00,84,1,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 22:21:00,84,1,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 23:29:00,151,15,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 23:29:00,151,15,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 23:41:00,135,4,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 23:41:00,135,4,22,Brigham Circle,Green,E,N,baseline
+2019-11-25 07:49:00,1061,18,22,Brigham Circle,Green,E,N,rush_hour
+2019-11-25 08:11:00,950,13,22,Brigham Circle,Green,E,N,rush_hour
+2019-11-26 23:07:00,462,6,22,Brigham Circle,Green,E,N,baseline
+2019-11-26 23:08:00,437,4,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:26:00,846,18,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:27:00,758,16,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:28:00,730,11,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:29:00,723,11,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:30:00,738,19,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:26:00,846,18,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:27:00,758,16,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:28:00,730,11,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:29:00,723,11,22,Brigham Circle,Green,E,N,baseline
+2019-11-27 23:30:00,738,19,22,Brigham Circle,Green,E,N,baseline
+2019-11-24 22:23:00,89,6,65,Longwood Medical Area,Green,E,N,baseline
+2019-11-24 22:23:00,89,6,65,Longwood Medical Area,Green,E,N,baseline
+2019-11-25 07:46:00,1137,12,65,Longwood Medical Area,Green,E,N,rush_hour
+2019-11-25 07:47:00,1187,25,65,Longwood Medical Area,Green,E,N,rush_hour
+2019-11-25 08:13:00,1235,19,65,Longwood Medical Area,Green,E,N,rush_hour
+2019-11-26 23:05:00,456,7,65,Longwood Medical Area,Green,E,N,baseline
+2019-11-24 22:37:00,2524,142,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-24 22:37:00,2524,142,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-24 23:55:00,2728,179,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-24 23:55:00,2728,179,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-26 22:21:00,3187,84,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-27 22:28:00,6101,237,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-27 22:28:00,6101,237,19,Boylston,Green,B/C/D/E,N,baseline
+2019-11-24 22:39:00,3053,164,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-24 22:39:00,3053,164,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-24 23:12:00,4430,439,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-24 23:12:00,4430,439,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-24 23:57:00,2284,128,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-24 23:57:00,2284,128,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-26 22:23:00,2351,52,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-26 22:49:00,2595,56,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-26 23:38:00,2038,42,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-26 23:39:00,2595,50,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-27 22:56:00,4728,131,80,Park Street,Green,B/C/D/E,N,baseline
+2019-11-27 22:56:00,4728,131,80,Park Street,Green,B/C/D/E,N,baseline
+2019-12-02 07:37:00,883,45,80,Park Street,Green,B/C/D/E,N,rush_hour
+2019-12-02 07:37:00,883,45,80,Park Street,Green,B/C/D/E,N,rush_hour
+2019-11-24 22:44:00,1408,63,75,North Station,Green,C/E,N,baseline
+2019-11-24 22:44:00,1408,63,75,North Station,Green,C/E,N,baseline
+2019-11-25 07:17:00,1141,23,75,North Station,Green,C/E,N,rush_hour
+2019-11-25 08:40:00,3296,107,75,North Station,Green,C/E,N,rush_hour
+2019-11-27 22:36:00,4253,119,75,North Station,Green,C/E,N,baseline
+2019-11-27 22:36:00,4253,119,75,North Station,Green,C/E,N,baseline
+2019-11-27 22:50:00,1988,119,75,North Station,Green,C/E,N,baseline
+2019-11-27 22:50:00,1988,119,75,North Station,Green,C/E,N,baseline
+2019-11-24 22:56:00,129,15,63,Lechmere,Green,E,Y,baseline
+2019-11-24 22:57:00,110,6,63,Lechmere,Green,E,Y,baseline
+2019-11-24 22:56:00,129,15,63,Lechmere,Green,E,Y,baseline
+2019-11-24 22:57:00,110,6,63,Lechmere,Green,E,Y,baseline
+2019-11-25 07:08:00,1892,42,63,Lechmere,Green,E,Y,rush_hour
+2019-11-25 07:09:00,2268,34,63,Lechmere,Green,E,Y,rush_hour
+2019-11-25 07:10:00,2160,25,63,Lechmere,Green,E,Y,rush_hour
+2019-11-27 22:44:00,1348,73,63,Lechmere,Green,E,Y,baseline
+2019-11-27 22:44:00,1348,73,63,Lechmere,Green,E,Y,baseline
+2019-11-24 23:05:00,266,17,55,Haymarket,Green,C/E,N,baseline
+2019-11-24 23:05:00,266,17,55,Haymarket,Green,C/E,N,baseline
+2019-11-26 22:44:00,1160,29,55,Haymarket,Green,C/E,N,baseline
+2019-11-26 23:43:00,2511,57,55,Haymarket,Green,C/E,N,baseline
+2019-11-24 23:07:00,1085,74,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-24 23:07:00,1085,74,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-24 23:59:00,1416,81,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-24 23:59:00,1416,81,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-26 22:25:00,2269,46,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-26 23:41:00,2098,33,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-27 22:32:00,4579,143,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-27 22:33:00,4518,143,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-27 22:32:00,4579,143,47,Government Center,Green,B/C/D/E,N,baseline
+2019-11-27 22:33:00,4518,143,47,Government Center,Green,B/C/D/E,N,baseline
+2019-12-02 07:34:00,1154,74,47,Government Center,Green,B/C/D/E,N,rush_hour
+2019-12-02 07:34:00,1154,74,47,Government Center,Green,B/C/D/E,N,rush_hour
+2019-11-24 23:48:00,168,6,84,Prudential,Green,E,N,baseline
+2019-11-24 23:48:00,168,6,84,Prudential,Green,E,N,baseline
+2019-11-25 07:38:00,5258,228,84,Prudential,Green,E,N,rush_hour
+2019-11-25 08:24:00,1451,45,84,Prudential,Green,E,N,rush_hour
+2019-11-26 22:57:00,2981,73,84,Prudential,Green,E,N,baseline
+2019-11-27 22:20:00,796,26,84,Prudential,Green,E,N,baseline
+2019-11-27 22:20:00,796,26,84,Prudential,Green,E,N,baseline
+2019-11-27 23:03:00,4572,181,84,Prudential,Green,E,N,baseline
+2019-11-27 23:03:00,4572,181,84,Prudential,Green,E,N,baseline
+2019-11-27 23:39:00,887,27,84,Prudential,Green,E,N,baseline
+2019-11-27 23:39:00,887,27,84,Prudential,Green,E,N,baseline
+2019-11-25 07:13:00,1377,8,97,Science Park,Green,E,N,rush_hour
+2019-11-26 22:31:00,1664,25,97,Science Park,Green,E,N,baseline
+2019-11-26 22:39:00,341,7,97,Science Park,Green,E,N,baseline
+2019-11-25 07:40:00,3781,167,108,Symphony,Green,E,N,rush_hour
+2019-11-25 08:22:00,1155,18,108,Symphony,Green,E,N,rush_hour
+2019-11-26 23:28:00,331,2,108,Symphony,Green,E,N,baseline
+2019-11-25 07:42:00,2123,66,76,Northeastern,Green,E,N,rush_hour
+2019-11-26 23:01:00,942,18,76,Northeastern,Green,E,N,baseline
+2019-11-25 07:50:00,1082,23,44,Fenwood Road,Green,E,N,rush_hour
+2019-11-25 08:08:00,919,8,44,Fenwood Road,Green,E,N,rush_hour
+2019-11-25 07:56:00,886,8,90,Riverway,Green,E,N,rush_hour
+2019-11-26 22:01:00,250,3,90,Riverway,Green,E,N,baseline
+2019-11-27 23:17:00,955,35,90,Riverway,Green,E,N,baseline
+2019-11-27 23:17:00,955,35,90,Riverway,Green,E,N,baseline
+2019-11-25 08:17:00,938,6,70,Museum Of Fine Arts,Green,E,N,rush_hour
+2019-11-26 22:10:00,464,12,70,Museum Of Fine Arts,Green,E,N,baseline
+2019-11-27 23:09:00,1396,68,70,Museum Of Fine Arts,Green,E,N,baseline
+2019-11-27 23:09:00,1396,68,70,Museum Of Fine Arts,Green,E,N,baseline
+2019-11-26 21:56:00,425,3,56,Heath Street,Green,E,Y,
+2019-11-26 21:57:00,373,5,56,Heath Street,Green,E,Y,
+2019-11-26 21:58:00,376,9,56,Heath Street,Green,E,Y,
+2019-11-27 22:56:00,4728,131,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:57:00,4181,109,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:58:00,3594,110,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:59:00,3707,128,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:56:00,4728,131,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:57:00,4181,109,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:58:00,3594,110,56,Heath Street,Green,E,Y,baseline
+2019-11-27 22:59:00,3707,128,56,Heath Street,Green,E,Y,baseline
+2019-11-27 23:19:00,966,21,56,Heath Street,Green,E,Y,baseline
+2019-11-27 23:20:00,859,26,56,Heath Street,Green,E,Y,baseline
+2019-11-27 23:19:00,966,21,56,Heath Street,Green,E,Y,baseline
+2019-11-27 23:20:00,859,26,56,Heath Street,Green,E,Y,baseline
+2019-11-26 22:19:00,2359,80,5,Arlington,Green,B/C/D/E,N,baseline
+2019-11-27 22:25:00,4179,175,5,Arlington,Green,B/C/D/E,N,baseline
+2019-11-27 22:25:00,4179,175,5,Arlington,Green,B/C/D/E,N,baseline
+2019-11-27 23:43:00,3230,142,5,Arlington,Green,B/C/D/E,N,baseline
+2019-11-27 23:43:00,3230,142,5,Arlington,Green,B/C/D/E,N,baseline
+2019-11-27 10:45:00,2028,50,64,Longwood,Green,D,N,baseline
+2019-11-27 13:07:00,525,9,64,Longwood,Green,D,N,baseline
+2019-11-27 11:15:00,1247,38,89,Riverside,Green,D,Y,baseline
+2019-11-27 11:16:00,1439,40,89,Riverside,Green,D,Y,baseline
+2019-11-27 11:17:00,1324,30,89,Riverside,Green,D,Y,baseline
+2019-11-27 11:23:00,404,8,111,Waban,Green,D,N,baseline
+2019-11-27 12:30:00,987,36,111,Waban,Green,D,N,baseline
+2019-11-27 12:40:00,511,3,111,Waban,Green,D,N,baseline
+2019-11-27 11:26:00,356,8,40,Eliot,Green,D,N,baseline
+2019-11-27 12:28:00,1025,26,40,Eliot,Green,D,N,baseline
+2019-11-27 12:43:00,448,3,40,Eliot,Green,D,N,baseline
+2019-11-27 11:31:00,339,3,71,Newton Centre,Green,D,N,baseline
+2019-11-27 11:37:00,360,2,87,Reservoir,Green,D,N,baseline
+2019-11-27 12:55:00,483,16,87,Reservoir,Green,D,N,baseline
+2019-11-27 11:45:00,465,18,25,Brookline Village,Green,D,N,baseline
+2019-11-27 13:04:00,553,9,25,Brookline Village,Green,D,N,baseline
+2019-11-27 11:49:00,433,16,43,Fenway Park,Green,D,N,baseline
+2019-11-27 12:04:00,4126,161,43,Fenway Park,Green,D,N,baseline
+2019-11-27 12:37:00,707,15,119,Woodland,Green,D,N,baseline
+2019-11-27 12:45:00,465,4,72,Newton Highlands,Green,D,N,baseline
+2019-11-27 12:52:00,429,3,28,Chestnut Hill,Green,D,N,baseline
+2019-11-27 12:58:00,492,4,12,Beaconsfield,Green,D,N,baseline
+2019-11-27 13:01:00,436,4,24,Brookline Hills,Green,D,N,baseline
+2019-12-02 08:23:00,128,13,109,Tappan Street,Green,C,N,rush_hour
+2019-12-02 08:23:00,128,13,109,Tappan Street,Green,C,N,rush_hour
+2019-12-03 22:07:00,3886,87,96,Savin Hill,Red,Ashmont,N,baseline
+2019-12-03 22:29:00,2608,171,96,Savin Hill,Red,Ashmont,N,baseline
+2019-12-04 22:39:00,1773,24,96,Savin Hill,Red,Ashmont,N,baseline
+2019-12-04 22:57:00,7191,270,96,Savin Hill,Red,Ashmont,N,baseline
+2019-12-16 08:26:00,3477,341,96,Savin Hill,Red,Ashmont,N,rush_hour
+2019-12-03 22:10:00,2144,40,45,Fields Corner,Red,Ashmont,N,baseline
+2019-12-03 22:26:00,4016,292,45,Fields Corner,Red,Ashmont,N,baseline
+2019-12-04 22:36:00,2828,58,45,Fields Corner,Red,Ashmont,N,baseline
+2019-12-03 22:56:00,1981,64,98,Shawmut,Red,Ashmont,N,baseline
+2019-12-04 22:21:00,2028,41,98,Shawmut,Red,Ashmont,N,baseline
+2019-12-04 22:34:00,2318,45,98,Shawmut,Red,Ashmont,N,baseline
+2019-12-03 23:22:00,2938,58,60,Kendall/MIT,Red,Ashmont/Braintree,N,baseline
+2019-12-16 08:53:00,6575,251,60,Kendall/MIT,Red,Ashmont/Braintree,N,rush_hour
+2019-12-09 07:20:00,970,44,17,Boston University West,Green,B,N,rush_hour
+2019-12-09 07:20:00,970,44,17,Boston University West,Green,B,N,rush_hour
+2019-12-09 08:13:00,406,25,17,Boston University West,Green,B,N,rush_hour
+2019-12-09 08:13:00,406,25,17,Boston University West,Green,B,N,rush_hour
+2019-12-16 08:16:00,1360,165,6,Ashmont,Red,Ashmont,Y,rush_hour
+2019-12-16 08:17:00,820,88,6,Ashmont,Red,Ashmont,Y,rush_hour
+2019-12-16 08:18:00,850,85,6,Ashmont,Red,Ashmont,Y,rush_hour

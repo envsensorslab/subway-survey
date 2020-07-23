@@ -1,0 +1,58 @@
+{
+    "noise_level": {
+        "axis": "Sound Pressure Level [dBA]",
+        "selection": "sound pressure level",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "plasma"
+    },
+    "particulates_rush_hour_small": {
+        "axis": "Small Particles (PM2.5 Proxy) [count/ft\u00b3]",
+        "selection": "small particles (rush hour)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "viridis"
+    },
+    "particulates_off_peak_small": {
+        "axis": "Small Particles (PM2.5 Proxy) [count/ft\u00b3]",
+        "selection": "small particles (off peak)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "viridis"
+    },
+    "particulates_rush_hour_large": {
+        "axis": "Large Particles [count/ft\u00b3]",
+        "selection": "large particles (rush hour)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "viridis"
+    },
+    "particulates_off_peak_large": {
+        "axis": "Large Particles [count/ft\u00b3]",
+        "selection": "large particles (off peak)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "viridis"
+    },
+    "vibration": {
+        "axis": "Vector Sum Vibration [mm/s\u00b2]",
+        "selection": "vibration",
+        "center_desc": "Root-mean-square",
+        "variability_desc": "Quantiles",
+        "colormap": "magma"
+    },
+    "temperature": {
+        "axis": "Temperature [\u00b0F]",
+        "selection": "temperature (May 2018)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "inferno"
+    },
+    "humidity": {
+        "axis": "Relative Humidity [%]",
+        "selection": "relative humidity (May 2018)",
+        "center_desc": "Mean",
+        "variability_desc": "Mean \u00b1 1SD",
+        "colormap": "cividis"
+    }
+}

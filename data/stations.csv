@@ -1,0 +1,1884 @@
+STATION,ROUTE,LINE,center,upper,lower,DIRECTION,quantity
+Airport,Blue,Blue,75.67142857142858,80.17354447609469,71.16931266676247,,noise_level
+Allston Street,B,Green,71.94285714285716,80.61058601549294,63.275128270221366,,noise_level
+Andrew,Ashmont/Braintree,Red,71.03999999999998,72.57231850475023,69.50768149524976,,noise_level
+Aquarium,Blue,Blue,76.275,83.06548704333602,69.48451295666399,,noise_level
+Arlington,B/C/D/E,Green,74.29411764705883,79.02281601291958,69.56541928119807,,noise_level
+Assembly,Orange,Orange,71.89696969696972,78.86701654260159,64.92692285133785,,noise_level
+Babcock Street,B,Green,72.24,80.82591870448351,63.65408129551647,,noise_level
+Back Bay,Orange,Orange,73.61764705882355,80.3186950453438,66.91659907230328,,noise_level
+Back Of The Hill,E,Green,79.25,80.73492424049175,77.76507575950825,,noise_level
+Beachmont,Blue,Blue,75.44,83.47853220432684,67.40146779567314,,noise_level
+Beaconsfield,D,Green,70.46666666666668,74.83778399140948,66.09554934192388,,noise_level
+Blandford Street,B,Green,64.82,68.55858261912185,61.08141738087814,,noise_level
+Boston University Central,B,Green,67.05737500000001,69.57070363734248,64.54404636265754,,noise_level
+Boston University East,B,Green,70.65,71.85208152801714,69.44791847198287,,noise_level
+Boston University West,B,Green,63.61666666666667,69.5027236377354,57.73060969559796,,noise_level
+Boylston,B/C/D/E,Green,75.73333333333333,79.00747444208231,72.45919222458436,,noise_level
+Brandon Hall,C,Green,71.58571428571429,75.49486106876408,67.6765675026645,,noise_level
+Brigham Circle,E,Green,72.488,77.11151958288633,67.86448041711368,,noise_level
+Broadway,Ashmont/Braintree,Red,73.7125,76.9557071868974,70.46929281310261,,noise_level
+Brookline Hills,D,Green,70.32,75.41725416278216,65.22274583721783,,noise_level
+Brookline Village,D,Green,70.64285714285714,75.14872633124432,66.13698795446994,,noise_level
+Central,Ashmont/Braintree,Red,78.14999999999998,84.45211604674705,71.84788395325296,,noise_level
+Charles/MGH,Ashmont/Braintree,Red,70.53333333333333,72.44731696266074,68.61934970400593,,noise_level
+Chestnut Hill,D,Green,68.575,71.06681995069202,66.083180049308,,noise_level
+Chinatown,Orange,Orange,74.64375,80.94263548342747,68.34486451657253,,noise_level
+Chiswick Road,B,Green,61.7,65.23553390593274,58.16446609406728,,noise_level
+Cleveland Circle,C,Green,70.2,74.15979797464466,66.24020202535534,,noise_level
+Community College,Orange,Orange,74.82352941176471,82.3745665434908,67.27249228003865,,noise_level
+Coolidge Corner,C,Green,71.10731707317076,75.02327099551856,67.19136315082295,,noise_level
+Copley,B/C/D/E,Green,73.778125,78.41213214041522,69.14411785958477,,noise_level
+Davis,Ashmont/Braintree,Red,72.525,82.99123823812276,62.05876176187725,,noise_level
+Dean Road,C,Green,71.27857142857142,76.58650142802703,65.97064142911582,,noise_level
+Downtown Crossing,Ashmont/Braintree,Red,74.83809523809525,80.91522253563281,68.76096794055769,,noise_level
+Downtown Crossing,Orange,Orange,74.83809523809525,80.91522253563281,68.76096794055769,,noise_level
+Eliot,D,Green,70.46666666666668,71.82436079029443,69.10897254303893,,noise_level
+Englewood Avenue,C,Green,72.86000000000001,77.58736713192451,68.13263286807552,,noise_level
+Fairbanks Street,C,Green,73.975,79.51417863947354,68.43582136052646,,noise_level
+Fenway Park,D,Green,69.5230769230769,73.29824884988012,65.7479049962737,,noise_level
+Fenwood Road,E,Green,73.53999999999998,78.9989783333921,68.08102166660788,,noise_level
+Fields Corner,Ashmont,Red,72.03,77.11331693986428,66.94668306013573,,noise_level
+Government Center,B/C/D/E,Green,77.17199999999998,81.05792760268807,73.28607239731188,,noise_level
+Government Center,Blue,Blue,77.17199999999998,81.05792760268807,73.28607239731188,,noise_level
+Green Street,Orange,Orange,73.17777777777776,79.09254273037263,67.2630128251829,,noise_level
+Griggs Street,B,Green,66.75,72.35505724026675,61.14494275973325,,noise_level
+Harvard,Ashmont/Braintree,Red,78.0,83.6302753041037,72.3697246958963,,noise_level
+Harvard Avenue,B,Green,65.24375,74.92121308009834,55.56628691990165,,noise_level
+Hawes Street,C,Green,72.24117647058823,74.9740913118176,69.50826162935887,,noise_level
+Haymarket,C/E,Green,75.30588235294121,80.37138906883547,70.24037563704692,,noise_level
+Haymarket,Orange,Orange,75.30588235294121,80.37138906883547,70.24037563704692,,noise_level
+Heath Street,E,Green,71.23333333333333,78.2685779393628,64.19808872730387,,noise_level
+Hynes Convention Center,B/C/D,Green,73.37894736842105,77.8294877784747,68.92840695836742,,noise_level
+JFK/UMass,Ashmont/Braintree,Red,71.2,74.71120654883353,67.68879345116648,,noise_level
+Jackson Square,Orange,Orange,77.77777777777777,85.10491531193423,70.45064024362131,,noise_level
+Kendall/MIT,Ashmont/Braintree,Red,78.25,84.21238207430554,72.28761792569446,,noise_level
+Kenmore,B/C/D,Green,72.78823529411765,76.45807673284267,69.11839385539264,,noise_level
+Kent Street,C,Green,75.66666666666667,79.45656552195732,71.87676781137603,,noise_level
+Lechmere,E,Green,70.91666666666667,74.0728774750042,67.76045585832914,,noise_level
+Longwood,D,Green,67.39999999999999,69.30787840283388,65.4921215971661,,noise_level
+Longwood Medical Area,E,Green,73.10526315789474,77.73949252979091,68.47103378599859,,noise_level
+Malden Center,Orange,Orange,72.11500000000002,80.44852613812049,63.78147386187957,,noise_level
+Massachusetts Ave,Orange,Orange,77.45625000000003,84.56192554846125,70.35057445153878,,noise_level
+Maverick,Blue,Blue,77.55714285714284,84.003551972006,71.11073374227972,,noise_level
+Mission Park,E,Green,67.67142857142856,72.040911487333,63.30194565552411,,noise_level
+Museum Of Fine Arts,E,Green,72.85714285714286,79.1401509325945,66.57413478169123,,noise_level
+Newton Centre,D,Green,71.18571428571428,74.86241052528796,67.50901804614061,,noise_level
+Newton Highlands,D,Green,70.41428571428571,73.79433925006911,67.03423217850231,,noise_level
+North Station,C/E,Green,74.8310344827586,80.57547921834419,69.08658974717301,,noise_level
+North Station,Orange,Orange,74.8310344827586,80.57547921834419,69.08658974717301,,noise_level
+Northeastern,E,Green,73.0625,77.4745856745988,68.6504143254012,,noise_level
+Oak Grove,Orange,Orange,67.51111111111112,69.80427728718976,65.21794493503248,,noise_level
+Orient Heights,Blue,Blue,77.53750000000002,84.88440167932812,70.1905983206719,,noise_level
+Packards Corner,B,Green,64.17999999999999,70.24223281198162,58.11776718801837,,noise_level
+Park Street,Ashmont/Braintree,Red,75.42727272727274,79.27177180519864,71.58277364934683,,noise_level
+Park Street,B/C/D/E,Green,75.42727272727274,79.27177180519864,71.58277364934683,,noise_level
+Pleasant Street,B,Green,74.18571428571428,83.11962507017827,65.2518035012503,,noise_level
+Porter,Ashmont/Braintree,Red,75.18333333333334,83.30722812996055,67.05943853670611,,noise_level
+Prudential,E,Green,75.84800000000001,80.29997708888985,71.3960229111102,,noise_level
+Reservoir,D,Green,69.36666666666667,70.97082792206879,67.76250541126454,,noise_level
+Revere Beach,Blue,Blue,74.16666666666667,81.38977772308365,66.94355561024969,,noise_level
+Riverside,D,Green,75.2,,,,noise_level
+Riverway,E,Green,72.37142857142858,76.19840051876687,68.54445662409029,,noise_level
+Roxbury Crossing,Orange,Orange,73.66666666666666,82.85701486464043,64.47631846869288,,noise_level
+Ruggles,Orange,Orange,74.0222222222222,79.80879672225628,68.23564772218815,,noise_level
+Saint Marys Street,C,Green,73.49999999999999,77.75652440378295,69.24347559621701,,noise_level
+Saint Paul Street B,B,Green,61.1,66.31664004253058,55.88335995746944,,noise_level
+Saint Paul Street C,C,Green,73.34722222222223,78.97269927430342,67.72174517014103,,noise_level
+Savin Hill,Ashmont,Red,73.36666666666667,75.50286266266829,71.23047067066507,,noise_level
+Science Park,E,Green,76.98571428571428,79.08287790310212,74.88855066832646,,noise_level
+Shawmut,Ashmont,Red,71.4125,75.99645883177723,66.82854116822276,,noise_level
+South Station,Ashmont/Braintree,Red,72.45,76.51927511972343,68.38072488027659,,noise_level
+State,Blue,Blue,75.99090909090908,81.83333814676652,70.14848003505165,,noise_level
+State,Orange,Orange,75.99090909090908,81.83333814676652,70.14848003505165,,noise_level
+Stony Brook,Orange,Orange,75.41999999999999,81.64999910825746,69.1900008917425,,noise_level
+Suffolk Downs,Blue,Blue,71.52666666666666,76.57422147308624,66.47911186024707,,noise_level
+Sullivan Square,Orange,Orange,74.175,80.70587982620627,67.64412017379375,,noise_level
+Summit Ave/Winchester St,C,Green,73.91428571428571,77.93068068632577,69.89789074224565,,noise_level
+Symphony,E,Green,74.70714285714288,78.93824823839407,70.4760374758917,,noise_level
+Tappan Street,C,Green,71.63333333333333,76.17701025846786,67.08965640819879,,noise_level
+Tufts Medical Center,Orange,Orange,76.33749999999998,83.1093904303008,69.56560956969915,,noise_level
+Waban,D,Green,72.63333333333334,75.24356959339359,70.02309707327309,,noise_level
+Warren Street,B,Green,76.45,85.10813682805566,67.79186317194436,,noise_level
+Washington Square,C,Green,72.22857142857143,77.1481443574137,67.30899849972914,,noise_level
+Washington Street,B,Green,77.5625,88.1882016575041,66.93679834249589,,noise_level
+Wellington,Orange,Orange,70.35714285714286,77.36763386184319,63.346651852442534,,noise_level
+Wood Island,Blue,Blue,76.90833333333332,81.96770058326655,71.8489660834001,,noise_level
+Woodland,D,Green,70.30000000000001,74.41096095821891,66.18903904178111,,noise_level
+Airport,Blue,Blue,77.625,78.93489821487523,76.31510178512477,0.0,noise_level
+Airport,Blue,Blue,73.06666666666669,79.42460134180557,66.7087319915278,1.0,noise_level
+Allston Street,B,Green,64.3,,,0.0,noise_level
+Allston Street,B,Green,73.21666666666668,81.96456165155686,64.4687716817765,1.0,noise_level
+Andrew,Ashmont/Braintree,Red,70.86666666666667,72.92174168557312,68.81159164776022,0.0,noise_level
+Andrew,Ashmont/Braintree,Red,71.30000000000003,72.14852813742388,70.45147186257616,1.0,noise_level
+Aquarium,Blue,Blue,75.3,80.96215506675681,69.63784493324317,0.0,noise_level
+Aquarium,Blue,Blue,77.89999999999998,87.43572231139306,68.3642776886069,1.0,noise_level
+Arlington,B/C/D/E,Green,74.73,79.77954343370655,69.68045656629346,0.0,noise_level
+Arlington,B/C/D/E,Green,73.67142857142858,78.21151457858538,69.13134256427179,1.0,noise_level
+Assembly,Orange,Orange,72.16315789473684,79.80247218379563,64.52384360567804,0.0,noise_level
+Assembly,Orange,Orange,71.53571428571428,77.74347706157151,65.32795150985703,1.0,noise_level
+Babcock Street,B,Green,87.5,,,0.0,noise_level
+Babcock Street,B,Green,68.425,69.54861025271221,67.30138974728779,1.0,noise_level
+Back Bay,Orange,Orange,75.63333333333333,82.89464634591353,68.37202032075312,0.0,noise_level
+Back Bay,Orange,Orange,72.51818181818182,78.97694612442774,66.05941751193589,1.0,noise_level
+Back Of The Hill,E,Green,79.25,80.73492424049175,77.76507575950825,1.0,noise_level
+Beachmont,Blue,Blue,74.0,80.5,67.5,0.0,noise_level
+Beachmont,Blue,Blue,77.6,90.18650070512057,65.01349929487944,1.0,noise_level
+Beaconsfield,D,Green,72.73333333333333,78.27619661266228,67.19047005400441,0.0,noise_level
+Beaconsfield,D,Green,68.2,69.47671453348036,66.92328546651964,1.0,noise_level
+Blandford Street,B,Green,60.85,62.33492424049175,59.36507575950824,0.0,noise_level
+Blandford Street,B,Green,67.46666666666665,68.23042928249262,66.70290405084069,1.0,noise_level
+Boston University Central,B,Green,65.38633333333333,69.04299305681504,61.729673609851616,0.0,noise_level
+Boston University Central,B,Green,68.06,69.06895986045036,67.05104013954964,1.0,noise_level
+Boston University East,B,Green,70.65,71.85208152801714,69.44791847198287,1.0,noise_level
+Boston University West,B,Green,58.36666666666667,60.23838601884886,56.49494731448447,0.0,noise_level
+Boston University West,B,Green,68.86666666666667,69.51730737653143,68.21602595680191,1.0,noise_level
+Boylston,B/C/D/E,Green,77.22,79.90179044669787,74.53820955330212,0.0,noise_level
+Boylston,B/C/D/E,Green,73.875,77.14748631267828,70.60251368732172,1.0,noise_level
+Brandon Hall,C,Green,72.14,76.75876606898423,67.52123393101577,0.0,noise_level
+Brandon Hall,C,Green,70.2,71.18994949366117,69.21005050633883,1.0,noise_level
+Brigham Circle,E,Green,73.03333333333333,80.5382206298444,65.52844603682226,0.0,noise_level
+Brigham Circle,E,Green,72.41363636363639,76.77464274099661,68.05262998627613,1.0,noise_level
+Broadway,Ashmont/Braintree,Red,72.75,76.78195568758719,68.71804431241281,0.0,noise_level
+Broadway,Ashmont/Braintree,Red,74.675,77.08660389229519,72.2633961077048,1.0,noise_level
+Brookline Hills,D,Green,71.65,80.20599205235723,63.09400794764279,0.0,noise_level
+Brookline Hills,D,Green,69.43333333333334,72.95658940312636,65.91007726354032,1.0,noise_level
+Brookline Village,D,Green,74.3,78.52255846614348,70.0774415338565,0.0,noise_level
+Brookline Village,D,Green,67.9,70.20506688261607,65.59493311738396,1.0,noise_level
+Central,Ashmont/Braintree,Red,87.1,,,0.0,noise_level
+Central,Ashmont/Braintree,Red,75.16666666666667,77.65128602047791,72.68204731285546,1.0,noise_level
+Charles/MGH,Ashmont/Braintree,Red,70.53333333333333,72.44731696266074,68.61934970400593,1.0,noise_level
+Chestnut Hill,D,Green,65.7,,,0.0,noise_level
+Chestnut Hill,D,Green,69.53333333333333,71.48354699684134,67.58311966982532,1.0,noise_level
+Chinatown,Orange,Orange,75.81666666666666,83.53143605185677,68.10189728147654,0.0,noise_level
+Chinatown,Orange,Orange,73.94,79.56083425994555,68.31916574005443,1.0,noise_level
+Chiswick Road,B,Green,61.7,65.23553390593274,58.16446609406728,0.0,noise_level
+Cleveland Circle,C,Green,70.2,74.15979797464466,66.24020202535534,0.0,noise_level
+Community College,Orange,Orange,75.91428571428571,83.7233463858024,68.10522504276902,0.0,noise_level
+Community College,Orange,Orange,74.06,81.75013798460225,66.36986201539776,1.0,noise_level
+Coolidge Corner,C,Green,70.39999999999998,74.38234741190304,66.41765258809693,0.0,noise_level
+Coolidge Corner,C,Green,72.01111111111112,75.75495136802394,68.26727085419829,1.0,noise_level
+Copley,B/C/D/E,Green,72.92777777777779,78.05805761827676,67.79749793727882,0.0,noise_level
+Copley,B/C/D/E,Green,74.87142857142858,78.67940169904641,71.06345544381077,1.0,noise_level
+Davis,Ashmont/Braintree,Red,83.9,,,0.0,noise_level
+Davis,Ashmont/Braintree,Red,70.89999999999998,81.05644294688516,60.74355705311483,1.0,noise_level
+Dean Road,C,Green,73.16,79.34772979371272,66.97227020628728,0.0,noise_level
+Dean Road,C,Green,70.23333333333333,75.04971164073403,65.41695502593264,1.0,noise_level
+Downtown Crossing,Ashmont/Braintree,Red,79.575,87.49012265645119,71.65987734354883,0.0,noise_level
+Downtown Crossing,Ashmont/Braintree,Red,73.72352941176472,78.96644479966731,68.48061402386212,1.0,noise_level
+Downtown Crossing,Orange,Orange,79.575,87.49012265645119,71.65987734354883,0.0,noise_level
+Downtown Crossing,Orange,Orange,73.72352941176472,78.96644479966731,68.48061402386212,1.0,noise_level
+Eliot,D,Green,70.46666666666668,71.82436079029443,69.10897254303893,1.0,noise_level
+Englewood Avenue,C,Green,74.0,81.4953318805774,66.5046681194226,0.0,noise_level
+Englewood Avenue,C,Green,72.1,75.9,68.29999999999998,1.0,noise_level
+Fairbanks Street,C,Green,72.9,81.52670273047589,64.27329726952412,0.0,noise_level
+Fairbanks Street,C,Green,75.05,78.65624458405136,71.44375541594863,1.0,noise_level
+Fenway Park,D,Green,69.76000000000002,73.72585425854254,65.79414574145747,0.0,noise_level
+Fenway Park,D,Green,69.375,73.29664324158709,65.45335675841291,1.0,noise_level
+Fenwood Road,E,Green,74.66666666666667,79.86313982962376,69.47019350370958,0.0,noise_level
+Fenwood Road,E,Green,73.05714285714286,78.95568989373223,67.1585958205535,1.0,noise_level
+Fields Corner,Ashmont,Red,70.01666666666667,73.61523119529008,66.41810213804325,0.0,noise_level
+Fields Corner,Ashmont,Red,75.05,81.02243668865566,69.07756331134435,1.0,noise_level
+Government Center,B/C/D/E,Green,78.48,81.9737404342942,74.98625956570581,0.0,noise_level
+Government Center,B/C/D/E,Green,76.3,80.30035712691469,72.2996428730853,1.0,noise_level
+Government Center,Blue,Blue,78.48,81.9737404342942,74.98625956570581,0.0,noise_level
+Government Center,Blue,Blue,76.3,80.30035712691469,72.2996428730853,1.0,noise_level
+Green Street,Orange,Orange,71.77499999999998,78.96822598004539,64.58177401995461,0.0,noise_level
+Green Street,Orange,Orange,74.3,79.55547333738836,69.04452666261163,1.0,noise_level
+Griggs Street,B,Green,62.75,68.19472221513641,57.3052777848636,0.0,noise_level
+Griggs Street,B,Green,70.75,71.5278174593052,69.9721825406948,1.0,noise_level
+Harvard,Ashmont/Braintree,Red,86.2,,,0.0,noise_level
+Harvard,Ashmont/Braintree,Red,75.95,79.72491721763538,72.17508278236463,1.0,noise_level
+Harvard Avenue,B,Green,63.1,73.41494943362214,52.78505056637786,0.0,noise_level
+Harvard Avenue,B,Green,71.675,73.82189698557399,69.52810301442601,1.0,noise_level
+Hawes Street,C,Green,74.0,80.0811183182043,67.9188816817957,0.0,noise_level
+Hawes Street,C,Green,72.00666666666666,74.32906280202423,69.68427053130908,1.0,noise_level
+Haymarket,C/E,Green,75.4176470588235,80.88644894933363,69.94884516831338,0.0,noise_level
+Haymarket,C/E,Green,75.19411764705879,79.98870712221662,70.39952817190098,1.0,noise_level
+Haymarket,Orange,Orange,75.4176470588235,80.88644894933363,69.94884516831338,0.0,noise_level
+Haymarket,Orange,Orange,75.19411764705879,79.98870712221662,70.39952817190098,1.0,noise_level
+Heath Street,E,Green,64.0,,,0.0,noise_level
+Heath Street,E,Green,72.67999999999998,79.47499816041181,65.88500183958817,1.0,noise_level
+Hynes Convention Center,B/C/D,Green,71.79999999999998,76.45771249802793,67.14228750197205,0.0,noise_level
+Hynes Convention Center,B/C/D,Green,74.52727272727272,78.65306741656372,70.40147803798172,1.0,noise_level
+JFK/UMass,Ashmont/Braintree,Red,70.19999999999999,74.11833297887422,66.28166702112576,0.0,noise_level
+JFK/UMass,Ashmont/Braintree,Red,72.2,75.4782108941718,68.92178910582821,1.0,noise_level
+Jackson Square,Orange,Orange,78.5,86.51030586182577,70.48969413817424,0.0,noise_level
+Jackson Square,Orange,Orange,76.875,84.33528373008248,69.41471626991752,1.0,noise_level
+Kendall/MIT,Ashmont/Braintree,Red,85.6,,,0.0,noise_level
+Kendall/MIT,Ashmont/Braintree,Red,75.80000000000003,79.96052881254295,71.63947118745708,1.0,noise_level
+Kenmore,B/C/D,Green,72.46363636363638,75.59421865045546,69.33305407681728,0.0,noise_level
+Kenmore,B/C/D,Green,72.94347826086958,76.901878544611,68.98507797712817,1.0,noise_level
+Kent Street,C,Green,75.66666666666667,79.45656552195732,71.87676781137603,0.0,noise_level
+Lechmere,E,Green,73.69999999999997,78.79116882454312,68.60883117545684,0.0,noise_level
+Lechmere,E,Green,69.525,69.98957866215888,69.06042133784113,1.0,noise_level
+Longwood,D,Green,67.39999999999999,69.30787840283388,65.4921215971661,1.0,noise_level
+Longwood Medical Area,E,Green,76.65,77.4278174593052,75.87218254069481,0.0,noise_level
+Longwood Medical Area,E,Green,72.68823529411766,77.41764888791302,67.95882170032229,1.0,noise_level
+Malden Center,Orange,Orange,70.27499999999999,78.64226576389422,61.907734236105775,0.0,noise_level
+Malden Center,Orange,Orange,74.875,82.87334804372574,66.87665195627426,1.0,noise_level
+Massachusetts Ave,Orange,Orange,78.64,86.43698659739773,70.84301340260227,0.0,noise_level
+Massachusetts Ave,Orange,Orange,76.91818181818181,84.01745194712015,69.81891168924345,1.0,noise_level
+Maverick,Blue,Blue,80.0,81.9849433241279,78.0150566758721,0.0,noise_level
+Maverick,Blue,Blue,74.30000000000003,83.8346735654662,64.76532643453382,1.0,noise_level
+Mission Park,E,Green,66.625,71.74709267129494,61.502907328705064,0.0,noise_level
+Mission Park,E,Green,69.06666666666666,72.64623833564235,65.48709499769097,1.0,noise_level
+Museum Of Fine Arts,E,Green,73.80000000000003,80.43023378170031,67.16976621829971,0.0,noise_level
+Museum Of Fine Arts,E,Green,72.15,79.08469537903433,65.21530462096568,1.0,noise_level
+Newton Centre,D,Green,71.875,76.64530746737915,67.10469253262085,0.0,noise_level
+Newton Centre,D,Green,70.26666666666667,72.31686990862424,68.2164634247091,1.0,noise_level
+Newton Highlands,D,Green,70.17500000000001,74.52346716288243,65.82653283711758,0.0,noise_level
+Newton Highlands,D,Green,70.73333333333333,73.10890344034623,68.35776322632043,1.0,noise_level
+North Station,C/E,Green,74.59999999999998,79.88260185447862,69.31739814552135,0.0,noise_level
+North Station,C/E,Green,75.20909090909092,81.89511432296774,68.5230674952141,1.0,noise_level
+North Station,Orange,Orange,74.59999999999998,79.88260185447862,69.31739814552135,0.0,noise_level
+North Station,Orange,Orange,75.20909090909092,81.89511432296774,68.5230674952141,1.0,noise_level
+Northeastern,E,Green,72.85454545454544,76.34291574348086,69.36617516561006,0.0,noise_level
+Northeastern,E,Green,73.52,80.01592179755883,67.02407820244116,1.0,noise_level
+Oak Grove,Orange,Orange,67.95,69.95713014739239,65.94286985260761,0.0,noise_level
+Oak Grove,Orange,Orange,64.0,,,1.0,noise_level
+Orient Heights,Blue,Blue,75.42,79.89347739460031,70.94652260539971,0.0,noise_level
+Orient Heights,Blue,Blue,81.06666666666666,91.97553156331531,70.15780177001801,1.0,noise_level
+Packards Corner,B,Green,59.6,61.230950643030006,57.96904935697,0.0,noise_level
+Packards Corner,B,Green,71.05,72.0178154093972,70.0821845906028,1.0,noise_level
+Park Street,Ashmont/Braintree,Red,77.525,81.35503481272255,73.69496518727745,0.0,noise_level
+Park Street,Ashmont/Braintree,Red,74.96111111111111,78.75633084262304,71.16589137959917,1.0,noise_level
+Park Street,B/C/D/E,Green,77.525,81.35503481272255,73.69496518727745,0.0,noise_level
+Park Street,B/C/D/E,Green,74.96111111111111,78.75633084262304,71.16589137959917,1.0,noise_level
+Pleasant Street,B,Green,83.6,,,0.0,noise_level
+Pleasant Street,B,Green,72.61666666666666,81.2825576575958,63.95077567573753,1.0,noise_level
+Porter,Ashmont/Braintree,Red,87.5,,,0.0,noise_level
+Porter,Ashmont/Braintree,Red,72.72,78.8016938430013,66.6383061569987,1.0,noise_level
+Prudential,E,Green,76.48888888888891,80.83425679301648,72.14352098476131,0.0,noise_level
+Prudential,E,Green,74.20000000000002,78.82385120867878,69.57614879132126,1.0,noise_level
+Reservoir,D,Green,69.36666666666667,70.97082792206879,67.76250541126454,1.0,noise_level
+Revere Beach,Blue,Blue,76.4,85.02670273047588,67.77329726952415,0.0,noise_level
+Revere Beach,Blue,Blue,69.7,,,1.0,noise_level
+Riverside,D,Green,75.2,,,1.0,noise_level
+Riverway,E,Green,72.37142857142858,76.19840051876687,68.54445662409029,1.0,noise_level
+Roxbury Crossing,Orange,Orange,72.01666666666667,81.4397058084015,62.59362752493184,0.0,noise_level
+Roxbury Crossing,Orange,Orange,76.96666666666667,86.52508355092806,67.40824978240528,1.0,noise_level
+Ruggles,Orange,Orange,72.64,78.64358226394876,66.63641773605124,0.0,noise_level
+Ruggles,Orange,Orange,75.75,81.58695125900499,69.91304874099501,1.0,noise_level
+Saint Marys Street,C,Green,73.275,77.73995614013545,68.81004385986455,0.0,noise_level
+Saint Marys Street,C,Green,73.62857142857142,78.12030987662406,69.13683298051878,1.0,noise_level
+Saint Paul Street B,B,Green,58.66,62.50291555983215,54.817084440167854,0.0,noise_level
+Saint Paul Street B,B,Green,67.19999999999999,67.34142135623729,67.05857864376267,1.0,noise_level
+Saint Paul Street C,C,Green,72.95,75.62861904719578,70.27138095280422,0.0,noise_level
+Saint Paul Street C,C,Green,73.60000000000002,80.53754450865175,66.66245549134828,1.0,noise_level
+Savin Hill,Ashmont,Red,73.36666666666667,75.50286266266829,71.23047067066507,1.0,noise_level
+Science Park,E,Green,76.89999999999998,78.96639783197719,74.83360216802281,0.0,noise_level
+Science Park,E,Green,77.05,79.48652758380994,74.61347241619006,1.0,noise_level
+Shawmut,Ashmont,Red,68.0,71.48807492274274,64.51192507725727,0.0,noise_level
+Shawmut,Ashmont,Red,74.82499999999997,77.23522128997871,72.41477871002128,1.0,noise_level
+South Station,Ashmont/Braintree,Red,71.85,72.48639610306789,71.2136038969321,0.0,noise_level
+South Station,Ashmont/Braintree,Red,72.75,77.95608618189647,67.54391381810353,1.0,noise_level
+State,Blue,Blue,76.925,81.85740982347032,71.99259017652966,0.0,noise_level
+State,Blue,Blue,75.11176470588236,81.72736013949047,68.49616927227426,1.0,noise_level
+State,Orange,Orange,76.925,81.85740982347032,71.99259017652966,0.0,noise_level
+State,Orange,Orange,75.11176470588236,81.72736013949047,68.49616927227426,1.0,noise_level
+Stony Brook,Orange,Orange,74.91666666666667,82.08504630691081,67.74828702642253,0.0,noise_level
+Stony Brook,Orange,Orange,76.175,81.60907459156265,70.74092540843735,1.0,noise_level
+Suffolk Downs,Blue,Blue,77.13333333333333,79.59165254233231,74.67501412433434,0.0,noise_level
+Suffolk Downs,Blue,Blue,70.125,74.66494893843931,65.58505106156068,1.0,noise_level
+Sullivan Square,Orange,Orange,73.37500000000001,80.10675986715889,66.64324013284114,0.0,noise_level
+Sullivan Square,Orange,Orange,74.975,81.4918487923089,68.45815120769107,1.0,noise_level
+Summit Ave/Winchester St,C,Green,73.86666666666667,78.6019948847877,69.13133844854565,0.0,noise_level
+Summit Ave/Winchester St,C,Green,73.95,78.11052881254294,69.78947118745707,1.0,noise_level
+Symphony,E,Green,74.00000000000001,78.8493985881413,69.15060141185873,0.0,noise_level
+Symphony,E,Green,75.41428571428571,79.16991640762629,71.65865502094513,1.0,noise_level
+Tappan Street,C,Green,70.95,76.62714717089492,65.2728528291051,0.0,noise_level
+Tappan Street,C,Green,72.17999999999998,76.2144764220404,68.14552357795958,1.0,noise_level
+Tufts Medical Center,Orange,Orange,75.225,82.67478427300318,67.77521572699679,0.0,noise_level
+Tufts Medical Center,Orange,Orange,77.45000000000002,83.76981012373,71.13018987627005,1.0,noise_level
+Waban,D,Green,72.63333333333334,75.24356959339359,70.02309707327309,1.0,noise_level
+Warren Street,B,Green,83.9,83.9,83.9,0.0,noise_level
+Warren Street,B,Green,69.0,70.69705627484771,67.30294372515229,1.0,noise_level
+Washington Square,C,Green,74.44,80.2806335272811,68.5993664727189,0.0,noise_level
+Washington Square,C,Green,71.0,75.1853912600855,66.8146087399145,1.0,noise_level
+Washington Street,B,Green,63.55,64.75208152801714,62.34791847198287,0.0,noise_level
+Washington Street,B,Green,82.23333333333333,89.51747135142901,74.94919531523767,1.0,noise_level
+Wellington,Orange,Orange,68.25833333333334,75.08627836337959,61.430388303287096,0.0,noise_level
+Wellington,Orange,Orange,71.93125,78.86731216331236,64.99518783668765,1.0,noise_level
+Wood Island,Blue,Blue,77.36666666666666,80.90361450343214,73.8297188299012,0.0,noise_level
+Wood Island,Blue,Blue,75.53333333333335,84.8587466396342,66.20792002703249,1.0,noise_level
+Woodland,D,Green,70.4,77.04680374315355,63.753196256846465,0.0,noise_level
+Woodland,D,Green,70.2,72.74558441227157,67.65441558772844,1.0,noise_level
+Airport,Blue,Blue,2082.333333333333,4961.465552133528,-796.7988854668615,,particulates_rush_hour_small
+Alewife,Ashmont/Braintree,Red,9970.5,10788.622545832835,9152.377454167165,,particulates_rush_hour_small
+Andrew,Ashmont/Braintree,Red,19679.0,19679.0,19679.0,,particulates_rush_hour_small
+Aquarium,Blue,Blue,8252.0,12661.51788747931,3842.4821125206895,,particulates_rush_hour_small
+Ashmont,Ashmont,Red,897.3333333333335,1155.6477412422485,639.0189254244183,,particulates_rush_hour_small
+Assembly,Orange,Orange,2339.0,2339.0,2339.0,,particulates_rush_hour_small
+Babcock Street,B,Green,348.0,348.0,348.0,,particulates_rush_hour_small
+Back Bay,Orange,Orange,4260.0,5706.740474307677,2813.259525692324,,particulates_rush_hour_small
+Beachmont,Blue,Blue,579.0,618.6610640301037,539.3389359698962,,particulates_rush_hour_small
+Blandford Street,B,Green,5061.0,5061.0,5061.0,,particulates_rush_hour_small
+Boston College,B,Green,379.0526315789474,421.33542941550985,336.7698337423848,,particulates_rush_hour_small
+Boston University Central,B,Green,821.7,1271.1384917813969,372.2615082186031,,particulates_rush_hour_small
+Boston University West,B,Green,653.5,968.155896708346,338.844103291654,,particulates_rush_hour_small
+Brigham Circle,E,Green,990.0,1064.953318805774,915.046681194226,,particulates_rush_hour_small
+Broadway,Ashmont/Braintree,Red,14127.5,19708.899743791873,8546.100256208125,,particulates_rush_hour_small
+Central,Ashmont/Braintree,Red,9943.5,11277.810496099017,8609.189503900985,,particulates_rush_hour_small
+Chestnut Hill Avenue,B,Green,261.0,261.0,261.0,,particulates_rush_hour_small
+Chinatown,Orange,Orange,4176.0,4176.0,4176.0,,particulates_rush_hour_small
+Cleveland Circle,C,Green,110.0,110.0,110.0,,particulates_rush_hour_small
+Community College,Orange,Orange,2229.0,2229.0,2229.0,,particulates_rush_hour_small
+Coolidge Corner,C,Green,606.6,1040.724454627084,172.47554537291603,,particulates_rush_hour_small
+Copley,B/C/D/E,Green,2972.1111111111113,5345.73800072774,598.4842214944829,,particulates_rush_hour_small
+Davis,Ashmont/Braintree,Red,10581.5,10668.474134085944,10494.525865914056,,particulates_rush_hour_small
+Dean Road,C,Green,190.0,190.0,190.0,,particulates_rush_hour_small
+Downtown Crossing,Ashmont/Braintree,Red,19101.0,19101.0,19101.0,,particulates_rush_hour_small
+Downtown Crossing,Orange,Orange,7977.5,13175.44194850231,2779.558051497689,,particulates_rush_hour_small
+Englewood Avenue,C,Green,108.0,108.0,108.0,,particulates_rush_hour_small
+Fenwood Road,E,Green,985.0,1089.651803615609,880.3481963843909,,particulates_rush_hour_small
+Government Center,B/C/D/E,Green,1080.0,1080.0,1080.0,,particulates_rush_hour_small
+Government Center,Blue,Blue,3622.727272727273,7026.643373071378,218.81117238316762,,particulates_rush_hour_small
+Green Street,Orange,Orange,1954.0,2921.322076663197,986.677923336803,,particulates_rush_hour_small
+Griggs Street,B,Green,359.0,359.0,359.0,,particulates_rush_hour_small
+Harvard,Ashmont/Braintree,Red,10726.0,12288.70598642227,9163.29401357773,,particulates_rush_hour_small
+Harvard Avenue,B,Green,361.0,361.0,361.0,,particulates_rush_hour_small
+Hawes Street,C,Green,132.0,132.0,132.0,,particulates_rush_hour_small
+Haymarket,Orange,Orange,8122.0,8122.0,8122.0,,particulates_rush_hour_small
+Hynes Convention Center,B/C/D,Green,3116.5,5964.568877912424,268.4311220875761,,particulates_rush_hour_small
+JFK/UMass,Ashmont/Braintree,Red,1288.0,1288.0,1288.0,,particulates_rush_hour_small
+Kendall/MIT,Ashmont/Braintree,Red,6324.0,6324.0,6324.0,,particulates_rush_hour_small
+Kenmore,B/C/D,Green,6118.0,6118.0,6118.0,,particulates_rush_hour_small
+Lechmere,E,Green,2073.0,2272.366496683871,1873.6335033161288,,particulates_rush_hour_small
+Longwood Medical Area,E,Green,1167.6666666666667,1213.4305534479852,1121.9027798853483,,particulates_rush_hour_small
+Malden Center,Orange,Orange,1357.0,1596.002092041053,1117.997907958947,,particulates_rush_hour_small
+Massachusetts Ave,Orange,Orange,2129.5714285714284,2490.528423767466,1768.6144333753907,,particulates_rush_hour_small
+Maverick,Blue,Blue,3994.666666666666,8962.132452490796,-972.7991191574632,,particulates_rush_hour_small
+Mission Park,E,Green,978.0,978.0,978.0,,particulates_rush_hour_small
+Museum Of Fine Arts,E,Green,932.0,932.0,932.0,,particulates_rush_hour_small
+North Station,C/E,Green,2153.5,3617.9181438373403,689.0818561626602,,particulates_rush_hour_small
+North Station,Orange,Orange,6753.5,12419.546637647805,1087.4533623521947,,particulates_rush_hour_small
+Northeastern,E,Green,2057.0,2057.0,2057.0,,particulates_rush_hour_small
+Oak Grove,Orange,Orange,1256.0,1299.5889894354068,1212.4110105645932,,particulates_rush_hour_small
+Orient Heights,Blue,Blue,862.0,1436.170706323477,287.82929367652343,,particulates_rush_hour_small
+Packards Corner,B,Green,425.0,433.0829037686548,416.9170962313452,,particulates_rush_hour_small
+Park Street,Ashmont/Braintree,Red,11407.0,15658.125968493523,7155.874031506476,,particulates_rush_hour_small
+Park Street,B/C/D/E,Green,838.0,838.0,838.0,,particulates_rush_hour_small
+Pleasant Street,B,Green,356.0,356.0,356.0,,particulates_rush_hour_small
+Porter,Ashmont/Braintree,Red,11037.0,11037.0,11037.0,,particulates_rush_hour_small
+Prudential,E,Green,3218.0,5780.554975020048,655.445024979952,,particulates_rush_hour_small
+Revere Beach,Blue,Blue,610.0,745.7645019878171,474.23549801218286,,particulates_rush_hour_small
+Riverway,E,Green,878.0,878.0,878.0,,particulates_rush_hour_small
+Roxbury Crossing,Orange,Orange,2119.0,2119.0,2119.0,,particulates_rush_hour_small
+Ruggles,Orange,Orange,2385.5,2999.9757928511103,1771.0242071488901,,particulates_rush_hour_small
+Saint Marys Street,C,Green,122.0,122.0,122.0,,particulates_rush_hour_small
+Saint Paul Street C,C,Green,121.0,121.0,121.0,,particulates_rush_hour_small
+Savin Hill,Ashmont,Red,3136.0,3136.0,3136.0,,particulates_rush_hour_small
+Science Park,E,Green,1369.0,1369.0,1369.0,,particulates_rush_hour_small
+South Station,Ashmont/Braintree,Red,14315.0,18741.74609617493,9888.253903825069,,particulates_rush_hour_small
+South Street,B,Green,386.0,386.0,386.0,,particulates_rush_hour_small
+State,Blue,Blue,10163.0,10163.0,10163.0,,particulates_rush_hour_small
+State,Orange,Orange,9833.0,9833.0,9833.0,,particulates_rush_hour_small
+Sullivan Square,Orange,Orange,4020.0,4020.0,4020.0,,particulates_rush_hour_small
+Symphony,E,Green,2375.5,4127.0034969990775,623.9965030009217,,particulates_rush_hour_small
+Tappan Street,C,Green,115.0,115.0,115.0,,particulates_rush_hour_small
+Tufts Medical Center,Orange,Orange,4474.0,4474.0,4474.0,,particulates_rush_hour_small
+Warren Street,B,Green,355.0,379.34748446965307,330.6525155303469,,particulates_rush_hour_small
+Washington Square,C,Green,146.0,171.40341184434354,120.59658815565645,,particulates_rush_hour_small
+Wellington,Orange,Orange,2087.5,2323.4837565031407,1851.51624349686,,particulates_rush_hour_small
+Wood Island,Blue,Blue,2043.0,4386.3518728522195,-300.3518728522185,,particulates_rush_hour_small
+Airport,Blue,Blue,5401.0,5401.0,5401.0,0.0,particulates_rush_hour_small
+Airport,Blue,Blue,423.0,664.8305191657993,181.16948083420075,1.0,particulates_rush_hour_small
+Alewife,Ashmont/Braintree,Red,9970.5,10788.622545832835,9152.377454167165,1.0,particulates_rush_hour_small
+Andrew,Ashmont/Braintree,Red,19679.0,19679.0,19679.0,1.0,particulates_rush_hour_small
+Aquarium,Blue,Blue,8252.0,12661.51788747931,3842.4821125206895,1.0,particulates_rush_hour_small
+Ashmont,Ashmont,Red,897.3333333333335,1155.6477412422485,639.0189254244183,0.0,particulates_rush_hour_small
+Assembly,Orange,Orange,2339.0,2339.0,2339.0,0.0,particulates_rush_hour_small
+Babcock Street,B,Green,348.0,348.0,348.0,0.0,particulates_rush_hour_small
+Back Bay,Orange,Orange,3237.0,3237.0,3237.0,0.0,particulates_rush_hour_small
+Back Bay,Orange,Orange,5283.0,5283.0,5283.0,1.0,particulates_rush_hour_small
+Beachmont,Blue,Blue,562.5,601.3908729652602,523.6091270347398,0.0,particulates_rush_hour_small
+Beachmont,Blue,Blue,612.0,612.0,612.0,1.0,particulates_rush_hour_small
+Blandford Street,B,Green,5061.0,5061.0,5061.0,1.0,particulates_rush_hour_small
+Boston College,B,Green,379.0526315789474,421.33542941550985,336.7698337423848,0.0,particulates_rush_hour_small
+Boston University Central,B,Green,698.4444444444445,953.2057450013342,443.6831438875547,0.0,particulates_rush_hour_small
+Boston University Central,B,Green,1931.0,1931.0,1931.0,1.0,particulates_rush_hour_small
+Boston University West,B,Green,381.0,381.0,381.0,0.0,particulates_rush_hour_small
+Boston University West,B,Green,926.0,926.0,926.0,1.0,particulates_rush_hour_small
+Brigham Circle,E,Green,937.0,937.0,937.0,0.0,particulates_rush_hour_small
+Brigham Circle,E,Green,1043.0,1043.0,1043.0,1.0,particulates_rush_hour_small
+Broadway,Ashmont/Braintree,Red,14127.5,19708.899743791873,8546.100256208125,0.0,particulates_rush_hour_small
+Central,Ashmont/Braintree,Red,9000.0,9000.0,9000.0,0.0,particulates_rush_hour_small
+Central,Ashmont/Braintree,Red,10887.0,10887.0,10887.0,1.0,particulates_rush_hour_small
+Chestnut Hill Avenue,B,Green,261.0,261.0,261.0,0.0,particulates_rush_hour_small
+Chinatown,Orange,Orange,4176.0,4176.0,4176.0,0.0,particulates_rush_hour_small
+Cleveland Circle,C,Green,110.0,110.0,110.0,0.0,particulates_rush_hour_small
+Community College,Orange,Orange,2229.0,2229.0,2229.0,1.0,particulates_rush_hour_small
+Coolidge Corner,C,Green,121.0,121.0,121.0,0.0,particulates_rush_hour_small
+Coolidge Corner,C,Green,660.5555555555555,1084.5977596457537,236.5133514653576,1.0,particulates_rush_hour_small
+Copley,B/C/D/E,Green,1476.5,1520.9559707276014,1432.0440292723986,0.0,particulates_rush_hour_small
+Copley,B/C/D/E,Green,4168.6,6859.3977070006595,1477.8022929993424,1.0,particulates_rush_hour_small
+Davis,Ashmont/Braintree,Red,10520.0,10520.0,10520.0,0.0,particulates_rush_hour_small
+Davis,Ashmont/Braintree,Red,10643.0,10643.0,10643.0,1.0,particulates_rush_hour_small
+Dean Road,C,Green,190.0,190.0,190.0,1.0,particulates_rush_hour_small
+Downtown Crossing,Ashmont/Braintree,Red,19101.0,19101.0,19101.0,0.0,particulates_rush_hour_small
+Downtown Crossing,Orange,Orange,4302.0,4302.0,4302.0,0.0,particulates_rush_hour_small
+Downtown Crossing,Orange,Orange,11653.0,11653.0,11653.0,1.0,particulates_rush_hour_small
+Englewood Avenue,C,Green,108.0,108.0,108.0,0.0,particulates_rush_hour_small
+Fenwood Road,E,Green,911.0,911.0,911.0,0.0,particulates_rush_hour_small
+Fenwood Road,E,Green,1059.0,1059.0,1059.0,1.0,particulates_rush_hour_small
+Government Center,B/C/D/E,Green,1080.0,1080.0,1080.0,1.0,particulates_rush_hour_small
+Government Center,Blue,Blue,4226.0,4226.0,4226.0,0.0,particulates_rush_hour_small
+Government Center,Blue,Blue,3562.4,7144.238702243429,-19.438702243428448,1.0,particulates_rush_hour_small
+Green Street,Orange,Orange,1270.0,1270.0,1270.0,0.0,particulates_rush_hour_small
+Green Street,Orange,Orange,2638.0,2638.0,2638.0,1.0,particulates_rush_hour_small
+Griggs Street,B,Green,359.0,359.0,359.0,0.0,particulates_rush_hour_small
+Harvard,Ashmont/Braintree,Red,9621.0,9621.0,9621.0,0.0,particulates_rush_hour_small
+Harvard,Ashmont/Braintree,Red,11831.0,11831.0,11831.0,1.0,particulates_rush_hour_small
+Harvard Avenue,B,Green,361.0,361.0,361.0,0.0,particulates_rush_hour_small
+Hawes Street,C,Green,132.0,132.0,132.0,0.0,particulates_rush_hour_small
+Haymarket,Orange,Orange,8122.0,8122.0,8122.0,0.0,particulates_rush_hour_small
+Hynes Convention Center,B/C/D,Green,3116.5,5964.568877912424,268.4311220875761,0.0,particulates_rush_hour_small
+JFK/UMass,Ashmont/Braintree,Red,1288.0,1288.0,1288.0,0.0,particulates_rush_hour_small
+Kendall/MIT,Ashmont/Braintree,Red,6324.0,6324.0,6324.0,0.0,particulates_rush_hour_small
+Kenmore,B/C/D,Green,6118.0,6118.0,6118.0,1.0,particulates_rush_hour_small
+Lechmere,E,Green,2073.0,2272.366496683871,1873.6335033161288,1.0,particulates_rush_hour_small
+Longwood Medical Area,E,Green,1216.0,1216.0,1216.0,0.0,particulates_rush_hour_small
+Longwood Medical Area,E,Green,1143.5,1169.6629509039024,1117.3370490960976,1.0,particulates_rush_hour_small
+Malden Center,Orange,Orange,1526.0,1526.0,1526.0,0.0,particulates_rush_hour_small
+Malden Center,Orange,Orange,1188.0,1188.0,1188.0,1.0,particulates_rush_hour_small
+Massachusetts Ave,Orange,Orange,2129.5714285714284,2490.528423767466,1768.6144333753907,0.0,particulates_rush_hour_small
+Maverick,Blue,Blue,9690.0,9690.0,9690.0,0.0,particulates_rush_hour_small
+Maverick,Blue,Blue,1147.0,1981.386001800126,312.6139981998739,1.0,particulates_rush_hour_small
+Mission Park,E,Green,978.0,978.0,978.0,0.0,particulates_rush_hour_small
+Museum Of Fine Arts,E,Green,932.0,932.0,932.0,0.0,particulates_rush_hour_small
+North Station,C/E,Green,3189.0,3189.0,3189.0,0.0,particulates_rush_hour_small
+North Station,C/E,Green,1118.0,1118.0,1118.0,1.0,particulates_rush_hour_small
+North Station,Orange,Orange,10760.0,10760.0,10760.0,0.0,particulates_rush_hour_small
+North Station,Orange,Orange,2747.0,2747.0,2747.0,1.0,particulates_rush_hour_small
+Northeastern,E,Green,2057.0,2057.0,2057.0,1.0,particulates_rush_hour_small
+Oak Grove,Orange,Orange,1256.0,1299.5889894354068,1212.4110105645932,1.0,particulates_rush_hour_small
+Orient Heights,Blue,Blue,1268.0,1268.0,1268.0,0.0,particulates_rush_hour_small
+Orient Heights,Blue,Blue,456.0,456.0,456.0,1.0,particulates_rush_hour_small
+Packards Corner,B,Green,425.0,433.0829037686548,416.9170962313452,0.0,particulates_rush_hour_small
+Park Street,Ashmont/Braintree,Red,14413.0,14413.0,14413.0,0.0,particulates_rush_hour_small
+Park Street,Ashmont/Braintree,Red,8401.0,8401.0,8401.0,1.0,particulates_rush_hour_small
+Park Street,B/C/D/E,Green,838.0,838.0,838.0,1.0,particulates_rush_hour_small
+Pleasant Street,B,Green,356.0,356.0,356.0,0.0,particulates_rush_hour_small
+Porter,Ashmont/Braintree,Red,11037.0,11037.0,11037.0,1.0,particulates_rush_hour_small
+Prudential,E,Green,1406.0,1406.0,1406.0,0.0,particulates_rush_hour_small
+Prudential,E,Green,5030.0,5030.0,5030.0,1.0,particulates_rush_hour_small
+Revere Beach,Blue,Blue,514.0,514.0,514.0,0.0,particulates_rush_hour_small
+Revere Beach,Blue,Blue,706.0,706.0,706.0,1.0,particulates_rush_hour_small
+Riverway,E,Green,878.0,878.0,878.0,1.0,particulates_rush_hour_small
+Roxbury Crossing,Orange,Orange,2119.0,2119.0,2119.0,0.0,particulates_rush_hour_small
+Ruggles,Orange,Orange,1951.0,1951.0,1951.0,0.0,particulates_rush_hour_small
+Ruggles,Orange,Orange,2820.0,2820.0,2820.0,1.0,particulates_rush_hour_small
+Saint Marys Street,C,Green,122.0,122.0,122.0,0.0,particulates_rush_hour_small
+Saint Paul Street C,C,Green,121.0,121.0,121.0,0.0,particulates_rush_hour_small
+Savin Hill,Ashmont,Red,3136.0,3136.0,3136.0,0.0,particulates_rush_hour_small
+Science Park,E,Green,1369.0,1369.0,1369.0,1.0,particulates_rush_hour_small
+South Station,Ashmont/Braintree,Red,16859.5,17447.105735166017,16271.894264833982,0.0,particulates_rush_hour_small
+South Station,Ashmont/Braintree,Red,9226.0,9226.0,9226.0,1.0,particulates_rush_hour_small
+South Street,B,Green,386.0,386.0,386.0,1.0,particulates_rush_hour_small
+State,Blue,Blue,10163.0,10163.0,10163.0,1.0,particulates_rush_hour_small
+State,Orange,Orange,9833.0,9833.0,9833.0,1.0,particulates_rush_hour_small
+Sullivan Square,Orange,Orange,4020.0,4020.0,4020.0,0.0,particulates_rush_hour_small
+Symphony,E,Green,1137.0,1137.0,1137.0,0.0,particulates_rush_hour_small
+Symphony,E,Green,3614.0,3614.0,3614.0,1.0,particulates_rush_hour_small
+Tappan Street,C,Green,115.0,115.0,115.0,0.0,particulates_rush_hour_small
+Tufts Medical Center,Orange,Orange,4474.0,4474.0,4474.0,0.0,particulates_rush_hour_small
+Warren Street,B,Green,340.5,352.62435565298216,328.37564434701784,0.0,particulates_rush_hour_small
+Warren Street,B,Green,384.0,384.0,384.0,1.0,particulates_rush_hour_small
+Washington Square,C,Green,124.0,124.0,124.0,0.0,particulates_rush_hour_small
+Washington Square,C,Green,168.0,168.0,168.0,1.0,particulates_rush_hour_small
+Wellington,Orange,Orange,2036.0,2188.735064736294,1883.2649352637054,0.0,particulates_rush_hour_small
+Wellington,Orange,Orange,2139.0,2503.8670990922587,1774.1329009077415,1.0,particulates_rush_hour_small
+Wood Island,Blue,Blue,3700.0,3700.0,3700.0,0.0,particulates_rush_hour_small
+Wood Island,Blue,Blue,386.0,386.0,386.0,1.0,particulates_rush_hour_small
+Airport,Blue,Blue,3243.75,5212.95717972149,1274.5428202785095,,particulates_off_peak_small
+Alewife,Ashmont/Braintree,Red,7324.0,8044.270782414504,6603.729217585496,,particulates_off_peak_small
+Allston Street,B,Green,366.66666666666674,546.2337386295778,187.09959470375546,,particulates_off_peak_small
+Andrew,Ashmont/Braintree,Red,5106.5,11079.430980682766,-866.4309806827669,,particulates_off_peak_small
+Aquarium,Blue,Blue,3668.75,4977.349601355078,2360.150398644923,,particulates_off_peak_small
+Arlington,B/C/D/E,Green,3292.6,4021.1751848642657,2564.0248151357337,,particulates_off_peak_small
+Assembly,Orange,Orange,1012.6666666666665,1460.8009471377475,564.5323861955858,,particulates_off_peak_small
+Babcock Street,B,Green,252.0,352.41912168506553,151.58087831493447,,particulates_off_peak_small
+Back Bay,Orange,Orange,2247.6666666666665,2875.370683965691,1619.9626493676426,,particulates_off_peak_small
+Beachmont,Blue,Blue,825.3333333333335,1028.8924975420061,621.7741691246607,,particulates_off_peak_small
+Beaconsfield,D,Green,488.0,488.0,488.0,,particulates_off_peak_small
+Blandford Street,B,Green,918.5,1977.0388514362617,-140.0388514362617,,particulates_off_peak_small
+Boston College,B,Green,247.0,429.9941451054026,64.00585489459739,,particulates_off_peak_small
+Boston University Central,B,Green,399.0,527.1743604106011,270.82563958939886,,particulates_off_peak_small
+Boylston,B/C/D/E,Green,3527.5714285714284,5141.982038994817,1913.1608181480397,,particulates_off_peak_small
+Braintree,Braintree,Red,659.0,926.286363288515,391.7136367114849,,particulates_off_peak_small
+Brandon Hall,C,Green,401.0,401.0,401.0,,particulates_off_peak_small
+Brigham Circle,E,Green,501.61111111111114,799.1992866527852,204.02293556943695,,particulates_off_peak_small
+Broadway,Ashmont/Braintree,Red,6603.0,9515.875383534283,3690.1246164657173,,particulates_off_peak_small
+Brookline Hills,D,Green,432.0,432.0,432.0,,particulates_off_peak_small
+Brookline Village,D,Green,495.5,564.0893577750951,426.91064222490485,,particulates_off_peak_small
+Central,Ashmont/Braintree,Red,5546.333333333332,7317.059832071445,3775.606834595221,,particulates_off_peak_small
+Charles/MGH,Ashmont/Braintree,Red,6289.0,6289.0,6289.0,,particulates_off_peak_small
+Chestnut Hill,D,Green,426.0,426.0,426.0,,particulates_off_peak_small
+Chestnut Hill Avenue,B,Green,290.0,290.0,290.0,,particulates_off_peak_small
+Chinatown,Orange,Orange,4359.0,7110.399825543354,1607.6001744566456,,particulates_off_peak_small
+Chiswick Road,B,Green,218.66666666666663,365.77660288218317,71.55673045115017,,particulates_off_peak_small
+Cleveland Circle,C,Green,549.75,663.0089216500552,436.4910783499448,,particulates_off_peak_small
+Community College,Orange,Orange,6089.0,8756.206778635657,3421.7932213643426,,particulates_off_peak_small
+Coolidge Corner,C,Green,411.0,476.96211033616186,345.03788966383814,,particulates_off_peak_small
+Copley,B/C/D/E,Green,2719.9,4556.558405910037,883.2415940899627,,particulates_off_peak_small
+Davis,Ashmont/Braintree,Red,7192.5,7995.0661966467305,6389.9338033532695,,particulates_off_peak_small
+Dean Road,C,Green,289.0,289.0,289.0,,particulates_off_peak_small
+Downtown Crossing,Ashmont/Braintree,Red,8581.0,8581.0,8581.0,,particulates_off_peak_small
+Downtown Crossing,Orange,Orange,4479.333333333333,6035.593422992728,2923.0732436739386,,particulates_off_peak_small
+Eliot,D,Green,597.3333333333334,948.5516889660272,246.1149777006396,,particulates_off_peak_small
+Englewood Avenue,C,Green,511.0,669.3919189857868,352.6080810142133,,particulates_off_peak_small
+Fairbanks Street,C,Green,375.0,375.0,375.0,,particulates_off_peak_small
+Fenway Park,D,Green,2191.0,4699.81485964987,-317.81485964987036,,particulates_off_peak_small
+Fields Corner,Ashmont,Red,2866.0,3680.2554881608107,2051.7445118391893,,particulates_off_peak_small
+Forest Hills,Orange,Orange,965.4285714285713,1188.081408181858,742.7757346752848,,particulates_off_peak_small
+Government Center,B/C/D/E,Green,2660.2,4212.454546708683,1107.9454532913169,,particulates_off_peak_small
+Government Center,Blue,Blue,5589.25,8915.336426517908,2263.163573482092,,particulates_off_peak_small
+Green Street,Orange,Orange,1046.6666666666667,1134.309882795089,959.0234505382447,,particulates_off_peak_small
+Griggs Street,B,Green,897.0,897.0,897.0,,particulates_off_peak_small
+Harvard,Ashmont/Braintree,Red,3926.5,5445.864889243749,2407.1351107562523,,particulates_off_peak_small
+Harvard Avenue,B,Green,332.5,515.3378151987894,149.6621848012106,,particulates_off_peak_small
+Hawes Street,C,Green,405.0,405.0,405.0,,particulates_off_peak_small
+Haymarket,C/E,Green,1020.75,2062.7923455887008,-21.292345588700076,,particulates_off_peak_small
+Haymarket,Orange,Orange,4615.666666666667,5872.246256930121,3359.0870764032147,,particulates_off_peak_small
+Heath Street,E,Green,2918.333333333333,4464.471474482161,1372.1951921845061,,particulates_off_peak_small
+Hynes Convention Center,B/C/D,Green,2822.666666666666,4809.641838462563,835.6914948707698,,particulates_off_peak_small
+JFK/UMass,Ashmont/Braintree,Red,5056.8,9297.981109077988,815.6188909220117,,particulates_off_peak_small
+Jackson Square,Orange,Orange,1100.0,1439.1450034031657,760.8549965968342,,particulates_off_peak_small
+Kendall/MIT,Ashmont/Braintree,Red,2880.0,2880.0,2880.0,,particulates_off_peak_small
+Kenmore,B/C/D,Green,3834.0,5544.130404384414,2123.869595615586,,particulates_off_peak_small
+Lechmere,E,Green,497.66666666666674,1099.803085318343,-104.46975198500952,,particulates_off_peak_small
+Longwood,D,Green,1247.0,2280.7901140947324,213.2098859052676,,particulates_off_peak_small
+Longwood Medical Area,E,Green,205.0,416.310198523403,-6.310198523403018,,particulates_off_peak_small
+Malden Center,Orange,Orange,732.8333333333335,1133.5469051856812,332.11976148098563,,particulates_off_peak_small
+Massachusetts Ave,Orange,Orange,2595.333333333333,3038.4499470292467,2152.2167196374203,,particulates_off_peak_small
+Maverick,Blue,Blue,5536.6,7869.666394254566,3203.533605745435,,particulates_off_peak_small
+Mission Park,E,Green,590.3636363636364,1074.7003524460063,106.02692028126613,,particulates_off_peak_small
+Museum Of Fine Arts,E,Green,1036.0,1541.758835810112,530.2411641898879,,particulates_off_peak_small
+Newton Centre,D,Green,336.0,336.0,336.0,,particulates_off_peak_small
+Newton Highlands,D,Green,461.0,461.0,461.0,,particulates_off_peak_small
+North Quincy,Braintree,Red,912.0,1461.388751249969,362.61124875003134,,particulates_off_peak_small
+North Station,C/E,Green,2449.333333333333,3775.1448835419847,1123.5217831246823,,particulates_off_peak_small
+North Station,Orange,Orange,2484.0,4061.646982059041,906.353017940959,,particulates_off_peak_small
+Northeastern,E,Green,924.0,924.0,924.0,,particulates_off_peak_small
+Oak Grove,Orange,Orange,628.0,950.8456803696364,305.15431963036383,,particulates_off_peak_small
+Orient Heights,Blue,Blue,930.0,1675.290547370621,184.7094526293789,,particulates_off_peak_small
+Packards Corner,B,Green,175.0,175.0,175.0,,particulates_off_peak_small
+Park Street,Ashmont/Braintree,Red,7372.5,10139.446744285891,4605.5532557141105,,particulates_off_peak_small
+Park Street,B/C/D/E,Green,3053.75,4026.0288717983412,2081.4711282016588,,particulates_off_peak_small
+Pleasant Street,B,Green,284.0,387.60260614482627,180.39739385517368,,particulates_off_peak_small
+Porter,Ashmont/Braintree,Red,7058.0,8598.0785694243,5517.9214305757,,particulates_off_peak_small
+Prudential,E,Green,1697.111111111111,3422.438576003243,-28.21635378102087,,particulates_off_peak_small
+Quincy Adams,Braintree,Red,628.0,734.0660171779822,521.9339828220179,,particulates_off_peak_small
+Quincy Center,Braintree,Red,692.0,692.0,692.0,,particulates_off_peak_small
+Reservoir,D,Green,412.5,489.57463914933373,335.4253608506663,,particulates_off_peak_small
+Revere Beach,Blue,Blue,906.5,1154.6944801964785,658.3055198035219,,particulates_off_peak_small
+Riverside,D,Green,1300.6666666666667,1395.8419435684616,1205.4913897648719,,particulates_off_peak_small
+Riverway,E,Green,695.6666666666665,1084.2233978312847,307.1099355020485,,particulates_off_peak_small
+Roxbury Crossing,Orange,Orange,1077.25,1268.3806272334882,886.1193727665117,,particulates_off_peak_small
+Ruggles,Orange,Orange,1469.75,1624.3341194948562,1315.1658805051438,,particulates_off_peak_small
+Saint Marys Street,C,Green,664.0,1108.0157654858665,219.9842345141335,,particulates_off_peak_small
+Saint Paul Street B,B,Green,244.0,244.0,244.0,,particulates_off_peak_small
+Saint Paul Street C,C,Green,998.3333333333335,1707.5316600845083,289.1350065821582,,particulates_off_peak_small
+Savin Hill,Ashmont,Red,3726.5,6020.216271323316,1432.7837286766846,,particulates_off_peak_small
+Science Park,E,Green,986.5,1909.2743494484446,63.72565055155553,,particulates_off_peak_small
+Shawmut,Ashmont,Red,2059.0,2247.6054081939333,1870.3945918060672,,particulates_off_peak_small
+South Station,Ashmont/Braintree,Red,7853.5,8588.183945652823,7118.816054347177,,particulates_off_peak_small
+South Street,B,Green,240.0,240.0,240.0,,particulates_off_peak_small
+State,Blue,Blue,4692.166666666667,7541.9285105172485,1842.4048228160848,,particulates_off_peak_small
+State,Orange,Orange,4448.0,4587.215660038661,4308.784339961339,,particulates_off_peak_small
+Stony Brook,Orange,Orange,1371.5,1556.054869889689,1186.945130110311,,particulates_off_peak_small
+Suffolk Downs,Blue,Blue,1038.5,1374.37572106361,702.6242789363899,,particulates_off_peak_small
+Sullivan Square,Orange,Orange,1592.571428571429,2594.2493304179347,590.8935267249224,,particulates_off_peak_small
+Summit Ave/Winchester St,C,Green,386.0,386.0,386.0,,particulates_off_peak_small
+Sutherland Road,B,Green,137.0,137.0,137.0,,particulates_off_peak_small
+Symphony,E,Green,329.0,329.0,329.0,,particulates_off_peak_small
+Tufts Medical Center,Orange,Orange,3758.8,5159.746180265322,2357.853819734677,,particulates_off_peak_small
+Waban,D,Green,618.3333333333334,911.8232536599663,324.84341300670053,,particulates_off_peak_small
+Warren Street,B,Green,271.0,343.1248916810278,198.87510831897214,,particulates_off_peak_small
+Washington Square,C,Green,675.75,1309.4593839713384,42.040616028661596,,particulates_off_peak_small
+Washington Street,B,Green,187.0,196.89949493661166,177.10050506338834,,particulates_off_peak_small
+Wellington,Orange,Orange,1036.0,1567.6671891324497,504.33281086755034,,particulates_off_peak_small
+Wollaston,Braintree,Red,905.6666666666665,1045.2171354345403,766.1161978987927,,particulates_off_peak_small
+Wonderland,Blue,Blue,349.0,395.0325971459356,302.96740285406435,,particulates_off_peak_small
+Wood Island,Blue,Blue,933.0,1345.9503602129437,520.0496397870563,,particulates_off_peak_small
+Woodland,D,Green,692.0,692.0,692.0,,particulates_off_peak_small
+Airport,Blue,Blue,3243.75,5212.95717972149,1274.5428202785095,0.0,particulates_off_peak_small
+Alewife,Ashmont/Braintree,Red,7324.0,8044.270782414504,6603.729217585496,0.0,particulates_off_peak_small
+Allston Street,B,Green,234.0,234.0,234.0,0.0,particulates_off_peak_small
+Allston Street,B,Green,433.0,628.1614716074871,237.8385283925129,1.0,particulates_off_peak_small
+Andrew,Ashmont/Braintree,Red,883.0,883.0,883.0,0.0,particulates_off_peak_small
+Andrew,Ashmont/Braintree,Red,9330.0,9330.0,9330.0,1.0,particulates_off_peak_small
+Aquarium,Blue,Blue,3131.0,4044.016429205959,2217.983570794041,0.0,particulates_off_peak_small
+Aquarium,Blue,Blue,5282.0,5282.0,5282.0,1.0,particulates_off_peak_small
+Arlington,B/C/D/E,Green,3292.6,4021.1751848642657,2564.0248151357337,0.0,particulates_off_peak_small
+Assembly,Orange,Orange,1233.5,1563.7188668141175,903.2811331858824,0.0,particulates_off_peak_small
+Assembly,Orange,Orange,571.0,571.0,571.0,1.0,particulates_off_peak_small
+Babcock Street,B,Green,267.0,404.1787155501902,129.82128444980978,0.0,particulates_off_peak_small
+Babcock Street,B,Green,222.0,222.0,222.0,1.0,particulates_off_peak_small
+Back Bay,Orange,Orange,1691.0,1691.0,1691.0,0.0,particulates_off_peak_small
+Back Bay,Orange,Orange,2526.0,3094.5138520739843,1957.486147926016,1.0,particulates_off_peak_small
+Beachmont,Blue,Blue,831.0,831.0,831.0,0.0,particulates_off_peak_small
+Beachmont,Blue,Blue,822.5,1110.2924599429248,534.7075400570752,1.0,particulates_off_peak_small
+Beaconsfield,D,Green,488.0,488.0,488.0,0.0,particulates_off_peak_small
+Blandford Street,B,Green,170.0,170.0,170.0,0.0,particulates_off_peak_small
+Blandford Street,B,Green,1667.0,1667.0,1667.0,1.0,particulates_off_peak_small
+Boston College,B,Green,247.0,429.9941451054026,64.00585489459739,0.0,particulates_off_peak_small
+Boston University Central,B,Green,316.5,331.3492424049175,301.6507575950825,0.0,particulates_off_peak_small
+Boston University Central,B,Green,481.5,629.2853172679884,333.7146827320116,1.0,particulates_off_peak_small
+Boylston,B/C/D/E,Green,3527.5714285714284,5141.982038994817,1913.1608181480397,0.0,particulates_off_peak_small
+Braintree,Braintree,Red,659.0,926.286363288515,391.7136367114849,0.0,particulates_off_peak_small
+Brandon Hall,C,Green,401.0,401.0,401.0,1.0,particulates_off_peak_small
+Brigham Circle,E,Green,562.0,863.3191510163779,260.68084898362207,0.0,particulates_off_peak_small
+Brigham Circle,E,Green,290.25,468.6098889885279,111.89011101147209,1.0,particulates_off_peak_small
+Broadway,Ashmont/Braintree,Red,3494.0,3494.0,3494.0,0.0,particulates_off_peak_small
+Broadway,Ashmont/Braintree,Red,8157.5,9729.398374577697,6585.601625422305,1.0,particulates_off_peak_small
+Brookline Hills,D,Green,432.0,432.0,432.0,0.0,particulates_off_peak_small
+Brookline Village,D,Green,495.5,564.0893577750951,426.91064222490485,0.0,particulates_off_peak_small
+Central,Ashmont/Braintree,Red,5546.333333333332,7317.059832071445,3775.606834595221,0.0,particulates_off_peak_small
+Charles/MGH,Ashmont/Braintree,Red,6289.0,6289.0,6289.0,1.0,particulates_off_peak_small
+Chestnut Hill,D,Green,426.0,426.0,426.0,0.0,particulates_off_peak_small
+Chestnut Hill Avenue,B,Green,290.0,290.0,290.0,1.0,particulates_off_peak_small
+Chinatown,Orange,Orange,1324.0,1324.0,1324.0,0.0,particulates_off_peak_small
+Chinatown,Orange,Orange,5876.5,7026.9627329905115,4726.037267009488,1.0,particulates_off_peak_small
+Chiswick Road,B,Green,88.0,88.0,88.0,0.0,particulates_off_peak_small
+Chiswick Road,B,Green,284.0,416.9360748630709,151.0639251369291,1.0,particulates_off_peak_small
+Cleveland Circle,C,Green,549.75,663.0089216500552,436.4910783499448,0.0,particulates_off_peak_small
+Community College,Orange,Orange,6089.0,8756.206778635657,3421.7932213643426,0.0,particulates_off_peak_small
+Coolidge Corner,C,Green,411.0,476.96211033616186,345.03788966383814,0.0,particulates_off_peak_small
+Copley,B/C/D/E,Green,1623.833333333333,2554.4777158268107,693.1889508398555,0.0,particulates_off_peak_small
+Copley,B/C/D/E,Green,4364.0,5997.901261806641,2730.098738193359,1.0,particulates_off_peak_small
+Davis,Ashmont/Braintree,Red,6625.0,6625.0,6625.0,0.0,particulates_off_peak_small
+Davis,Ashmont/Braintree,Red,7760.0,7760.0,7760.0,1.0,particulates_off_peak_small
+Dean Road,C,Green,289.0,289.0,289.0,1.0,particulates_off_peak_small
+Downtown Crossing,Ashmont/Braintree,Red,8581.0,8581.0,8581.0,0.0,particulates_off_peak_small
+Downtown Crossing,Orange,Orange,3757.666666666666,4617.26095081084,2898.072382522493,0.0,particulates_off_peak_small
+Downtown Crossing,Orange,Orange,5201.0,7138.408836564962,3263.5911634350373,1.0,particulates_off_peak_small
+Eliot,D,Green,396.5,465.08935777509515,327.91064222490485,0.0,particulates_off_peak_small
+Eliot,D,Green,999.0,999.0,999.0,1.0,particulates_off_peak_small
+Englewood Avenue,C,Green,511.0,669.3919189857868,352.6080810142133,0.0,particulates_off_peak_small
+Fairbanks Street,C,Green,375.0,375.0,375.0,0.0,particulates_off_peak_small
+Fenway Park,D,Green,417.0,417.0,417.0,0.0,particulates_off_peak_small
+Fenway Park,D,Green,3965.0,3965.0,3965.0,1.0,particulates_off_peak_small
+Fields Corner,Ashmont,Red,3247.0,3921.579869251967,2572.420130748033,0.0,particulates_off_peak_small
+Fields Corner,Ashmont,Red,2104.0,2104.0,2104.0,1.0,particulates_off_peak_small
+Forest Hills,Orange,Orange,965.4285714285713,1188.081408181858,742.7757346752848,0.0,particulates_off_peak_small
+Government Center,B/C/D/E,Green,3072.5,4530.766877397373,1614.2331226026267,0.0,particulates_off_peak_small
+Government Center,B/C/D/E,Green,1011.0,1011.0,1011.0,1.0,particulates_off_peak_small
+Government Center,Blue,Blue,1903.0,1903.0,1903.0,0.0,particulates_off_peak_small
+Government Center,Blue,Blue,6818.0,9563.053187098569,4072.946812901433,1.0,particulates_off_peak_small
+Green Street,Orange,Orange,946.0,946.0,946.0,0.0,particulates_off_peak_small
+Green Street,Orange,Orange,1097.0,1109.727922061358,1084.272077938642,1.0,particulates_off_peak_small
+Griggs Street,B,Green,897.0,897.0,897.0,1.0,particulates_off_peak_small
+Harvard,Ashmont/Braintree,Red,3926.5,5445.864889243749,2407.1351107562523,0.0,particulates_off_peak_small
+Harvard Avenue,B,Green,258.5,344.05992052357226,172.94007947642777,0.0,particulates_off_peak_small
+Harvard Avenue,B,Green,406.5,673.0792565073283,139.9207434926716,1.0,particulates_off_peak_small
+Hawes Street,C,Green,405.0,405.0,405.0,0.0,particulates_off_peak_small
+Haymarket,C/E,Green,2454.0,2454.0,2454.0,0.0,particulates_off_peak_small
+Haymarket,C/E,Green,543.0,1052.22293742525,33.777062574750055,1.0,particulates_off_peak_small
+Haymarket,Orange,Orange,4747.0,5950.495741579503,3543.504258420496,0.0,particulates_off_peak_small
+Haymarket,Orange,Orange,4550.0,6010.001598172642,3089.9984018273585,1.0,particulates_off_peak_small
+Heath Street,E,Green,2918.333333333333,4464.471474482161,1372.1951921845061,0.0,particulates_off_peak_small
+Hynes Convention Center,B/C/D,Green,1966.5,3836.7974362384175,96.2025637615818,0.0,particulates_off_peak_small
+Hynes Convention Center,B/C/D,Green,4535.0,4535.0,4535.0,1.0,particulates_off_peak_small
+JFK/UMass,Ashmont/Braintree,Red,582.0,582.0,582.0,0.0,particulates_off_peak_small
+JFK/UMass,Ashmont/Braintree,Red,6175.5,10130.27243340246,2220.7275665975417,1.0,particulates_off_peak_small
+Jackson Square,Orange,Orange,1338.5,1651.7483040656405,1025.2516959343595,0.0,particulates_off_peak_small
+Jackson Square,Orange,Orange,861.5,1000.80003589375,722.1999641062501,1.0,particulates_off_peak_small
+Kendall/MIT,Ashmont/Braintree,Red,2880.0,2880.0,2880.0,0.0,particulates_off_peak_small
+Kenmore,B/C/D,Green,3834.0,5544.130404384414,2123.869595615586,1.0,particulates_off_peak_small
+Lechmere,E,Green,497.66666666666674,1099.803085318343,-104.46975198500952,1.0,particulates_off_peak_small
+Longwood,D,Green,516.0,516.0,516.0,0.0,particulates_off_peak_small
+Longwood,D,Green,1978.0,1978.0,1978.0,1.0,particulates_off_peak_small
+Longwood Medical Area,E,Green,83.0,83.0,83.0,0.0,particulates_off_peak_small
+Longwood Medical Area,E,Green,449.0,449.0,449.0,1.0,particulates_off_peak_small
+Malden Center,Orange,Orange,975.0,1675.035713374682,274.964286625318,0.0,particulates_off_peak_small
+Malden Center,Orange,Orange,611.75,825.3483380085153,398.1516619914846,1.0,particulates_off_peak_small
+Massachusetts Ave,Orange,Orange,2595.333333333333,3038.4499470292467,2152.2167196374203,1.0,particulates_off_peak_small
+Maverick,Blue,Blue,6552.75,7164.190580378285,5941.309419621715,0.0,particulates_off_peak_small
+Maverick,Blue,Blue,1472.0,1472.0,1472.0,1.0,particulates_off_peak_small
+Mission Park,E,Green,503.33333333333326,781.6846700764261,224.98199659024053,0.0,particulates_off_peak_small
+Mission Park,E,Green,694.8,1376.4235764701803,13.176423529819429,1.0,particulates_off_peak_small
+Museum Of Fine Arts,E,Green,452.0,452.0,452.0,0.0,particulates_off_peak_small
+Museum Of Fine Arts,E,Green,1328.0,1328.0,1328.0,1.0,particulates_off_peak_small
+Newton Centre,D,Green,336.0,336.0,336.0,0.0,particulates_off_peak_small
+Newton Highlands,D,Green,461.0,461.0,461.0,0.0,particulates_off_peak_small
+North Quincy,Braintree,Red,599.0,724.8650070512055,473.13499294879455,0.0,particulates_off_peak_small
+North Quincy,Braintree,Red,1538.0,1538.0,1538.0,1.0,particulates_off_peak_small
+North Station,C/E,Green,2739.5,4349.729900769867,1129.2700992301336,0.0,particulates_off_peak_small
+North Station,C/E,Green,1869.0,1869.0,1869.0,1.0,particulates_off_peak_small
+North Station,Orange,Orange,4822.0,4822.0,4822.0,0.0,particulates_off_peak_small
+North Station,Orange,Orange,1704.666666666667,2003.4848945801148,1405.8484387532187,1.0,particulates_off_peak_small
+Northeastern,E,Green,924.0,924.0,924.0,1.0,particulates_off_peak_small
+Oak Grove,Orange,Orange,628.0,950.8456803696364,305.15431963036383,1.0,particulates_off_peak_small
+Orient Heights,Blue,Blue,1457.0,1457.0,1457.0,0.0,particulates_off_peak_small
+Orient Heights,Blue,Blue,403.0,403.0,403.0,1.0,particulates_off_peak_small
+Packards Corner,B,Green,175.0,175.0,175.0,0.0,particulates_off_peak_small
+Park Street,Ashmont/Braintree,Red,8342.2,9541.405236813116,7142.9947631868845,0.0,particulates_off_peak_small
+Park Street,Ashmont/Braintree,Red,5756.333333333332,9957.64340679058,1555.0232598760867,1.0,particulates_off_peak_small
+Park Street,B/C/D/E,Green,2418.5714285714284,2781.279234361368,2055.863622781489,0.0,particulates_off_peak_small
+Park Street,B/C/D/E,Green,3943.0,4784.316824983312,3101.6831750166884,1.0,particulates_off_peak_small
+Pleasant Street,B,Green,331.6666666666667,445.13178612341136,218.20154720992204,0.0,particulates_off_peak_small
+Pleasant Street,B,Green,212.5,224.5208152801713,200.47918471982868,1.0,particulates_off_peak_small
+Porter,Ashmont/Braintree,Red,5969.0,5969.0,5969.0,0.0,particulates_off_peak_small
+Porter,Ashmont/Braintree,Red,8147.0,8147.0,8147.0,1.0,particulates_off_peak_small
+Prudential,E,Green,597.3333333333334,936.9346682345183,257.7319984321485,0.0,particulates_off_peak_small
+Prudential,E,Green,3896.666666666666,4752.877115874881,3040.456217458452,1.0,particulates_off_peak_small
+Quincy Adams,Braintree,Red,553.0,553.0,553.0,0.0,particulates_off_peak_small
+Quincy Adams,Braintree,Red,703.0,703.0,703.0,1.0,particulates_off_peak_small
+Quincy Center,Braintree,Red,692.0,692.0,692.0,1.0,particulates_off_peak_small
+Reservoir,D,Green,412.5,489.57463914933373,335.4253608506663,0.0,particulates_off_peak_small
+Revere Beach,Blue,Blue,731.0,731.0,731.0,0.0,particulates_off_peak_small
+Revere Beach,Blue,Blue,1082.0,1082.0,1082.0,1.0,particulates_off_peak_small
+Riverside,D,Green,1300.6666666666667,1395.8419435684616,1205.4913897648719,0.0,particulates_off_peak_small
+Riverway,E,Green,247.0,247.0,247.0,0.0,particulates_off_peak_small
+Riverway,E,Green,920.0,920.0,920.0,1.0,particulates_off_peak_small
+Roxbury Crossing,Orange,Orange,915.0,915.0,915.0,0.0,particulates_off_peak_small
+Roxbury Crossing,Orange,Orange,1131.3333333333333,1324.326424746817,938.3402419198494,1.0,particulates_off_peak_small
+Ruggles,Orange,Orange,1454.0,1454.0,1454.0,0.0,particulates_off_peak_small
+Ruggles,Orange,Orange,1475.0,1663.8888562091477,1286.1111437908526,1.0,particulates_off_peak_small
+Saint Marys Street,C,Green,443.66666666666674,510.3324999947917,377.0008333385417,0.0,particulates_off_peak_small
+Saint Marys Street,C,Green,1325.0,1325.0,1325.0,1.0,particulates_off_peak_small
+Saint Paul Street B,B,Green,244.0,244.0,244.0,1.0,particulates_off_peak_small
+Saint Paul Street C,C,Green,500.0,516.9705627484772,483.0294372515229,0.0,particulates_off_peak_small
+Saint Paul Street C,C,Green,1247.5,2015.509331540531,479.49066845946885,1.0,particulates_off_peak_small
+Savin Hill,Ashmont,Red,2093.0,2579.4894654563445,1606.5105345436555,0.0,particulates_off_peak_small
+Savin Hill,Ashmont,Red,5360.0,7567.5873708644,3152.4126291355988,1.0,particulates_off_peak_small
+Science Park,E,Green,1639.0,1639.0,1639.0,0.0,particulates_off_peak_small
+Science Park,E,Green,334.0,334.0,334.0,1.0,particulates_off_peak_small
+Shawmut,Ashmont,Red,2095.0,2346.7300141024107,1843.269985897589,0.0,particulates_off_peak_small
+Shawmut,Ashmont,Red,1987.0,1987.0,1987.0,1.0,particulates_off_peak_small
+South Station,Ashmont/Braintree,Red,8373.0,8373.0,8373.0,0.0,particulates_off_peak_small
+South Station,Ashmont/Braintree,Red,7334.0,7334.0,7334.0,1.0,particulates_off_peak_small
+South Street,B,Green,240.0,240.0,240.0,1.0,particulates_off_peak_small
+State,Blue,Blue,4044.2,6690.418471706371,1397.9815282936293,0.0,particulates_off_peak_small
+State,Blue,Blue,7932.0,7932.0,7932.0,1.0,particulates_off_peak_small
+State,Orange,Orange,4607.0,4607.0,4607.0,0.0,particulates_off_peak_small
+State,Orange,Orange,4368.5,4397.49137802865,4339.50862197135,1.0,particulates_off_peak_small
+Stony Brook,Orange,Orange,1371.5,1556.054869889689,1186.945130110311,1.0,particulates_off_peak_small
+Suffolk Downs,Blue,Blue,801.0,801.0,801.0,0.0,particulates_off_peak_small
+Suffolk Downs,Blue,Blue,1276.0,1276.0,1276.0,1.0,particulates_off_peak_small
+Sullivan Square,Orange,Orange,2553.0,2564.313708498985,2541.686291501015,0.0,particulates_off_peak_small
+Sullivan Square,Orange,Orange,1208.4,2135.3896439550986,281.41035604490173,1.0,particulates_off_peak_small
+Summit Ave/Winchester St,C,Green,386.0,386.0,386.0,0.0,particulates_off_peak_small
+Sutherland Road,B,Green,137.0,137.0,137.0,1.0,particulates_off_peak_small
+Symphony,E,Green,329.0,329.0,329.0,0.0,particulates_off_peak_small
+Tufts Medical Center,Orange,Orange,2943.0,3846.1566862953523,2039.8433137046488,0.0,particulates_off_peak_small
+Tufts Medical Center,Orange,Orange,4982.5,6090.53632611932,3874.46367388068,1.0,particulates_off_peak_small
+Waban,D,Green,452.0,531.1959594928933,372.8040405071066,0.0,particulates_off_peak_small
+Waban,D,Green,951.0,951.0,951.0,1.0,particulates_off_peak_small
+Warren Street,B,Green,322.0,322.0,322.0,0.0,particulates_off_peak_small
+Warren Street,B,Green,220.0,220.0,220.0,1.0,particulates_off_peak_small
+Washington Square,C,Green,675.75,1309.4593839713384,42.040616028661596,1.0,particulates_off_peak_small
+Washington Street,B,Green,187.0,196.89949493661166,177.10050506338834,1.0,particulates_off_peak_small
+Wellington,Orange,Orange,940.5,1256.576731190387,624.4232688096133,0.0,particulates_off_peak_small
+Wellington,Orange,Orange,1131.5,1975.0783899555515,287.9216100444488,1.0,particulates_off_peak_small
+Wollaston,Braintree,Red,764.0,764.0,764.0,0.0,particulates_off_peak_small
+Wollaston,Braintree,Red,976.5,1070.5452018978108,882.4547981021892,1.0,particulates_off_peak_small
+Wonderland,Blue,Blue,349.0,395.0325971459356,302.96740285406435,1.0,particulates_off_peak_small
+Wood Island,Blue,Blue,933.0,1345.9503602129437,520.0496397870563,1.0,particulates_off_peak_small
+Woodland,D,Green,692.0,692.0,692.0,0.0,particulates_off_peak_small
+Airport,Blue,Blue,54.33333333333334,105.16967204230544,3.4969946243612497,,particulates_rush_hour_large
+Alewife,Ashmont/Braintree,Red,580.5,692.929978208661,468.07002179133895,,particulates_rush_hour_large
+Andrew,Ashmont/Braintree,Red,1671.0,1671.0,1671.0,,particulates_rush_hour_large
+Aquarium,Blue,Blue,228.5,287.1898628384834,169.81013716151656,,particulates_rush_hour_large
+Ashmont,Ashmont,Red,112.66666666666669,158.01347838847718,67.31985494485613,,particulates_rush_hour_large
+Assembly,Orange,Orange,81.0,81.0,81.0,,particulates_rush_hour_large
+Babcock Street,B,Green,16.0,16.0,16.0,,particulates_rush_hour_large
+Back Bay,Orange,Orange,204.5,275.9177848998413,133.08221510015872,,particulates_rush_hour_large
+Beachmont,Blue,Blue,16.666666666666668,20.45260556386685,12.880727769466484,,particulates_rush_hour_large
+Blandford Street,B,Green,347.0,347.0,347.0,,particulates_rush_hour_large
+Boston College,B,Green,13.157894736842106,17.49831641139684,8.81747306228737,,particulates_rush_hour_large
+Boston University Central,B,Green,76.2,124.95243583658156,27.447564163418466,,particulates_rush_hour_large
+Boston University West,B,Green,34.5,45.46965511460289,23.530344885397113,,particulates_rush_hour_large
+Brigham Circle,E,Green,15.5,19.035533905932734,11.96446609406726,,particulates_rush_hour_large
+Broadway,Ashmont/Braintree,Red,1290.6666666666667,2024.401677870757,556.9316554625764,,particulates_rush_hour_large
+Central,Ashmont/Braintree,Red,504.5,587.2314933988259,421.768506601174,,particulates_rush_hour_large
+Chestnut Hill Avenue,B,Green,8.0,8.0,8.0,,particulates_rush_hour_large
+Chinatown,Orange,Orange,118.0,118.0,118.0,,particulates_rush_hour_large
+Cleveland Circle,C,Green,16.0,16.0,16.0,,particulates_rush_hour_large
+Community College,Orange,Orange,82.0,82.0,82.0,,particulates_rush_hour_large
+Coolidge Corner,C,Green,27.0,48.86080366414065,5.139196335859348,,particulates_rush_hour_large
+Copley,B/C/D/E,Green,179.88888888888889,394.84146763850777,-35.063689860729994,,particulates_rush_hour_large
+Davis,Ashmont/Braintree,Red,644.0,834.9188309203678,453.08116907963216,,particulates_rush_hour_large
+Dean Road,C,Green,11.0,11.0,11.0,,particulates_rush_hour_large
+Downtown Crossing,Ashmont/Braintree,Red,1206.0,1206.0,1206.0,,particulates_rush_hour_large
+Downtown Crossing,Orange,Orange,305.0,597.7422074112308,12.257792588769348,,particulates_rush_hour_large
+Englewood Avenue,C,Green,7.0,7.0,7.0,,particulates_rush_hour_large
+Fenwood Road,E,Green,15.5,26.10660171779821,4.893398282201788,,particulates_rush_hour_large
+Government Center,B/C/D/E,Green,74.0,74.0,74.0,,particulates_rush_hour_large
+Government Center,Blue,Blue,122.8181818181818,226.3013381111923,19.33502552517132,,particulates_rush_hour_large
+Green Street,Orange,Orange,72.0,113.01219330881977,30.98780669118025,,particulates_rush_hour_large
+Griggs Street,B,Green,17.0,17.0,17.0,,particulates_rush_hour_large
+Harvard,Ashmont/Braintree,Red,599.0,733.350288425444,464.64971157455597,,particulates_rush_hour_large
+Harvard Avenue,B,Green,18.0,18.0,18.0,,particulates_rush_hour_large
+Hawes Street,C,Green,11.0,11.0,11.0,,particulates_rush_hour_large
+Haymarket,Orange,Orange,303.0,303.0,303.0,,particulates_rush_hour_large
+Hynes Convention Center,B/C/D,Green,171.5,346.43713156445665,-3.4371315644565925,,particulates_rush_hour_large
+JFK/UMass,Ashmont/Braintree,Red,119.0,119.0,119.0,,particulates_rush_hour_large
+Kendall/MIT,Ashmont/Braintree,Red,251.0,251.0,251.0,,particulates_rush_hour_large
+Kenmore,B/C/D,Green,453.0,453.0,453.0,,particulates_rush_hour_large
+Lechmere,E,Green,33.666666666666664,42.171567214782044,25.161766118551284,,particulates_rush_hour_large
+Longwood Medical Area,E,Green,18.666666666666668,25.173073765314374,12.160259568018956,,particulates_rush_hour_large
+Malden Center,Orange,Orange,39.5,44.44974746830582,34.55025253169418,,particulates_rush_hour_large
+Massachusetts Ave,Orange,Orange,70.71428571428571,99.70114644873048,41.727424979840954,,particulates_rush_hour_large
+Maverick,Blue,Blue,132.66666666666666,285.3962752346628,-20.062941901329513,,particulates_rush_hour_large
+Mission Park,E,Green,9.0,9.0,9.0,,particulates_rush_hour_large
+Museum Of Fine Arts,E,Green,6.0,6.0,6.0,,particulates_rush_hour_large
+North Station,C/E,Green,65.0,124.39696961966999,5.603030380330011,,particulates_rush_hour_large
+North Station,Orange,Orange,393.0,757.8670990922584,28.13290090774149,,particulates_rush_hour_large
+Northeastern,E,Green,66.0,66.0,66.0,,particulates_rush_hour_large
+Oak Grove,Orange,Orange,48.33333333333334,54.68418629441922,41.98248037224745,,particulates_rush_hour_large
+Orient Heights,Blue,Blue,20.0,21.414213562373096,18.585786437626904,,particulates_rush_hour_large
+Packards Corner,B,Green,25.5,31.850852961085888,19.14914703891412,,particulates_rush_hour_large
+Park Street,Ashmont/Braintree,Red,582.5,791.0965004500314,373.9034995499685,,particulates_rush_hour_large
+Park Street,B/C/D/E,Green,45.0,45.0,45.0,,particulates_rush_hour_large
+Pleasant Street,B,Green,15.0,15.0,15.0,,particulates_rush_hour_large
+Porter,Ashmont/Braintree,Red,712.0,712.0,712.0,,particulates_rush_hour_large
+Prudential,E,Green,136.5,265.90054095713816,7.09945904286181,,particulates_rush_hour_large
+Revere Beach,Blue,Blue,25.5,30.449747468305837,20.55025253169417,,particulates_rush_hour_large
+Riverway,E,Green,8.0,8.0,8.0,,particulates_rush_hour_large
+Roxbury Crossing,Orange,Orange,76.0,76.0,76.0,,particulates_rush_hour_large
+Ruggles,Orange,Orange,63.5,69.86396103067892,57.13603896932107,,particulates_rush_hour_large
+Saint Marys Street,C,Green,9.0,9.0,9.0,,particulates_rush_hour_large
+Saint Paul Street C,C,Green,5.0,5.0,5.0,,particulates_rush_hour_large
+Savin Hill,Ashmont,Red,341.0,341.0,341.0,,particulates_rush_hour_large
+Science Park,E,Green,8.0,8.0,8.0,,particulates_rush_hour_large
+South Station,Ashmont/Braintree,Red,990.6666666666665,1384.486845597779,596.8464877355543,,particulates_rush_hour_large
+South Street,B,Green,14.0,14.0,14.0,,particulates_rush_hour_large
+State,Blue,Blue,266.0,266.0,266.0,,particulates_rush_hour_large
+State,Orange,Orange,497.0,497.0,497.0,,particulates_rush_hour_large
+Sullivan Square,Orange,Orange,188.0,188.0,188.0,,particulates_rush_hour_large
+Symphony,E,Green,92.5,197.85891039679558,-12.858910396795581,,particulates_rush_hour_large
+Tappan Street,C,Green,13.0,13.0,13.0,,particulates_rush_hour_large
+Tufts Medical Center,Orange,Orange,92.0,92.0,92.0,,particulates_rush_hour_large
+Warren Street,B,Green,14.333333333333336,17.94811778979359,10.718548876873076,,particulates_rush_hour_large
+Washington Square,C,Green,10.5,15.696152422706632,5.303847577293368,,particulates_rush_hour_large
+Wellington,Orange,Orange,77.25,101.39366721661536,53.10633278338466,,particulates_rush_hour_large
+Wood Island,Blue,Blue,56.0,115.39696961966999,-3.396969619669989,,particulates_rush_hour_large
+Airport,Blue,Blue,112.0,112.0,112.0,0.0,particulates_rush_hour_large
+Airport,Blue,Blue,25.5,38.935028842544405,12.064971157455595,1.0,particulates_rush_hour_large
+Alewife,Ashmont/Braintree,Red,580.5,692.929978208661,468.07002179133895,1.0,particulates_rush_hour_large
+Andrew,Ashmont/Braintree,Red,1671.0,1671.0,1671.0,1.0,particulates_rush_hour_large
+Aquarium,Blue,Blue,228.5,287.1898628384834,169.81013716151656,1.0,particulates_rush_hour_large
+Ashmont,Ashmont,Red,112.66666666666669,158.01347838847718,67.31985494485613,0.0,particulates_rush_hour_large
+Assembly,Orange,Orange,81.0,81.0,81.0,0.0,particulates_rush_hour_large
+Babcock Street,B,Green,16.0,16.0,16.0,0.0,particulates_rush_hour_large
+Back Bay,Orange,Orange,154.0,154.0,154.0,0.0,particulates_rush_hour_large
+Back Bay,Orange,Orange,255.0,255.0,255.0,1.0,particulates_rush_hour_large
+Beachmont,Blue,Blue,14.5,15.207106781186548,13.792893218813452,0.0,particulates_rush_hour_large
+Beachmont,Blue,Blue,21.0,21.0,21.0,1.0,particulates_rush_hour_large
+Blandford Street,B,Green,347.0,347.0,347.0,1.0,particulates_rush_hour_large
+Boston College,B,Green,13.157894736842106,17.49831641139684,8.81747306228737,0.0,particulates_rush_hour_large
+Boston University Central,B,Green,77.0,128.47472252303578,25.52527747696419,0.0,particulates_rush_hour_large
+Boston University Central,B,Green,69.0,69.0,69.0,1.0,particulates_rush_hour_large
+Boston University West,B,Green,25.0,25.0,25.0,0.0,particulates_rush_hour_large
+Boston University West,B,Green,44.0,44.0,44.0,1.0,particulates_rush_hour_large
+Brigham Circle,E,Green,13.0,13.0,13.0,0.0,particulates_rush_hour_large
+Brigham Circle,E,Green,18.0,18.0,18.0,1.0,particulates_rush_hour_large
+Broadway,Ashmont/Braintree,Red,1290.6666666666667,2024.401677870757,556.9316554625764,0.0,particulates_rush_hour_large
+Central,Ashmont/Braintree,Red,446.0,446.0,446.0,0.0,particulates_rush_hour_large
+Central,Ashmont/Braintree,Red,563.0,563.0,563.0,1.0,particulates_rush_hour_large
+Chestnut Hill Avenue,B,Green,8.0,8.0,8.0,0.0,particulates_rush_hour_large
+Chinatown,Orange,Orange,118.0,118.0,118.0,0.0,particulates_rush_hour_large
+Cleveland Circle,C,Green,16.0,16.0,16.0,0.0,particulates_rush_hour_large
+Community College,Orange,Orange,82.0,82.0,82.0,1.0,particulates_rush_hour_large
+Coolidge Corner,C,Green,8.0,8.0,8.0,0.0,particulates_rush_hour_large
+Coolidge Corner,C,Green,29.11111111111111,51.17755859536112,7.044663626861105,1.0,particulates_rush_hour_large
+Copley,B/C/D/E,Green,38.5,46.005553499465144,30.994446500534863,0.0,particulates_rush_hour_large
+Copley,B/C/D/E,Green,293.0,530.4521004329083,55.54789956709163,1.0,particulates_rush_hour_large
+Davis,Ashmont/Braintree,Red,509.0,509.0,509.0,0.0,particulates_rush_hour_large
+Davis,Ashmont/Braintree,Red,779.0,779.0,779.0,1.0,particulates_rush_hour_large
+Dean Road,C,Green,11.0,11.0,11.0,1.0,particulates_rush_hour_large
+Downtown Crossing,Ashmont/Braintree,Red,1206.0,1206.0,1206.0,0.0,particulates_rush_hour_large
+Downtown Crossing,Orange,Orange,98.0,98.0,98.0,0.0,particulates_rush_hour_large
+Downtown Crossing,Orange,Orange,512.0,512.0,512.0,1.0,particulates_rush_hour_large
+Englewood Avenue,C,Green,7.0,7.0,7.0,0.0,particulates_rush_hour_large
+Fenwood Road,E,Green,8.0,8.0,8.0,0.0,particulates_rush_hour_large
+Fenwood Road,E,Green,23.0,23.0,23.0,1.0,particulates_rush_hour_large
+Government Center,B/C/D/E,Green,74.0,74.0,74.0,1.0,particulates_rush_hour_large
+Government Center,Blue,Blue,307.0,307.0,307.0,0.0,particulates_rush_hour_large
+Government Center,Blue,Blue,104.4,192.44821911253453,16.35178088746548,1.0,particulates_rush_hour_large
+Green Street,Orange,Orange,43.0,43.0,43.0,0.0,particulates_rush_hour_large
+Green Street,Orange,Orange,101.0,101.0,101.0,1.0,particulates_rush_hour_large
+Griggs Street,B,Green,17.0,17.0,17.0,0.0,particulates_rush_hour_large
+Harvard,Ashmont/Braintree,Red,504.0,504.0,504.0,0.0,particulates_rush_hour_large
+Harvard,Ashmont/Braintree,Red,694.0,694.0,694.0,1.0,particulates_rush_hour_large
+Harvard Avenue,B,Green,18.0,18.0,18.0,0.0,particulates_rush_hour_large
+Hawes Street,C,Green,11.0,11.0,11.0,0.0,particulates_rush_hour_large
+Haymarket,Orange,Orange,303.0,303.0,303.0,0.0,particulates_rush_hour_large
+Hynes Convention Center,B/C/D,Green,171.5,346.43713156445665,-3.4371315644565925,0.0,particulates_rush_hour_large
+JFK/UMass,Ashmont/Braintree,Red,119.0,119.0,119.0,0.0,particulates_rush_hour_large
+Kendall/MIT,Ashmont/Braintree,Red,251.0,251.0,251.0,0.0,particulates_rush_hour_large
+Kenmore,B/C/D,Green,453.0,453.0,453.0,1.0,particulates_rush_hour_large
+Lechmere,E,Green,33.666666666666664,42.171567214782044,25.161766118551284,1.0,particulates_rush_hour_large
+Longwood Medical Area,E,Green,19.0,19.0,19.0,0.0,particulates_rush_hour_large
+Longwood Medical Area,E,Green,18.5,27.69238815542512,9.307611844574883,1.0,particulates_rush_hour_large
+Malden Center,Orange,Orange,43.0,43.0,43.0,0.0,particulates_rush_hour_large
+Malden Center,Orange,Orange,36.0,36.0,36.0,1.0,particulates_rush_hour_large
+Massachusetts Ave,Orange,Orange,70.71428571428571,99.70114644873048,41.727424979840954,0.0,particulates_rush_hour_large
+Maverick,Blue,Blue,309.0,309.0,309.0,0.0,particulates_rush_hour_large
+Maverick,Blue,Blue,44.5,48.03553390593274,40.96446609406726,1.0,particulates_rush_hour_large
+Mission Park,E,Green,9.0,9.0,9.0,0.0,particulates_rush_hour_large
+Museum Of Fine Arts,E,Green,6.0,6.0,6.0,0.0,particulates_rush_hour_large
+North Station,C/E,Green,107.0,107.0,107.0,0.0,particulates_rush_hour_large
+North Station,C/E,Green,23.0,23.0,23.0,1.0,particulates_rush_hour_large
+North Station,Orange,Orange,651.0,651.0,651.0,0.0,particulates_rush_hour_large
+North Station,Orange,Orange,135.0,135.0,135.0,1.0,particulates_rush_hour_large
+Northeastern,E,Green,66.0,66.0,66.0,1.0,particulates_rush_hour_large
+Oak Grove,Orange,Orange,48.33333333333334,54.68418629441922,41.98248037224745,1.0,particulates_rush_hour_large
+Orient Heights,Blue,Blue,21.0,21.0,21.0,0.0,particulates_rush_hour_large
+Orient Heights,Blue,Blue,19.0,19.0,19.0,1.0,particulates_rush_hour_large
+Packards Corner,B,Green,25.5,31.850852961085888,19.14914703891412,0.0,particulates_rush_hour_large
+Park Street,Ashmont/Braintree,Red,730.0,730.0,730.0,0.0,particulates_rush_hour_large
+Park Street,Ashmont/Braintree,Red,435.0,435.0,435.0,1.0,particulates_rush_hour_large
+Park Street,B/C/D/E,Green,45.0,45.0,45.0,1.0,particulates_rush_hour_large
+Pleasant Street,B,Green,15.0,15.0,15.0,0.0,particulates_rush_hour_large
+Porter,Ashmont/Braintree,Red,712.0,712.0,712.0,1.0,particulates_rush_hour_large
+Prudential,E,Green,45.0,45.0,45.0,0.0,particulates_rush_hour_large
+Prudential,E,Green,228.0,228.0,228.0,1.0,particulates_rush_hour_large
+Revere Beach,Blue,Blue,22.0,22.0,22.0,0.0,particulates_rush_hour_large
+Revere Beach,Blue,Blue,29.0,29.0,29.0,1.0,particulates_rush_hour_large
+Riverway,E,Green,8.0,8.0,8.0,1.0,particulates_rush_hour_large
+Roxbury Crossing,Orange,Orange,76.0,76.0,76.0,0.0,particulates_rush_hour_large
+Ruggles,Orange,Orange,59.0,59.0,59.0,0.0,particulates_rush_hour_large
+Ruggles,Orange,Orange,68.0,68.0,68.0,1.0,particulates_rush_hour_large
+Saint Marys Street,C,Green,9.0,9.0,9.0,0.0,particulates_rush_hour_large
+Saint Paul Street C,C,Green,5.0,5.0,5.0,0.0,particulates_rush_hour_large
+Savin Hill,Ashmont,Red,341.0,341.0,341.0,0.0,particulates_rush_hour_large
+Science Park,E,Green,8.0,8.0,8.0,1.0,particulates_rush_hour_large
+South Station,Ashmont/Braintree,Red,1194.5,1441.2802666341051,947.7197333658947,0.0,particulates_rush_hour_large
+South Station,Ashmont/Braintree,Red,583.0,583.0,583.0,1.0,particulates_rush_hour_large
+South Street,B,Green,14.0,14.0,14.0,1.0,particulates_rush_hour_large
+State,Blue,Blue,266.0,266.0,266.0,1.0,particulates_rush_hour_large
+State,Orange,Orange,497.0,497.0,497.0,1.0,particulates_rush_hour_large
+Sullivan Square,Orange,Orange,188.0,188.0,188.0,0.0,particulates_rush_hour_large
+Symphony,E,Green,18.0,18.0,18.0,0.0,particulates_rush_hour_large
+Symphony,E,Green,167.0,167.0,167.0,1.0,particulates_rush_hour_large
+Tappan Street,C,Green,13.0,13.0,13.0,0.0,particulates_rush_hour_large
+Tufts Medical Center,Orange,Orange,92.0,92.0,92.0,0.0,particulates_rush_hour_large
+Warren Street,B,Green,12.5,15.386751345948126,9.613248654051873,0.0,particulates_rush_hour_large
+Warren Street,B,Green,18.0,18.0,18.0,1.0,particulates_rush_hour_large
+Washington Square,C,Green,15.0,15.0,15.0,0.0,particulates_rush_hour_large
+Washington Square,C,Green,6.0,6.0,6.0,1.0,particulates_rush_hour_large
+Wellington,Orange,Orange,84.5,119.14823227814081,49.85176772185917,0.0,particulates_rush_hour_large
+Wellington,Orange,Orange,70.0,88.38477631085024,51.61522368914977,1.0,particulates_rush_hour_large
+Wood Island,Blue,Blue,98.0,98.0,98.0,0.0,particulates_rush_hour_large
+Wood Island,Blue,Blue,14.0,14.0,14.0,1.0,particulates_rush_hour_large
+Airport,Blue,Blue,85.75,175.48433010838158,-3.984330108381599,,particulates_off_peak_large
+Alewife,Ashmont/Braintree,Red,117.4,143.19341001108617,91.60658998891384,,particulates_off_peak_large
+Allston Street,B,Green,16.666666666666668,25.958239909844238,7.375093423489098,,particulates_off_peak_large
+Andrew,Ashmont/Braintree,Red,128.0,276.492424049175,-20.492424049174982,,particulates_off_peak_large
+Aquarium,Blue,Blue,107.0,162.64770136013408,51.35229863986594,,particulates_off_peak_large
+Arlington,B/C/D/E,Green,142.8,181.59046274537081,104.00953725462921,,particulates_off_peak_large
+Assembly,Orange,Orange,38.0,52.10673597966589,23.893264020334115,,particulates_off_peak_large
+Babcock Street,B,Green,16.0,26.535653752852742,5.464346247147262,,particulates_off_peak_large
+Back Bay,Orange,Orange,68.0,88.95232683975695,47.047673160243036,,particulates_off_peak_large
+Beachmont,Blue,Blue,26.66666666666667,28.748332666132804,24.585000667200536,,particulates_off_peak_large
+Beaconsfield,D,Green,4.0,4.0,4.0,,particulates_off_peak_large
+Blandford Street,B,Green,56.0,108.32590180780451,3.67409819219548,,particulates_off_peak_large
+Boston College,B,Green,19.25,56.7571421770003,-18.25714217700029,,particulates_off_peak_large
+Boston University Central,B,Green,22.75,27.53713553878169,17.96286446121831,,particulates_off_peak_large
+Boylston,B/C/D/E,Green,171.42857142857142,226.33715346227885,116.51998939486396,,particulates_off_peak_large
+Braintree,Braintree,Red,20.0,24.242640687119284,15.757359312880714,,particulates_off_peak_large
+Brandon Hall,C,Green,12.0,12.0,12.0,,particulates_off_peak_large
+Brigham Circle,E,Green,11.111111111111109,17.43463292293205,4.787589299290173,,particulates_off_peak_large
+Broadway,Ashmont/Braintree,Red,171.33333333333334,277.07988568060057,65.58678098606609,,particulates_off_peak_large
+Brookline Hills,D,Green,4.0,4.0,4.0,,particulates_off_peak_large
+Brookline Village,D,Green,13.5,19.86396103067893,7.136038969321072,,particulates_off_peak_large
+Central,Ashmont/Braintree,Red,215.0,391.31505891443305,38.684941085566955,,particulates_off_peak_large
+Charles/MGH,Ashmont/Braintree,Red,144.0,144.0,144.0,,particulates_off_peak_large
+Chestnut Hill,D,Green,3.0,3.0,3.0,,particulates_off_peak_large
+Chestnut Hill Avenue,B,Green,8.0,8.0,8.0,,particulates_off_peak_large
+Chinatown,Orange,Orange,118.0,194.49182962905255,41.508170370947454,,particulates_off_peak_large
+Chiswick Road,B,Green,16.333333333333332,27.923559100475806,4.743107566190859,,particulates_off_peak_large
+Cleveland Circle,C,Green,16.25,27.154891868637055,5.345108131362941,,particulates_off_peak_large
+Community College,Orange,Orange,213.0,338.86500705120545,87.13499294879456,,particulates_off_peak_large
+Coolidge Corner,C,Green,8.333333333333334,11.220084679281463,5.446581987385205,,particulates_off_peak_large
+Copley,B/C/D/E,Green,151.7,246.3878497426617,57.012150257338234,,particulates_off_peak_large
+Davis,Ashmont/Braintree,Red,173.0,198.4558441227157,147.54415587728428,,particulates_off_peak_large
+Dean Road,C,Green,2.0,2.0,2.0,,particulates_off_peak_large
+Downtown Crossing,Ashmont/Braintree,Red,206.0,206.0,206.0,,particulates_off_peak_large
+Downtown Crossing,Orange,Orange,159.83333333333334,256.8125407268085,62.85412593985818,,particulates_off_peak_large
+Eliot,D,Green,12.333333333333336,24.430164874416043,0.23650179225063184,,particulates_off_peak_large
+Englewood Avenue,C,Green,16.0,17.414213562373096,14.585786437626906,,particulates_off_peak_large
+Fairbanks Street,C,Green,15.0,15.0,15.0,,particulates_off_peak_large
+Fenway Park,D,Green,88.5,191.0304832720494,-14.030483272049393,,particulates_off_peak_large
+Fields Corner,Ashmont,Red,130.0,270.5844941663198,-10.584494166319788,,particulates_off_peak_large
+Forest Hills,Orange,Orange,57.14285714285714,84.54984269659613,29.735871589118165,,particulates_off_peak_large
+Government Center,B/C/D/E,Green,96.1,139.20568407994472,52.994315920055286,,particulates_off_peak_large
+Government Center,Blue,Blue,184.25,293.78043717007006,74.71956282992993,,particulates_off_peak_large
+Green Street,Orange,Orange,51.66666666666666,68.31999466239573,35.0133386709376,,particulates_off_peak_large
+Griggs Street,B,Green,50.0,50.0,50.0,,particulates_off_peak_large
+Harvard,Ashmont/Braintree,Red,77.25,105.3732406857152,49.126759314284804,,particulates_off_peak_large
+Harvard Avenue,B,Green,26.25,43.423137938847006,9.076862061152989,,particulates_off_peak_large
+Hawes Street,C,Green,11.0,11.0,11.0,,particulates_off_peak_large
+Haymarket,C/E,Green,30.0,48.86796226411321,11.132037735886794,,particulates_off_peak_large
+Haymarket,Orange,Orange,178.0,238.06329994264385,117.93670005735615,,particulates_off_peak_large
+Heath Street,E,Green,87.5,135.5634050925536,39.436594907446384,,particulates_off_peak_large
+Hynes Convention Center,B/C/D,Green,242.33333333333331,424.79520149578906,59.87146517087771,,particulates_off_peak_large
+JFK/UMass,Ashmont/Braintree,Red,116.0,212.98711254594602,19.01288745405398,,particulates_off_peak_large
+Jackson Square,Orange,Orange,49.75,73.8106871611487,25.68931283885129,,particulates_off_peak_large
+Kendall/MIT,Ashmont/Braintree,Red,58.0,58.0,58.0,,particulates_off_peak_large
+Kenmore,B/C/D,Green,295.8333333333333,568.9907360641886,22.67593060247805,,particulates_off_peak_large
+Lechmere,E,Green,31.33333333333333,63.858195618463256,-1.191528951796588,,particulates_off_peak_large
+Longwood,D,Green,29.5,58.491378028648455,0.5086219713515518,,particulates_off_peak_large
+Longwood Medical Area,E,Green,6.333333333333332,6.910683602522958,5.755983064143707,,particulates_off_peak_large
+Malden Center,Orange,Orange,46.5,80.5925211740053,12.407478825994694,,particulates_off_peak_large
+Massachusetts Ave,Orange,Orange,107.0,137.4138126514911,76.5861873485089,,particulates_off_peak_large
+Maverick,Blue,Blue,127.6,221.0253712863909,34.174628713609074,,particulates_off_peak_large
+Mission Park,E,Green,26.09090909090909,63.262012236913634,-11.080194055095458,,particulates_off_peak_large
+Museum Of Fine Arts,E,Green,49.33333333333334,81.66494840795238,17.00171825871429,,particulates_off_peak_large
+Newton Centre,D,Green,3.0,3.0,3.0,,particulates_off_peak_large
+Newton Highlands,D,Green,4.0,4.0,4.0,,particulates_off_peak_large
+North Quincy,Braintree,Red,17.666666666666668,22.798268106113554,12.535065227219784,,particulates_off_peak_large
+North Station,C/E,Green,100.33333333333331,129.25160898501537,71.41505768165128,,particulates_off_peak_large
+North Station,Orange,Orange,105.0,163.67992274477987,46.320077255220134,,particulates_off_peak_large
+Northeastern,E,Green,18.0,18.0,18.0,,particulates_off_peak_large
+Oak Grove,Orange,Orange,46.0,78.52691193458121,13.473088065418816,,particulates_off_peak_large
+Orient Heights,Blue,Blue,16.0,28.72792206135785,3.272077938642145,,particulates_off_peak_large
+Packards Corner,B,Green,5.0,5.0,5.0,,particulates_off_peak_large
+Park Street,Ashmont/Braintree,Red,294.0,658.552955196988,-70.55295519698797,,particulates_off_peak_large
+Park Street,B/C/D/E,Green,160.33333333333334,297.8260328640445,22.840633802622165,,particulates_off_peak_large
+Pleasant Street,B,Green,17.2,28.65425685062108,5.745743149378918,,particulates_off_peak_large
+Porter,Ashmont/Braintree,Red,164.5,214.70458146424488,114.29541853575512,,particulates_off_peak_large
+Prudential,E,Green,61.444444444444436,131.93754891415676,-9.048660025267893,,particulates_off_peak_large
+Quincy Adams,Braintree,Red,25.0,34.899494936611674,15.100505063388336,,particulates_off_peak_large
+Quincy Center,Braintree,Red,22.0,22.0,22.0,,particulates_off_peak_large
+Reservoir,D,Green,9.0,18.89949493661167,-0.8994949366116654,,particulates_off_peak_large
+Revere Beach,Blue,Blue,31.5,47.763455967290604,15.236544032709407,,particulates_off_peak_large
+Riverside,D,Green,36.0,41.29150262212918,30.70849737787082,,particulates_off_peak_large
+Riverway,E,Green,24.33333333333333,42.80854194740136,5.858124719265305,,particulates_off_peak_large
+Roxbury Crossing,Orange,Orange,33.5,44.7101144805335,22.28988551946651,,particulates_off_peak_large
+Ruggles,Orange,Orange,52.0,59.0237691685685,44.9762308314315,,particulates_off_peak_large
+Saint Marys Street,C,Green,18.25,39.48479848424907,-2.9847984842490725,,particulates_off_peak_large
+Saint Paul Street B,B,Green,7.0,7.0,7.0,,particulates_off_peak_large
+Saint Paul Street C,C,Green,55.83333333333334,110.47184234178512,1.1948243248815515,,particulates_off_peak_large
+Savin Hill,Ashmont,Red,138.0,244.6302021005306,31.369797899469404,,particulates_off_peak_large
+Science Park,E,Green,16.0,28.72792206135785,3.272077938642145,,particulates_off_peak_large
+Shawmut,Ashmont,Red,50.0,62.2882057274445,37.711794272555494,,particulates_off_peak_large
+South Station,Ashmont/Braintree,Red,205.0,247.42640687119285,162.57359312880718,,particulates_off_peak_large
+South Street,B,Green,5.0,5.0,5.0,,particulates_off_peak_large
+State,Blue,Blue,250.33333333333331,520.8695909156891,-20.20292424902229,,particulates_off_peak_large
+State,Orange,Orange,147.0,187.14971979976943,106.85028020023054,,particulates_off_peak_large
+Stony Brook,Orange,Orange,58.0,79.21320343559644,36.78679656440357,,particulates_off_peak_large
+Suffolk Downs,Blue,Blue,36.0,65.698484809835,6.301515190165006,,particulates_off_peak_large
+Sullivan Square,Orange,Orange,94.0,177.49850298059243,10.501497019407594,,particulates_off_peak_large
+Summit Ave/Winchester St,C,Green,16.0,16.0,16.0,,particulates_off_peak_large
+Sutherland Road,B,Green,12.0,12.0,12.0,,particulates_off_peak_large
+Symphony,E,Green,2.0,2.0,2.0,,particulates_off_peak_large
+Tufts Medical Center,Orange,Orange,110.0,151.04266073246225,68.95733926753773,,particulates_off_peak_large
+Waban,D,Green,15.666666666666664,33.452428762605464,-2.119095429272134,,particulates_off_peak_large
+Warren Street,B,Green,16.5,18.62132034355964,14.378679656440358,,particulates_off_peak_large
+Washington Square,C,Green,49.25,125.08040287378144,-26.58040287378144,,particulates_off_peak_large
+Washington Street,B,Green,17.5,18.207106781186546,16.792893218813454,,particulates_off_peak_large
+Wellington,Orange,Orange,52.0,91.99166579843022,12.00833420156978,,particulates_off_peak_large
+Wollaston,Braintree,Red,18.33333333333333,19.860858564985282,16.805808101681386,,particulates_off_peak_large
+Wonderland,Blue,Blue,11.666666666666664,15.17855125095091,8.15478208238242,,particulates_off_peak_large
+Wood Island,Blue,Blue,26.5,48.42031021678297,4.579689783217027,,particulates_off_peak_large
+Woodland,D,Green,15.0,15.0,15.0,,particulates_off_peak_large
+Airport,Blue,Blue,85.75,175.48433010838158,-3.984330108381599,0.0,particulates_off_peak_large
+Alewife,Ashmont/Braintree,Red,117.4,143.19341001108617,91.60658998891384,0.0,particulates_off_peak_large
+Allston Street,B,Green,9.0,9.0,9.0,0.0,particulates_off_peak_large
+Allston Street,B,Green,20.5,29.69238815542512,11.307611844574886,1.0,particulates_off_peak_large
+Andrew,Ashmont/Braintree,Red,23.0,23.0,23.0,0.0,particulates_off_peak_large
+Andrew,Ashmont/Braintree,Red,233.0,233.0,233.0,1.0,particulates_off_peak_large
+Aquarium,Blue,Blue,80.0,96.46207763315434,63.53792236684568,0.0,particulates_off_peak_large
+Aquarium,Blue,Blue,188.0,188.0,188.0,1.0,particulates_off_peak_large
+Arlington,B/C/D/E,Green,142.8,181.59046274537081,104.00953725462921,0.0,particulates_off_peak_large
+Assembly,Orange,Orange,44.5,56.5208152801713,32.479184719828694,0.0,particulates_off_peak_large
+Assembly,Orange,Orange,25.0,25.0,25.0,1.0,particulates_off_peak_large
+Babcock Street,B,Green,15.5,30.349242404917497,0.6507575950825029,0.0,particulates_off_peak_large
+Babcock Street,B,Green,17.0,17.0,17.0,1.0,particulates_off_peak_large
+Back Bay,Orange,Orange,45.0,45.0,45.0,0.0,particulates_off_peak_large
+Back Bay,Orange,Orange,79.5,88.69238815542514,70.30761184457488,1.0,particulates_off_peak_large
+Beachmont,Blue,Blue,29.0,29.0,29.0,0.0,particulates_off_peak_large
+Beachmont,Blue,Blue,25.5,26.207106781186546,24.792893218813447,1.0,particulates_off_peak_large
+Beaconsfield,D,Green,4.0,4.0,4.0,0.0,particulates_off_peak_large
+Blandford Street,B,Green,19.0,19.0,19.0,0.0,particulates_off_peak_large
+Blandford Street,B,Green,93.0,93.0,93.0,1.0,particulates_off_peak_large
+Boston College,B,Green,19.25,56.7571421770003,-18.25714217700029,0.0,particulates_off_peak_large
+Boston University Central,B,Green,24.5,29.449747468305837,19.55025253169417,0.0,particulates_off_peak_large
+Boston University Central,B,Green,21.0,26.65685424949238,15.343145750507619,1.0,particulates_off_peak_large
+Boylston,B/C/D/E,Green,171.42857142857142,226.33715346227885,116.51998939486396,0.0,particulates_off_peak_large
+Braintree,Braintree,Red,20.0,24.242640687119284,15.757359312880714,0.0,particulates_off_peak_large
+Brandon Hall,C,Green,12.0,12.0,12.0,1.0,particulates_off_peak_large
+Brigham Circle,E,Green,11.428571428571427,18.058506869889392,4.79863598725347,0.0,particulates_off_peak_large
+Brigham Circle,E,Green,10.0,15.830951894845299,4.169048105154698,1.0,particulates_off_peak_large
+Broadway,Ashmont/Braintree,Red,70.0,70.0,70.0,0.0,particulates_off_peak_large
+Broadway,Ashmont/Braintree,Red,222.0,305.4386001800126,138.5613998199874,1.0,particulates_off_peak_large
+Brookline Hills,D,Green,4.0,4.0,4.0,0.0,particulates_off_peak_large
+Brookline Village,D,Green,13.5,19.86396103067893,7.136038969321072,0.0,particulates_off_peak_large
+Central,Ashmont/Braintree,Red,215.0,391.31505891443305,38.684941085566955,0.0,particulates_off_peak_large
+Charles/MGH,Ashmont/Braintree,Red,144.0,144.0,144.0,1.0,particulates_off_peak_large
+Chestnut Hill,D,Green,3.0,3.0,3.0,0.0,particulates_off_peak_large
+Chestnut Hill Avenue,B,Green,8.0,8.0,8.0,1.0,particulates_off_peak_large
+Chinatown,Orange,Orange,37.0,37.0,37.0,0.0,particulates_off_peak_large
+Chinatown,Orange,Orange,158.5,201.6335136523794,115.36648634762061,1.0,particulates_off_peak_large
+Chiswick Road,B,Green,3.0,3.0,3.0,0.0,particulates_off_peak_large
+Chiswick Road,B,Green,23.0,24.414213562373096,21.585786437626904,1.0,particulates_off_peak_large
+Cleveland Circle,C,Green,16.25,27.154891868637055,5.345108131362941,0.0,particulates_off_peak_large
+Community College,Orange,Orange,213.0,338.86500705120545,87.13499294879456,0.0,particulates_off_peak_large
+Coolidge Corner,C,Green,8.333333333333334,11.220084679281463,5.446581987385205,0.0,particulates_off_peak_large
+Copley,B/C/D/E,Green,85.5,129.70746543288814,41.29253456711186,0.0,particulates_off_peak_large
+Copley,B/C/D/E,Green,251.0,292.56921938165306,209.4307806183469,1.0,particulates_off_peak_large
+Davis,Ashmont/Braintree,Red,155.0,155.0,155.0,0.0,particulates_off_peak_large
+Davis,Ashmont/Braintree,Red,191.0,191.0,191.0,1.0,particulates_off_peak_large
+Dean Road,C,Green,2.0,2.0,2.0,1.0,particulates_off_peak_large
+Downtown Crossing,Ashmont/Braintree,Red,206.0,206.0,206.0,0.0,particulates_off_peak_large
+Downtown Crossing,Orange,Orange,146.33333333333334,223.3549753135803,69.31169135308643,0.0,particulates_off_peak_large
+Downtown Crossing,Orange,Orange,173.33333333333337,303.84514633634603,42.82152033032071,1.0,particulates_off_peak_large
+Eliot,D,Green,5.5,9.03553390593274,1.9644660940672625,0.0,particulates_off_peak_large
+Eliot,D,Green,26.0,26.0,26.0,1.0,particulates_off_peak_large
+Englewood Avenue,C,Green,16.0,17.414213562373096,14.585786437626906,0.0,particulates_off_peak_large
+Fairbanks Street,C,Green,15.0,15.0,15.0,0.0,particulates_off_peak_large
+Fenway Park,D,Green,16.0,16.0,16.0,0.0,particulates_off_peak_large
+Fenway Park,D,Green,161.0,161.0,161.0,1.0,particulates_off_peak_large
+Fields Corner,Ashmont,Red,175.0,340.46298679765215,9.53701320234788,0.0,particulates_off_peak_large
+Fields Corner,Ashmont,Red,40.0,40.0,40.0,1.0,particulates_off_peak_large
+Forest Hills,Orange,Orange,57.14285714285714,84.54984269659613,29.735871589118165,0.0,particulates_off_peak_large
+Government Center,B/C/D/E,Green,101.625,148.68404346062053,54.56595653937947,0.0,particulates_off_peak_large
+Government Center,B/C/D/E,Green,74.0,74.0,74.0,1.0,particulates_off_peak_large
+Government Center,Blue,Blue,109.0,109.0,109.0,0.0,particulates_off_peak_large
+Government Center,Blue,Blue,209.33333333333331,328.58237246293527,90.08429420373142,1.0,particulates_off_peak_large
+Green Street,Orange,Orange,65.0,65.0,65.0,0.0,particulates_off_peak_large
+Green Street,Orange,Orange,45.0,61.97056274847714,28.02943725152286,1.0,particulates_off_peak_large
+Griggs Street,B,Green,50.0,50.0,50.0,1.0,particulates_off_peak_large
+Harvard,Ashmont/Braintree,Red,77.25,105.3732406857152,49.126759314284804,0.0,particulates_off_peak_large
+Harvard Avenue,B,Green,16.0,30.14213562373095,1.857864376269049,0.0,particulates_off_peak_large
+Harvard Avenue,B,Green,36.5,52.763455967290604,20.236544032709407,1.0,particulates_off_peak_large
+Hawes Street,C,Green,11.0,11.0,11.0,0.0,particulates_off_peak_large
+Haymarket,C/E,Green,57.0,57.0,57.0,0.0,particulates_off_peak_large
+Haymarket,C/E,Green,21.0,27.92820323027551,14.071796769724493,1.0,particulates_off_peak_large
+Haymarket,Orange,Orange,151.0,241.5096679918781,60.49033200812191,0.0,particulates_off_peak_large
+Haymarket,Orange,Orange,191.5,242.02722038663913,140.97277961336087,1.0,particulates_off_peak_large
+Heath Street,E,Green,87.5,135.5634050925536,39.436594907446384,0.0,particulates_off_peak_large
+Hynes Convention Center,B/C/D,Green,220.5,472.9371208835975,-31.93712088359746,0.0,particulates_off_peak_large
+Hynes Convention Center,B/C/D,Green,286.0,286.0,286.0,1.0,particulates_off_peak_large
+JFK/UMass,Ashmont/Braintree,Red,12.0,12.0,12.0,0.0,particulates_off_peak_large
+JFK/UMass,Ashmont/Braintree,Red,142.0,231.64002082403445,52.359979175965535,1.0,particulates_off_peak_large
+Jackson Square,Orange,Orange,69.5,81.5208152801713,57.479184719828694,0.0,particulates_off_peak_large
+Jackson Square,Orange,Orange,30.0,35.65685424949238,24.34314575050762,1.0,particulates_off_peak_large
+Kendall/MIT,Ashmont/Braintree,Red,58.0,58.0,58.0,0.0,particulates_off_peak_large
+Kenmore,B/C/D,Green,295.8333333333333,568.9907360641886,22.67593060247805,1.0,particulates_off_peak_large
+Lechmere,E,Green,31.33333333333333,63.858195618463256,-1.191528951796588,1.0,particulates_off_peak_large
+Longwood,D,Green,9.0,9.0,9.0,0.0,particulates_off_peak_large
+Longwood,D,Green,50.0,50.0,50.0,1.0,particulates_off_peak_large
+Longwood Medical Area,E,Green,6.0,6.0,6.0,0.0,particulates_off_peak_large
+Longwood Medical Area,E,Green,7.0,7.0,7.0,1.0,particulates_off_peak_large
+Malden Center,Orange,Orange,54.5,116.01828996322963,-7.018289963229633,0.0,particulates_off_peak_large
+Malden Center,Orange,Orange,42.5,67.23189573539939,17.76810426460061,1.0,particulates_off_peak_large
+Massachusetts Ave,Orange,Orange,107.0,137.4138126514911,76.5861873485089,1.0,particulates_off_peak_large
+Maverick,Blue,Blue,149.25,241.51546844115987,56.98453155884015,0.0,particulates_off_peak_large
+Maverick,Blue,Blue,41.0,41.0,41.0,1.0,particulates_off_peak_large
+Mission Park,E,Green,10.0,13.22490309931942,6.77509690068058,0.0,particulates_off_peak_large
+Mission Park,E,Green,45.4,96.26059378339974,-5.4605937833997364,1.0,particulates_off_peak_large
+Museum Of Fine Arts,E,Green,12.0,12.0,12.0,0.0,particulates_off_peak_large
+Museum Of Fine Arts,E,Green,68.0,68.0,68.0,1.0,particulates_off_peak_large
+Newton Centre,D,Green,3.0,3.0,3.0,0.0,particulates_off_peak_large
+Newton Highlands,D,Green,4.0,4.0,4.0,0.0,particulates_off_peak_large
+North Quincy,Braintree,Red,15.5,20.449747468305837,10.550252531694165,0.0,particulates_off_peak_large
+North Quincy,Braintree,Red,22.0,22.0,22.0,1.0,particulates_off_peak_large
+North Station,C/E,Green,91.0,123.33161507461905,58.66838492538096,0.0,particulates_off_peak_large
+North Station,C/E,Green,119.0,119.0,119.0,1.0,particulates_off_peak_large
+North Station,Orange,Orange,178.0,178.0,178.0,0.0,particulates_off_peak_large
+North Station,Orange,Orange,80.66666666666667,120.82053738087471,40.51279595245864,1.0,particulates_off_peak_large
+Northeastern,E,Green,18.0,18.0,18.0,1.0,particulates_off_peak_large
+Oak Grove,Orange,Orange,46.0,78.52691193458121,13.473088065418816,1.0,particulates_off_peak_large
+Orient Heights,Blue,Blue,25.0,25.0,25.0,0.0,particulates_off_peak_large
+Orient Heights,Blue,Blue,7.0,7.0,7.0,1.0,particulates_off_peak_large
+Packards Corner,B,Green,5.0,5.0,5.0,0.0,particulates_off_peak_large
+Park Street,Ashmont/Braintree,Red,226.2,434.3458623177506,18.054137682249376,0.0,particulates_off_peak_large
+Park Street,Ashmont/Braintree,Red,407.0,996.7889453016223,-182.7889453016224,1.0,particulates_off_peak_large
+Park Street,B/C/D/E,Green,104.0,158.49158956511852,49.508410434881476,0.0,particulates_off_peak_large
+Park Street,B/C/D/E,Green,239.2,424.14377523993613,54.256224760063894,1.0,particulates_off_peak_large
+Pleasant Street,B,Green,20.666666666666668,34.53509604180981,6.798237291523519,0.0,particulates_off_peak_large
+Pleasant Street,B,Green,12.0,19.07106781186548,4.9289321881345245,1.0,particulates_off_peak_large
+Porter,Ashmont/Braintree,Red,129.0,129.0,129.0,0.0,particulates_off_peak_large
+Porter,Ashmont/Braintree,Red,200.0,200.0,200.0,1.0,particulates_off_peak_large
+Prudential,E,Green,19.666666666666668,30.26226323631137,9.071070097021963,0.0,particulates_off_peak_large
+Prudential,E,Green,145.0,207.35382907247958,82.64617092752042,1.0,particulates_off_peak_large
+Quincy Adams,Braintree,Red,18.0,18.0,18.0,0.0,particulates_off_peak_large
+Quincy Adams,Braintree,Red,32.0,32.0,32.0,1.0,particulates_off_peak_large
+Quincy Center,Braintree,Red,22.0,22.0,22.0,1.0,particulates_off_peak_large
+Reservoir,D,Green,9.0,18.89949493661167,-0.8994949366116654,0.0,particulates_off_peak_large
+Revere Beach,Blue,Blue,20.0,20.0,20.0,0.0,particulates_off_peak_large
+Revere Beach,Blue,Blue,43.0,43.0,43.0,1.0,particulates_off_peak_large
+Riverside,D,Green,36.0,41.29150262212918,30.70849737787082,0.0,particulates_off_peak_large
+Riverway,E,Green,3.0,3.0,3.0,0.0,particulates_off_peak_large
+Riverway,E,Green,35.0,35.0,35.0,1.0,particulates_off_peak_large
+Roxbury Crossing,Orange,Orange,31.0,31.0,31.0,0.0,particulates_off_peak_large
+Roxbury Crossing,Orange,Orange,34.333333333333336,47.91027456961086,20.7563920970558,1.0,particulates_off_peak_large
+Ruggles,Orange,Orange,57.0,57.0,57.0,0.0,particulates_off_peak_large
+Ruggles,Orange,Orange,50.33333333333334,57.90521112773371,42.761455538932964,1.0,particulates_off_peak_large
+Saint Marys Street,C,Green,7.666666666666668,9.7483326661328,5.585000667200535,0.0,particulates_off_peak_large
+Saint Marys Street,C,Green,50.0,50.0,50.0,1.0,particulates_off_peak_large
+Saint Paul Street B,B,Green,7.0,7.0,7.0,1.0,particulates_off_peak_large
+Saint Paul Street C,C,Green,29.0,55.87005768508882,2.1299423149111942,0.0,particulates_off_peak_large
+Saint Paul Street C,C,Green,69.25,132.61337007030693,5.886629929693079,1.0,particulates_off_peak_large
+Savin Hill,Ashmont,Red,97.5,201.44469683442244,-6.444696834422487,0.0,particulates_off_peak_large
+Savin Hill,Ashmont,Red,178.5,307.90054095713816,49.09945904286182,1.0,particulates_off_peak_large
+Science Park,E,Green,25.0,25.0,25.0,0.0,particulates_off_peak_large
+Science Park,E,Green,7.0,7.0,7.0,1.0,particulates_off_peak_large
+Shawmut,Ashmont,Red,54.5,67.9350288425444,41.0649711574556,0.0,particulates_off_peak_large
+Shawmut,Ashmont,Red,41.0,41.0,41.0,1.0,particulates_off_peak_large
+South Station,Ashmont/Braintree,Red,175.0,175.0,175.0,0.0,particulates_off_peak_large
+South Station,Ashmont/Braintree,Red,235.0,235.0,235.0,1.0,particulates_off_peak_large
+South Street,B,Green,5.0,5.0,5.0,1.0,particulates_off_peak_large
+State,Blue,Blue,248.2,550.6123013370984,-54.21230133709844,0.0,particulates_off_peak_large
+State,Blue,Blue,261.0,261.0,261.0,1.0,particulates_off_peak_large
+State,Orange,Orange,189.0,189.0,189.0,0.0,particulates_off_peak_large
+State,Orange,Orange,126.0,150.0416305603426,101.9583694396574,1.0,particulates_off_peak_large
+Stony Brook,Orange,Orange,58.0,79.21320343559644,36.78679656440357,1.0,particulates_off_peak_large
+Suffolk Downs,Blue,Blue,15.0,15.0,15.0,0.0,particulates_off_peak_large
+Suffolk Downs,Blue,Blue,57.0,57.0,57.0,1.0,particulates_off_peak_large
+Sullivan Square,Orange,Orange,88.0,90.82842712474618,85.17157287525382,0.0,particulates_off_peak_large
+Sullivan Square,Orange,Orange,96.4,198.53128805610942,-5.73128805610942,1.0,particulates_off_peak_large
+Summit Ave/Winchester St,C,Green,16.0,16.0,16.0,0.0,particulates_off_peak_large
+Sutherland Road,B,Green,12.0,12.0,12.0,1.0,particulates_off_peak_large
+Symphony,E,Green,2.0,2.0,2.0,0.0,particulates_off_peak_large
+Tufts Medical Center,Orange,Orange,99.66666666666669,132.4741861299442,66.85914720338914,0.0,particulates_off_peak_large
+Tufts Medical Center,Orange,Orange,125.5,187.0182899632296,63.981710036770366,1.0,particulates_off_peak_large
+Waban,D,Green,5.5,9.03553390593274,1.9644660940672625,0.0,particulates_off_peak_large
+Waban,D,Green,36.0,36.0,36.0,1.0,particulates_off_peak_large
+Warren Street,B,Green,18.0,18.0,18.0,0.0,particulates_off_peak_large
+Warren Street,B,Green,15.0,15.0,15.0,1.0,particulates_off_peak_large
+Washington Square,C,Green,49.25,125.08040287378144,-26.58040287378144,1.0,particulates_off_peak_large
+Washington Street,B,Green,17.5,18.207106781186546,16.792893218813454,1.0,particulates_off_peak_large
+Wellington,Orange,Orange,43.0,58.55634918610404,27.44365081389596,0.0,particulates_off_peak_large
+Wellington,Orange,Orange,61.0,126.05382386916237,-4.053823869162373,1.0,particulates_off_peak_large
+Wollaston,Braintree,Red,17.0,17.0,17.0,0.0,particulates_off_peak_large
+Wollaston,Braintree,Red,19.0,20.414213562373096,17.585786437626904,1.0,particulates_off_peak_large
+Wonderland,Blue,Blue,11.666666666666664,15.17855125095091,8.15478208238242,1.0,particulates_off_peak_large
+Wood Island,Blue,Blue,26.5,48.42031021678297,4.579689783217027,1.0,particulates_off_peak_large
+Woodland,D,Green,15.0,15.0,15.0,0.0,particulates_off_peak_large
+Airport,Blue,Blue,84.33004651162787,85.49207452033646,83.1680185029193,,temperature
+Allston Street,B,Green,82.53523076923076,84.1821257754129,80.88833576304864,,temperature
+Andrew,Ashmont/Braintree,Red,83.537534883721,84.08664339710285,82.98842637033914,,temperature
+Aquarium,Blue,Blue,83.73410909090906,84.04896671144908,83.41925147036906,,temperature
+Arlington,B/C/D/E,Green,80.77480672268895,82.3174132241207,79.23220022125724,,temperature
+Assembly,Orange,Orange,84.46483817427391,85.32897226564512,83.60070408290267,,temperature
+Babcock Street,B,Green,83.00099999999998,85.95328960739387,80.04871039260611,,temperature
+Back Bay,Orange,Orange,83.03498591549291,85.34159004181042,80.7283817891754,,temperature
+Back Of The Hill,E,Green,79.57046153846153,79.5829422928766,79.55798078404645,,temperature
+Beachmont,Blue,Blue,85.17254054054061,87.00568855533487,83.33939252574635,,temperature
+Beaconsfield,D,Green,80.08931578947364,80.78842642547167,79.39020515347563,,temperature
+Blandford Street,B,Green,83.52891666666666,88.48452644283176,78.57330689050157,,temperature
+Boston College,B,Green,81.51731578947367,81.74099612999747,81.29363544894987,,temperature
+Boston University Central,B,Green,84.51091666666666,88.80541384443814,80.21641948889521,,temperature
+Boston University East,B,Green,79.91175,79.92948696704627,79.89401303295372,,temperature
+Boston University West,B,Green,85.33745000000008,89.32792885404946,81.34697114595069,,temperature
+Boylston,B/C/D/E,Green,80.93830882352944,82.10090944998608,79.77570819707276,,temperature
+Brandon Hall,C,Green,79.20913953488379,80.9492374191228,77.46904165064475,,temperature
+Brigham Circle,E,Green,81.71319760479058,82.89880755019625,80.5275876593849,,temperature
+Broadway,Ashmont/Braintree,Red,83.56393750000007,83.78125548623879,83.34661951376133,,temperature
+Brookline Hills,D,Green,80.02553658536584,81.01935495653737,79.0317182141943,,temperature
+Brookline Village,D,Green,79.73,81.04606500253941,78.4139349974606,,temperature
+Central,Ashmont/Braintree,Red,81.24971698113205,82.20958643093637,80.28984753132775,,temperature
+Charles/MGH,Ashmont/Braintree,Red,83.28880000000002,83.3046034806293,83.27299651937075,,temperature
+Chestnut Hill,D,Green,79.5406,79.75541051794707,79.32578948205294,,temperature
+Chinatown,Orange,Orange,82.80523478260874,84.94288842879659,80.66758113642086,,temperature
+Chiswick Road,B,Green,83.29900000000002,83.33066791977473,83.26733208022532,,temperature
+Cleveland Circle,C,Green,80.668,80.668,80.668,,temperature
+Community College,Orange,Orange,83.73699173553716,85.32066791506304,82.15331555601124,,temperature
+Coolidge Corner,C,Green,78.02327547169824,79.70837984182546,76.33817110157099,,temperature
+Copley,B/C/D/E,Green,81.54748598130864,83.0009031260115,80.0940688366058,,temperature
+Davis,Ashmont/Braintree,Red,79.73251315789473,79.80409052739488,79.66093578839458,,temperature
+Dean Road,C,Green,75.74901123595505,80.62632698079591,70.87169549111421,,temperature
+Downtown Crossing,Ashmont/Braintree,Red,82.83528758169953,84.81747910104984,80.85309606234921,,temperature
+Downtown Crossing,Orange,Orange,82.83528758169953,84.81747910104984,80.85309606234921,,temperature
+Eliot,D,Green,79.95480952380952,79.97211160185701,79.93750744576201,,temperature
+Englewood Avenue,C,Green,81.48225,82.68123642678427,80.28326357321572,,temperature
+Fairbanks Street,C,Green,80.24956521739125,81.78082393391075,78.71830650087175,,temperature
+Fenway Park,D,Green,79.36736144578313,80.96476251778633,77.76996037377994,,temperature
+Fenwood Road,E,Green,81.09883606557372,82.4966378777098,79.70103425343764,,temperature
+Fields Corner,Ashmont,Red,82.92366216216209,83.97904826014188,81.86827606418233,,temperature
+Forest Hills,Orange,Orange,84.64700000000003,84.70570308877379,84.58829691122628,,temperature
+Government Center,B/C/D/E,Green,81.72791666666645,83.24754845415744,80.20828487917545,,temperature
+Government Center,Blue,Blue,81.72791666666645,83.24754845415744,80.20828487917545,,temperature
+Green Street,Orange,Orange,83.41239682539684,85.78611520652233,81.03867844427134,,temperature
+Griggs Street,B,Green,83.80496153846154,86.08372586117277,81.52619721575032,,temperature
+Harvard,Ashmont/Braintree,Red,80.7993793103448,81.52618807226676,80.07257054842282,,temperature
+Harvard Avenue,B,Green,85.2249351851853,87.47037140520794,82.97949896516262,,temperature
+Hawes Street,C,Green,79.84439639639638,80.39824808772437,79.29054470506838,,temperature
+Haymarket,C/E,Green,82.7258204081634,84.82370241200461,80.62793840432221,,temperature
+Haymarket,Orange,Orange,82.7258204081634,84.82370241200461,80.62793840432221,,temperature
+Heath Street,E,Green,82.68711585365875,82.87429620366404,82.49993550365345,,temperature
+Hynes Convention Center,B/C/D,Green,81.72283582089544,85.9142812535532,77.53139038823764,,temperature
+JFK/UMass,Ashmont/Braintree,Red,83.35668852459015,84.19100068721242,82.52237636196789,,temperature
+Jackson Square,Orange,Orange,83.41240000000006,85.30908557654436,81.51571442345576,,temperature
+Kendall/MIT,Ashmont/Braintree,Red,81.77033333333338,82.95295528553035,80.58771138113642,,temperature
+Kenmore,B/C/D,Green,81.7592101167317,85.74909605194226,77.76932418152109,,temperature
+Kent Street,C,Green,80.81536842105264,80.84466235392148,80.7860744881838,,temperature
+Lechmere,E,Green,80.43243428571424,81.57128719971907,79.29358137170941,,temperature
+Longwood,D,Green,78.43695454545455,78.46031604669614,78.41359304421297,,temperature
+Longwood Medical Area,E,Green,81.69088888888894,83.09273651619597,80.2890412615819,,temperature
+Malden Center,Orange,Orange,84.4865541401273,84.98752904091249,83.98557923934213,,temperature
+Massachusetts Ave,Orange,Orange,82.8243555555555,85.17425868619368,80.47445242491733,,temperature
+Maverick,Blue,Blue,84.09738297872345,84.82020638469872,83.37455957274814,,temperature
+Mission Park,E,Green,80.81952173913041,81.91759390310446,79.72144957515636,,temperature
+Museum Of Fine Arts,E,Green,81.26468518518517,82.3855942640906,80.14377610627973,,temperature
+Newton Centre,D,Green,79.61780487804872,79.83367917243228,79.40193058366515,,temperature
+Newton Highlands,D,Green,79.32072727272723,79.7922471982544,78.84920734720006,,temperature
+North Station,C/E,Green,82.61931674208172,84.65063650544656,80.58799697871687,,temperature
+North Station,Orange,Orange,82.61931674208172,84.65063650544656,80.58799697871687,,temperature
+Northeastern,E,Green,79.45473451327433,81.91893442695863,76.99053459959003,,temperature
+Oak Grove,Orange,Orange,84.56044262295106,84.87069184426402,84.2501934016381,,temperature
+Orient Heights,Blue,Blue,85.35626666666667,86.87982876028391,83.83270457304944,,temperature
+Packards Corner,B,Green,85.4036666666667,88.13966357280943,82.66766976052399,,temperature
+Park Street,Ashmont/Braintree,Red,81.73118343195256,83.16320684081617,80.29916002308894,,temperature
+Park Street,B/C/D/E,Green,81.73118343195256,83.16320684081617,80.29916002308894,,temperature
+Pleasant Street,B,Green,82.3183921568628,85.05597091246733,79.58081340125827,,temperature
+Porter,Ashmont/Braintree,Red,80.35027868852455,80.70481073367456,79.99574664337455,,temperature
+Prudential,E,Green,78.94825477706985,81.35269546288343,76.5438140912563,,temperature
+Reservoir,D,Green,79.62614285714288,79.80577283396029,79.44651288032546,,temperature
+Revere Beach,Blue,Blue,85.67984848484845,87.16602102532812,84.19367594436878,,temperature
+Riverside,D,Green,78.36708333333334,79.51405241893823,77.22011424772845,,temperature
+Riverway,E,Green,81.83707499999993,83.47239324531536,80.2017567546845,,temperature
+Roxbury Crossing,Orange,Orange,83.34230645161284,85.19948733644179,81.48512556678388,,temperature
+Ruggles,Orange,Orange,84.5394285714286,84.95898239751887,84.1198747453383,,temperature
+Saint Marys Street,C,Green,80.04413043478252,81.37465552919231,78.71360534037271,,temperature
+Saint Paul Street B,B,Green,85.95428571428567,89.31391398613363,82.59465744243772,,temperature
+Saint Paul Street C,C,Green,79.76401415094341,80.72633996446125,78.80168833742555,,temperature
+Savin Hill,Ashmont,Red,83.96900000000002,83.98806466727908,83.94993533272097,,temperature
+Science Park,E,Green,80.71615789473684,81.87330725213994,79.55900853733377,,temperature
+Shawmut,Ashmont,Red,82.51907142857135,83.57432396805085,81.46381888909184,,temperature
+South Station,Ashmont/Braintree,Red,83.6378214285714,83.72429372726619,83.55134912987664,,temperature
+State,Blue,Blue,83.4990041322315,84.99042960118507,82.00757866327794,,temperature
+State,Orange,Orange,83.4990041322315,84.99042960118507,82.00757866327794,,temperature
+Stony Brook,Orange,Orange,82.77411594202896,85.17383871729373,80.37439316676418,,temperature
+Suffolk Downs,Blue,Blue,83.80557009345813,85.07064698061477,82.54049320630149,,temperature
+Sullivan Square,Orange,Orange,84.02545394736829,85.1959673165931,82.85494057814353,,temperature
+Summit Ave/Winchester St,C,Green,78.25974545454552,80.65126501810664,75.8682258909844,,temperature
+Symphony,E,Green,80.62232000000003,82.86298461947563,78.38165538052444,,temperature
+Tappan Street,C,Green,77.60632142857143,81.45440555214226,73.75823730500059,,temperature
+Tufts Medical Center,Orange,Orange,82.55486407766989,84.7588836545043,80.35084450083545,,temperature
+Waban,D,Green,80.096,80.096,80.096,,temperature
+Warren Street,B,Green,83.48323529411766,85.09750912577232,81.86896146246299,,temperature
+Washington Square,C,Green,79.11813000000011,82.35895349758916,75.87730650241106,,temperature
+Washington Street,B,Green,82.8670166666667,83.84018731018841,81.89384602314503,,temperature
+Wellington,Orange,Orange,84.28235828877007,85.04751945316495,83.51719712437516,,temperature
+Wonderland,Blue,Blue,84.36200000000002,84.36200000000002,84.36200000000002,,temperature
+Wood Island,Blue,Blue,85.34328235294119,86.36068759144145,84.32587711444094,,temperature
+Woodland,D,Green,78.81361111111114,79.91031120757656,77.71691101464572,,temperature
+Airport,Blue,Blue,85.2136666666667,85.24651246021546,85.18082087311797,0.0,temperature
+Airport,Blue,Blue,82.83893749999999,82.8830970119991,82.79477798800087,1.0,temperature
+Allston Street,B,Green,85.68336363636364,85.70606726042357,85.66066001230371,0.0,temperature
+Allston Street,B,Green,81.69060975609754,81.72713021478084,81.65408929741425,1.0,temperature
+Andrew,Ashmont/Braintree,Red,82.98242857142857,82.99856415765458,82.96629298520256,0.0,temperature
+Andrew,Ashmont/Braintree,Red,84.06740909090911,84.09005472349742,84.0447634583208,1.0,temperature
+Aquarium,Blue,Blue,83.94123684210524,83.98505306408609,83.89742062012434,0.0,temperature
+Aquarium,Blue,Blue,83.27111764705883,83.29328429529706,83.24895099882059,1.0,temperature
+Arlington,B/C/D/E,Green,81.47701470588225,82.55538405933545,80.39864535242907,0.0,temperature
+Arlington,B/C/D/E,Green,79.83852941176468,81.417427829687,78.25963099384236,1.0,temperature
+Assembly,Orange,Orange,84.94462500000003,85.13424739040633,84.75500260959373,0.0,temperature
+Assembly,Orange,Orange,83.51711111111095,84.41093135310595,82.62329086911595,1.0,temperature
+Babcock Street,B,Green,87.58474999999999,87.60650677234464,87.56299322765534,0.0,temperature
+Babcock Street,B,Green,81.16749999999998,81.18865730556917,81.14634269443081,1.0,temperature
+Back Bay,Orange,Orange,83.48189999999994,84.50971186736376,82.45408813263613,0.0,temperature
+Back Bay,Orange,Orange,82.79209782608687,85.53171760823993,80.05247804393379,1.0,temperature
+Back Of The Hill,E,Green,79.57046153846153,79.5829422928766,79.55798078404645,1.0,temperature
+Beachmont,Blue,Blue,86.83950000000004,86.85335070775318,86.82564929224688,0.0,temperature
+Beachmont,Blue,Blue,83.21141176470586,83.24138479179592,83.18143873761579,1.0,temperature
+Beaconsfield,D,Green,80.81633333333333,80.83719139708647,80.79547526958022,0.0,temperature
+Beaconsfield,D,Green,79.43499999999997,79.43499999999997,79.43499999999997,1.0,temperature
+Blandford Street,B,Green,89.26899999999998,89.26899999999998,89.26899999999998,0.0,temperature
+Blandford Street,B,Green,79.42885714285713,79.44447201319998,79.41324227251427,1.0,temperature
+Boston College,B,Green,81.46599999999997,81.46599999999997,81.46599999999997,0.0,temperature
+Boston College,B,Green,82.441,,,1.0,temperature
+Boston University Central,B,Green,88.76939999999996,88.7929439427747,88.74585605722523,0.0,temperature
+Boston University Central,B,Green,80.2524333333333,80.28044894884756,80.22441771781904,1.0,temperature
+Boston University East,B,Green,79.91175,79.92948696704627,79.89401303295372,1.0,temperature
+Boston University West,B,Green,88.55462499999999,88.57752898199665,88.53172101800331,0.0,temperature
+Boston University West,B,Green,80.51168750000002,80.53474313922341,80.48863186077661,1.0,temperature
+Boylston,B/C/D/E,Green,81.27021212121213,82.14121071325948,80.39921352916477,0.0,temperature
+Boylston,B/C/D/E,Green,80.62537142857141,81.94513794280823,79.30560491433457,1.0,temperature
+Brandon Hall,C,Green,77.97064285714283,78.35787483989428,77.58341087439142,0.0,temperature
+Brandon Hall,C,Green,81.52100000000002,81.54159819686978,81.50040180313026,1.0,temperature
+Brigham Circle,E,Green,81.90900000000003,81.90900000000003,81.90900000000003,0.0,temperature
+Brigham Circle,E,Green,81.68655782312936,82.94840654910645,80.42470909715226,1.0,temperature
+Broadway,Ashmont/Braintree,Red,83.348875,83.37100912195773,83.3267408780423,0.0,temperature
+Broadway,Ashmont/Braintree,Red,83.779,83.779,83.779,1.0,temperature
+Brookline Hills,D,Green,81.13488888888888,81.15687521856917,81.11290255920859,0.0,temperature
+Brookline Hills,D,Green,79.15734782608695,79.17926213999706,79.13543351217686,1.0,temperature
+Brookline Village,D,Green,81.39982352941178,81.42297583840602,81.37667122041753,0.0,temperature
+Brookline Village,D,Green,78.71617857142857,78.74338566959203,78.68897147326511,1.0,temperature
+Central,Ashmont/Braintree,Red,80.41749999999998,80.43847412198646,80.39652587801352,0.0,temperature
+Central,Ashmont/Braintree,Red,82.33521739130434,82.3643720829925,82.3060626996162,1.0,temperature
+Charles/MGH,Ashmont/Braintree,Red,83.28880000000002,83.3046034806293,83.27299651937075,1.0,temperature
+Chestnut Hill,D,Green,79.96300000000002,79.96300000000002,79.96300000000002,0.0,temperature
+Chestnut Hill,D,Green,79.43499999999995,79.43499999999995,79.43499999999995,1.0,temperature
+Chinatown,Orange,Orange,83.73843750000002,84.38386550927727,83.09300949072278,0.0,temperature
+Chinatown,Orange,Orange,82.13667164179088,84.68796956690045,79.5853737166813,1.0,temperature
+Chiswick Road,B,Green,83.29900000000002,83.33066791977473,83.26733208022532,0.0,temperature
+Cleveland Circle,C,Green,80.668,80.668,80.668,0.0,temperature
+Community College,Orange,Orange,84.84390909090912,85.24074086199788,84.44707731982038,0.0,temperature
+Community College,Orange,Orange,82.81456060606061,84.42659370486938,81.20252750725184,1.0,temperature
+Coolidge Corner,C,Green,78.42202614379073,79.48885121051731,77.35520107706414,0.0,temperature
+Coolidge Corner,C,Green,77.47855357142853,79.64108147507305,75.31602566778402,1.0,temperature
+Copley,B/C/D/E,Green,81.95827272727277,83.51625270681893,80.40029274772661,0.0,temperature
+Copley,B/C/D/E,Green,81.01302150537634,82.11482667416405,79.91121633658867,1.0,temperature
+Davis,Ashmont/Braintree,Red,79.76699999999998,79.7898337318532,79.74416626814676,0.0,temperature
+Davis,Ashmont/Braintree,Red,79.71002173913044,79.79304502612618,79.6269984521347,1.0,temperature
+Dean Road,C,Green,79.89531034482762,79.94171778223053,79.84890290742472,0.0,temperature
+Dean Road,C,Green,73.74496666666668,78.53508415564252,68.95484917769085,1.0,temperature
+Downtown Crossing,Ashmont/Braintree,Red,83.94769767441872,84.52364676835325,83.3717485804842,0.0,temperature
+Downtown Crossing,Ashmont/Braintree,Red,82.40043636363623,84.56197970679494,80.23889302047753,1.0,temperature
+Downtown Crossing,Orange,Orange,83.94769767441872,84.52364676835325,83.3717485804842,0.0,temperature
+Downtown Crossing,Orange,Orange,82.40043636363623,84.56197970679494,80.23889302047753,1.0,temperature
+Eliot,D,Green,79.95480952380952,79.97211160185701,79.93750744576201,1.0,temperature
+Englewood Avenue,C,Green,80.30231250000001,80.32895011438269,80.27567488561733,0.0,temperature
+Englewood Avenue,C,Green,82.66218749999999,82.67343749999998,82.65093749999998,1.0,temperature
+Fairbanks Street,C,Green,78.68554545454545,78.71645617642757,78.65463473266334,0.0,temperature
+Fairbanks Street,C,Green,81.68325,81.69624038105677,81.67025961894323,1.0,temperature
+Fenway Park,D,Green,81.59246428571429,81.61056376829919,81.57436480312938,0.0,temperature
+Fenway Park,D,Green,78.23458181818192,78.25566515450961,78.21349848185422,1.0,temperature
+Fenwood Road,E,Green,81.91207142857142,81.92356366197366,81.90057919516919,0.0,temperature
+Fenwood Road,E,Green,80.85659574468076,82.36895335795093,79.34423813141059,1.0,temperature
+Fields Corner,Ashmont,Red,81.90373684210536,81.94043773995912,81.8670359442516,0.0,temperature
+Fields Corner,Ashmont,Red,84.00024999999995,84.01286376798801,83.98763623201187,1.0,temperature
+Forest Hills,Orange,Orange,84.6238181818182,84.64472789030711,84.60290847332932,0.0,temperature
+Forest Hills,Orange,Orange,84.7745,84.79287117307088,84.75612882692911,1.0,temperature
+Government Center,B/C/D/E,Green,82.45469135802477,83.50746885875766,81.40191385729189,0.0,temperature
+Government Center,B/C/D/E,Green,81.13328282828286,82.72055475334483,79.54601090322089,1.0,temperature
+Government Center,Blue,Blue,82.45469135802477,83.50746885875766,81.40191385729189,0.0,temperature
+Government Center,Blue,Blue,81.13328282828286,82.72055475334483,79.54601090322089,1.0,temperature
+Green Street,Orange,Orange,81.95533333333337,84.75763913679093,79.1530275298758,0.0,temperature
+Green Street,Orange,Orange,84.73699999999997,84.75854210992449,84.71545789007546,1.0,temperature
+Griggs Street,B,Green,86.03938461538459,86.05911842081902,86.01965080995018,0.0,temperature
+Griggs Street,B,Green,81.57053846153846,81.59231235793075,81.54876456514617,1.0,temperature
+Harvard,Ashmont/Braintree,Red,80.05421428571425,80.0660162226013,80.0424123488272,0.0,temperature
+Harvard,Ashmont/Braintree,Red,81.4948666666667,81.5354993639923,81.4542339693411,1.0,temperature
+Harvard Avenue,B,Green,86.51428395061727,86.61771173152842,86.41085616970615,0.0,temperature
+Harvard Avenue,B,Green,81.35688888888889,81.37866278528121,81.33511499249657,1.0,temperature
+Hawes Street,C,Green,81.217,81.23981916487767,81.19418083512231,0.0,temperature
+Hawes Street,C,Green,79.6299270833333,79.73551149653619,79.52434267013041,1.0,temperature
+Haymarket,C/E,Green,83.67432710280362,85.28699450394724,82.06165970165999,0.0,temperature
+Haymarket,C/E,Green,81.99038405797093,84.13019276189264,79.85057535404924,1.0,temperature
+Haymarket,Orange,Orange,83.67432710280362,85.28699450394724,82.06165970165999,0.0,temperature
+Haymarket,Orange,Orange,81.99038405797093,84.13019276189264,79.85057535404924,1.0,temperature
+Heath Street,E,Green,82.26299999999998,82.29667491648097,82.22932508351902,0.0,temperature
+Heath Street,E,Green,82.76702173913057,82.79719676805641,82.73684671020472,1.0,temperature
+Hynes Convention Center,B/C/D,Green,86.10698076923077,89.6615123287286,82.5524492097329,0.0,temperature
+Hynes Convention Center,B/C/D,Green,78.94264634146336,79.79545690720221,78.08983577572451,1.0,temperature
+JFK/UMass,Ashmont/Braintree,Red,82.569375,82.60506519925106,82.53368480074894,0.0,temperature
+JFK/UMass,Ashmont/Braintree,Red,84.22544827586208,84.23380456608004,84.21709198564412,1.0,temperature
+Jackson Square,Orange,Orange,82.41226470588238,84.42539235404766,80.3991370577171,0.0,temperature
+Jackson Square,Orange,Orange,84.7202692307692,84.75267115378904,84.68786730774936,1.0,temperature
+Kendall/MIT,Ashmont/Braintree,Red,80.62686956521739,80.63583568502185,80.61790344541294,0.0,temperature
+Kendall/MIT,Ashmont/Braintree,Red,82.96577272727274,82.9995957003309,82.93194975421456,1.0,temperature
+Kenmore,B/C/D,Green,85.05882500000013,88.71254176231241,81.40510823768786,0.0,temperature
+Kenmore,B/C/D,Green,78.86903649635053,79.38234822666823,78.35572476603285,1.0,temperature
+Kent Street,C,Green,80.81536842105264,80.84466235392148,80.7860744881838,0.0,temperature
+Lechmere,E,Green,81.81899999999997,81.81899999999997,81.81899999999997,0.0,temperature
+Lechmere,E,Green,80.33035582822077,81.44398165296758,79.21673000347397,1.0,temperature
+Longwood,D,Green,78.43695454545455,78.46031604669614,78.41359304421297,1.0,temperature
+Longwood Medical Area,E,Green,81.86399999999999,81.86399999999999,81.86399999999999,0.0,temperature
+Longwood Medical Area,E,Green,81.66788811188822,83.15905559619914,80.1767206275773,1.0,temperature
+Malden Center,Orange,Orange,84.72932558139543,85.08175888561927,84.37689227717159,0.0,temperature
+Malden Center,Orange,Orange,84.19249295774642,84.69086562018286,83.69412029530999,1.0,temperature
+Massachusetts Ave,Orange,Orange,83.06266666666667,84.27033040370377,81.85500292962958,0.0,temperature
+Massachusetts Ave,Orange,Orange,82.72754166666657,85.40575421244236,80.04932912089077,1.0,temperature
+Maverick,Blue,Blue,84.65993103448275,84.70230515987153,84.61755690909398,0.0,temperature
+Maverick,Blue,Blue,83.19105555555555,83.22572622840099,83.15638488271011,1.0,temperature
+Mission Park,E,Green,81.90900000000005,81.90900000000005,81.90900000000005,0.0,temperature
+Mission Park,E,Green,79.82083333333334,80.24862052816037,79.39304613850635,1.0,temperature
+Museum Of Fine Arts,E,Green,82.00678260869567,82.02576096124831,81.98780425614302,0.0,temperature
+Museum Of Fine Arts,E,Green,80.71409677419358,81.93228357855594,79.49590996983122,1.0,temperature
+Newton Centre,D,Green,79.4004,79.42728454848736,79.37351545151266,0.0,temperature
+Newton Centre,D,Green,79.8248571428571,79.84027559191752,79.8094386937967,1.0,temperature
+Newton Highlands,D,Green,78.91492,78.94119089644455,78.88864910355545,0.0,temperature
+Newton Highlands,D,Green,79.8546842105263,79.8777687234482,79.83159969760437,1.0,temperature
+North Station,C/E,Green,83.51809322033874,85.17742544616941,81.85876099450809,0.0,temperature
+North Station,C/E,Green,81.58965048543686,83.5226181708161,79.65668280005762,1.0,temperature
+North Station,Orange,Orange,83.51809322033874,85.17742544616941,81.85876099450809,0.0,temperature
+North Station,Orange,Orange,81.58965048543686,83.5226181708161,79.65668280005762,1.0,temperature
+Northeastern,E,Green,78.28247222222225,80.25277279965066,76.31217164479385,0.0,temperature
+Northeastern,E,Green,81.51334146341469,83.3283677801627,79.69831514666667,1.0,temperature
+Oak Grove,Orange,Orange,84.48485000000015,84.65186517350791,84.31783482649243,0.0,temperature
+Oak Grove,Orange,Orange,84.90404545454547,85.42578626570172,84.38230464338922,1.0,temperature
+Orient Heights,Blue,Blue,86.42419999999996,86.4678561153821,86.38054388461785,0.0,temperature
+Orient Heights,Blue,Blue,83.22039999999998,83.25374413859956,83.18705586140041,1.0,temperature
+Packards Corner,B,Green,87.20556000000006,87.26522202771469,87.14589797228544,0.0,temperature
+Packards Corner,B,Green,81.30845454545457,81.33138866906926,81.28552042183988,1.0,temperature
+Park Street,Ashmont/Braintree,Red,81.50612500000005,82.09339817671673,80.91885182328335,0.0,temperature
+Park Street,Ashmont/Braintree,Red,81.8427168141592,83.5364684586973,80.14896516962109,1.0,temperature
+Park Street,B/C/D/E,Green,81.50612500000005,82.09339817671673,80.91885182328335,0.0,temperature
+Park Street,B/C/D/E,Green,81.8427168141592,83.5364684586973,80.14896516962109,1.0,temperature
+Pleasant Street,B,Green,87.8065,87.82073024947077,87.79226975052923,0.0,temperature
+Pleasant Street,B,Green,80.97982926829273,81.01855839327577,80.94110014330971,1.0,temperature
+Porter,Ashmont/Braintree,Red,79.91816666666669,79.9271481290569,79.90918520427648,0.0,temperature
+Porter,Ashmont/Braintree,Red,80.63056756756764,80.6954681498885,80.56566698524678,1.0,temperature
+Prudential,E,Green,78.29468103448279,80.67985110990314,75.90951095906247,0.0,temperature
+Prudential,E,Green,80.79739024390248,82.00058708727535,79.59419340052962,1.0,temperature
+Reservoir,D,Green,80.404,,,0.0,temperature
+Reservoir,D,Green,79.58725000000003,79.61021880034906,79.56428119965098,1.0,temperature
+Revere Beach,Blue,Blue,86.93599999999998,86.93599999999998,86.93599999999998,0.0,temperature
+Revere Beach,Blue,Blue,83.97507142857144,84.00357099479139,83.94657186235149,1.0,temperature
+Riverside,D,Green,77.590625,77.60582779579552,77.57542220420449,0.0,temperature
+Riverside,D,Green,79.92,79.92,79.92,1.0,temperature
+Riverway,E,Green,81.83707499999993,83.47239324531536,80.2017567546845,1.0,temperature
+Roxbury Crossing,Orange,Orange,82.56840476190469,84.36546444791924,80.77134507589014,0.0,temperature
+Roxbury Crossing,Orange,Orange,84.96749999999997,84.99058451292187,84.94441548707806,1.0,temperature
+Ruggles,Orange,Orange,84.13855172413791,84.14690801435587,84.13019543391995,0.0,temperature
+Ruggles,Orange,Orange,84.96999999999997,84.99278663575936,84.94721336424058,1.0,temperature
+Saint Marys Street,C,Green,81.67829629629625,81.71078867980002,81.64580391279249,0.0,temperature
+Saint Marys Street,C,Green,78.99359523809521,79.20870066426345,78.77848981192696,1.0,temperature
+Saint Paul Street B,B,Green,88.05722857142851,88.08895913353241,88.02549800932462,0.0,temperature
+Saint Paul Street B,B,Green,80.69692857142857,80.71930460354301,80.67455253931409,1.0,temperature
+Saint Paul Street C,C,Green,80.28892771084334,80.40391782527875,80.17393759640792,0.0,temperature
+Saint Paul Street C,C,Green,79.42627906976733,80.53283971101644,78.31971842851824,1.0,temperature
+Savin Hill,Ashmont,Red,83.96900000000002,83.98806466727908,83.94993533272097,1.0,temperature
+Science Park,E,Green,81.64004166666666,81.79480641918862,81.48527691414466,0.0,temperature
+Science Park,E,Green,80.04424242424247,81.14890311961184,78.9395817288731,1.0,temperature
+Shawmut,Ashmont,Red,81.70911428571428,81.73091926548628,81.68730930594228,0.0,temperature
+Shawmut,Ashmont,Red,83.86899999999999,83.86899999999999,83.86899999999999,1.0,temperature
+South Station,Ashmont/Braintree,Red,83.72237037037041,83.7544041844138,83.69033655632705,0.0,temperature
+South Station,Ashmont/Braintree,Red,83.55910344827589,83.5796935721699,83.53851332438188,1.0,temperature
+State,Blue,Blue,83.90893333333317,84.32700131327701,83.49086535338931,0.0,temperature
+State,Blue,Blue,83.0957950819672,85.07767564786825,81.11391451606612,1.0,temperature
+State,Orange,Orange,83.90893333333317,84.32700131327701,83.49086535338931,0.0,temperature
+State,Orange,Orange,83.0957950819672,85.07767564786825,81.11391451606612,1.0,temperature
+Stony Brook,Orange,Orange,81.5786904761904,83.98905287671408,79.16832807566672,0.0,temperature
+Stony Brook,Orange,Orange,84.6336666666667,84.64232692070455,84.62500641262884,1.0,temperature
+Suffolk Downs,Blue,Blue,86.69841176470592,86.71808744393032,86.6787360854815,0.0,temperature
+Suffolk Downs,Blue,Blue,83.25914444444456,83.33416707190929,83.18412181697985,1.0,temperature
+Sullivan Square,Orange,Orange,84.75872839506185,84.95786522065833,84.55959156946538,0.0,temperature
+Sullivan Square,Orange,Orange,83.18890140845062,84.44515809462962,81.93264472227162,1.0,temperature
+Summit Ave/Winchester St,C,Green,78.04556000000002,78.22742970610855,77.86369029389152,0.0,temperature
+Summit Ave/Winchester St,C,Green,78.43823333333333,81.68630593617543,75.19016073049124,1.0,temperature
+Symphony,E,Green,79.56377083333338,81.66339887779473,77.46414278887201,0.0,temperature
+Symphony,E,Green,81.59944230769231,83.51126021285188,79.68762440253275,1.0,temperature
+Tappan Street,C,Green,76.8605172413793,78.8658056534945,74.85522882926409,0.0,temperature
+Tappan Street,C,Green,78.4073703703704,83.47756004326118,73.33718069747962,1.0,temperature
+Tufts Medical Center,Orange,Orange,83.3648113207547,84.20717420748839,82.52244843402103,0.0,temperature
+Tufts Medical Center,Orange,Orange,81.69631999999993,84.50652027930316,78.88611972069671,1.0,temperature
+Waban,D,Green,80.096,80.096,80.096,1.0,temperature
+Warren Street,B,Green,85.07335294117647,85.10694784625237,85.03975803610055,0.0,temperature
+Warren Street,B,Green,81.89311764705884,81.91528429529708,81.87095099882059,1.0,temperature
+Washington Square,C,Green,78.09147368421051,79.35244741214144,76.8304999562796,0.0,temperature
+Washington Square,C,Green,79.74737096774196,83.62322584006039,75.87151609542353,1.0,temperature
+Washington Street,B,Green,84.39905882352943,84.43180113290933,84.3663165141495,0.0,temperature
+Washington Street,B,Green,82.26132558139534,82.3272973361488,82.19535382664192,1.0,temperature
+Wellington,Orange,Orange,84.77652941176477,85.09412793746884,84.45893088606067,0.0,temperature
+Wellington,Orange,Orange,83.87054901960781,84.65637294400027,83.08472509521533,1.0,temperature
+Wonderland,Blue,Blue,84.36200000000002,84.36200000000002,84.36200000000002,1.0,temperature
+Wood Island,Blue,Blue,85.7719583333334,85.8488603997354,85.69505626693139,0.0,temperature
+Wood Island,Blue,Blue,82.96907692307694,83.00951918961921,82.92863465653464,1.0,temperature
+Woodland,D,Green,77.67076470588233,77.69189977570646,77.64962963605821,0.0,temperature
+Woodland,D,Green,79.83615789473684,79.86868184003174,79.80363394944196,1.0,temperature
+Airport,Blue,Blue,47.713906976744184,53.494359330990534,41.93345462249785,,humidity
+Allston Street,B,Green,43.083846153846146,47.718726998749865,38.44896530894242,,humidity
+Andrew,Ashmont/Braintree,Red,43.47458139534884,43.94051058640065,43.008652204297015,,humidity
+Aquarium,Blue,Blue,48.40710909090908,53.146206788559844,43.668011393258325,,humidity
+Arlington,B/C/D/E,Green,41.26893277310928,45.64492836100385,36.89293718521471,,humidity
+Assembly,Orange,Orange,41.28633609958506,46.97406395720974,35.59860824196039,,humidity
+Babcock Street,B,Green,42.20807142857142,47.60752691503156,36.80861594211128,,humidity
+Back Bay,Orange,Orange,42.0939507042253,49.877214921569156,34.310686486881444,,humidity
+Back Of The Hill,E,Green,41.15130769230769,41.32408904962351,40.97852633499186,,humidity
+Beachmont,Blue,Blue,46.152729729729735,50.9131338946945,41.392325564764974,,humidity
+Beaconsfield,D,Green,41.01934210526317,45.5457631918142,36.49292101871214,,humidity
+Blandford Street,B,Green,51.31158333333334,52.3581611900382,50.265005476628474,,humidity
+Boston College,B,Green,43.01489473684211,44.47298476967945,41.55680470400476,,humidity
+Boston University Central,B,Green,49.72061666666666,53.67777722671761,45.76345610661574,,humidity
+Boston University East,B,Green,43.54031250000001,44.265822225985815,42.81480277401421,,humidity
+Boston University West,B,Green,49.75162500000001,54.34134596066797,45.161904039332036,,humidity
+Boylston,B/C/D/E,Green,43.45248529411764,47.27710056690721,39.62787002132809,,humidity
+Brandon Hall,C,Green,39.98011627906977,42.82498289414786,37.135249663991694,,humidity
+Brigham Circle,E,Green,41.76838323353294,44.76407673036237,38.772689736703505,,humidity
+Broadway,Ashmont/Braintree,Red,42.91362499999999,44.02437264610747,41.8028773538925,,humidity
+Brookline Hills,D,Green,44.2691463414634,48.85364393967945,39.684648743247344,,humidity
+Brookline Village,D,Green,43.435888888888904,50.593586859422004,36.2781909183558,,humidity
+Central,Ashmont/Braintree,Red,41.985471698113216,43.285068833971,40.68587456225544,,humidity
+Charles/MGH,Ashmont/Braintree,Red,42.48003999999999,42.720739930757496,42.239340069242495,,humidity
+Chestnut Hill,D,Green,44.21943333333332,47.09277082186274,41.346095844803905,,humidity
+Chinatown,Orange,Orange,42.42571304347828,50.00390793427508,34.84751815268149,,humidity
+Chiswick Road,B,Green,48.90113333333333,49.18262904927807,48.6196376173886,,humidity
+Cleveland Circle,C,Green,39.17118181818181,40.03643239670596,38.30593123965768,,humidity
+Community College,Orange,Orange,44.2424380165289,50.79800823440796,37.68686779864984,,humidity
+Coolidge Corner,C,Green,45.562837735849065,51.501402751663534,39.62427272003461,,humidity
+Copley,B/C/D/E,Green,42.2777289719626,47.43390237578936,37.12155556813585,,humidity
+Davis,Ashmont/Braintree,Red,46.445605263157894,48.894704308814994,43.99650621750078,,humidity
+Dean Road,C,Green,48.47220224719103,58.643133133545284,38.30127136083678,,humidity
+Downtown Crossing,Ashmont/Braintree,Red,42.78205882352939,48.768898709386164,36.79521893767261,,humidity
+Downtown Crossing,Orange,Orange,42.78205882352939,48.768898709386164,36.79521893767261,,humidity
+Eliot,D,Green,47.771714285714296,48.266065794547536,47.277362776881034,,humidity
+Englewood Avenue,C,Green,41.42709375,43.77361687952142,39.080570620478575,,humidity
+Fairbanks Street,C,Green,39.06491304347826,41.06094731429544,37.06887877266107,,humidity
+Fenway Park,D,Green,43.41809638554214,48.81865512496103,38.01753764612327,,humidity
+Fenwood Road,E,Green,40.66834426229509,43.34680122408761,37.98988730050256,,humidity
+Fields Corner,Ashmont,Red,44.105648648648675,45.93626224764594,42.275035049651386,,humidity
+Forest Hills,Orange,Orange,34.62987179487179,36.214277348009965,33.04546624173361,,humidity
+Government Center,B/C/D/E,Green,43.555122222222224,45.748322772871745,41.361921671572716,,humidity
+Government Center,Blue,Blue,43.555122222222224,45.748322772871745,41.361921671572716,,humidity
+Green Street,Orange,Orange,40.51207936507935,42.554199320653574,38.46995940950514,,humidity
+Griggs Street,B,Green,46.70615384615384,53.477870908715204,39.934436783592474,,humidity
+Harvard,Ashmont/Braintree,Red,46.11432758620693,50.51341120444814,41.71524396796571,,humidity
+Harvard Avenue,B,Green,50.19302777777776,55.47360527285007,44.91245028270545,,humidity
+Hawes Street,C,Green,41.659414414414414,42.81798121296313,40.500847615865695,,humidity
+Haymarket,C/E,Green,43.142395918367356,48.204966260560674,38.07982557617404,,humidity
+Haymarket,Orange,Orange,43.142395918367356,48.204966260560674,38.07982557617404,,humidity
+Heath Street,E,Green,36.64289634146347,38.693397024355,34.59239565857194,,humidity
+Hynes Convention Center,B/C/D,Green,45.20229104477612,50.3919393600727,40.01264272947954,,humidity
+JFK/UMass,Ashmont/Braintree,Red,44.63262295081967,45.140703560038794,44.124542341600545,,humidity
+Jackson Square,Orange,Orange,38.8914,42.04082827849055,35.74197172150946,,humidity
+Kendall/MIT,Ashmont/Braintree,Red,42.61893333333333,44.054907241047665,41.18295942561899,,humidity
+Kenmore,B/C/D,Green,43.659105058365746,48.12539945893019,39.19281065780129,,humidity
+Kent Street,C,Green,43.45752631578947,44.055988917277745,42.859063714301186,,humidity
+Lechmere,E,Green,44.243422857142846,46.13620263604702,42.350643078238676,,humidity
+Longwood,D,Green,48.13572727272728,48.6840613889651,47.587393156489455,,humidity
+Longwood Medical Area,E,Green,41.02507407407408,44.12356530289821,37.926582845249946,,humidity
+Malden Center,Orange,Orange,40.86907006369429,49.09885582679882,32.63928430058975,,humidity
+Massachusetts Ave,Orange,Orange,41.188022222222216,48.732537198736324,33.6435072457081,,humidity
+Maverick,Blue,Blue,47.71687234042553,52.190155132723646,43.243589548127396,,humidity
+Mission Park,E,Green,38.27769565217393,40.589011351266024,35.966379953081834,,humidity
+Museum Of Fine Arts,E,Green,41.70164814814815,44.297511098839124,39.10578519745717,,humidity
+Newton Centre,D,Green,43.82273170731707,45.884720783723495,41.76074263091061,,humidity
+Newton Highlands,D,Green,43.19068181818182,44.2195724099817,42.16179122638196,,humidity
+North Station,C/E,Green,43.096176470588226,48.56830317953025,37.62404976164622,,humidity
+North Station,Orange,Orange,43.096176470588226,48.56830317953025,37.62404976164622,,humidity
+Northeastern,E,Green,42.68012389380533,45.11739962390098,40.24284816370968,,humidity
+Oak Grove,Orange,Orange,49.16664754098361,56.81280746187874,41.520487620088474,,humidity
+Orient Heights,Blue,Blue,49.91396666666665,54.87327943673999,44.95465389659332,,humidity
+Packards Corner,B,Green,47.42048611111112,52.82362039710482,42.01735182511744,,humidity
+Park Street,Ashmont/Braintree,Red,43.50789940828403,46.46847005920706,40.54732875736101,,humidity
+Park Street,B/C/D/E,Green,43.50789940828403,46.46847005920706,40.54732875736101,,humidity
+Pleasant Street,B,Green,44.064392156862745,47.84774871462164,40.28103559910385,,humidity
+Porter,Ashmont/Braintree,Red,47.42103278688525,51.556235232422075,43.28583034134842,,humidity
+Prudential,E,Green,46.32061783439495,51.53184117437636,41.109394494413536,,humidity
+Reservoir,D,Green,48.63542857142858,51.37112271682255,45.89973442603461,,humidity
+Revere Beach,Blue,Blue,42.97936363636365,45.484311924479854,40.474415348247426,,humidity
+Riverside,D,Green,47.21358333333334,47.6877824588134,46.73938420785328,,humidity
+Riverway,E,Green,41.330825,42.96984830027554,39.69180169972446,,humidity
+Roxbury Crossing,Orange,Orange,40.05648387096774,41.418795319698226,38.69417242223725,,humidity
+Ruggles,Orange,Orange,39.41700000000001,42.41175859704008,36.422241402959926,,humidity
+Saint Marys Street,C,Green,42.99057971014493,46.22268199178672,39.758477428503134,,humidity
+Saint Paul Street B,B,Green,49.98661224489797,54.27720019905378,45.69602429074216,,humidity
+Saint Paul Street C,C,Green,42.83716509433962,47.47924443784318,38.195085750836064,,humidity
+Savin Hill,Ashmont,Red,40.67918518518519,41.14028671221977,40.21808365815061,,humidity
+Science Park,E,Green,42.354929824561424,43.538842675173576,41.17101697394926,,humidity
+Shawmut,Ashmont,Red,42.889535714285685,45.39958748459051,40.379483943980865,,humidity
+South Station,Ashmont/Braintree,Red,40.36692857142856,41.111126855298046,39.62273028755907,,humidity
+State,Blue,Blue,43.954760330578544,49.04605364469533,38.863467016461776,,humidity
+State,Orange,Orange,43.954760330578544,49.04605364469533,38.863467016461776,,humidity
+Stony Brook,Orange,Orange,39.93408695652172,42.5613100193276,37.30686389371584,,humidity
+Suffolk Downs,Blue,Blue,45.80339252336451,49.51666173027133,42.090123316457685,,humidity
+Sullivan Square,Orange,Orange,43.431394736842115,50.64745874916253,36.215330724521706,,humidity
+Summit Ave/Winchester St,C,Green,43.52021818181818,49.8531479516825,37.187288411953865,,humidity
+Symphony,E,Green,43.39975,46.30942242897536,40.49007757102464,,humidity
+Tappan Street,C,Green,42.89935714285714,50.73231844617154,35.066395839542736,,humidity
+Tufts Medical Center,Orange,Orange,43.07841747572819,50.42305855870365,35.733776392752716,,humidity
+Waban,D,Green,46.49518181818181,46.71322411123168,46.27713952513195,,humidity
+Warren Street,B,Green,46.12155882352943,52.63563694473447,39.60748070232438,,humidity
+Washington Square,C,Green,42.30709000000002,49.50938378879405,35.104796211205986,,humidity
+Washington Street,B,Green,46.75483333333331,50.25889962578853,43.250767040878095,,humidity
+Wellington,Orange,Orange,41.91380748663108,47.968408809409745,35.85920616385242,,humidity
+Wonderland,Blue,Blue,40.70422222222222,40.977519577577965,40.43092486686648,,humidity
+Wood Island,Blue,Blue,51.171941176470575,55.93262725486042,46.41125509808075,,humidity
+Woodland,D,Green,45.55572222222222,49.97222001126672,41.13922443317773,,humidity
+Airport,Blue,Blue,52.07022222222222,52.54704659993322,51.59339784451122,0.0,humidity
+Airport,Blue,Blue,40.362625,41.52902863939761,39.19622136060239,1.0,humidity
+Allston Street,B,Green,51.89363636363637,52.308665584951505,51.478607142321216,0.0,humidity
+Allston Street,B,Green,40.720243902439016,41.24650361876204,40.193984186116,1.0,humidity
+Andrew,Ashmont/Braintree,Red,43.2717619047619,43.839367921710455,42.70415588781336,0.0,humidity
+Andrew,Ashmont/Braintree,Red,43.66818181818181,43.88484628037506,43.45151735598856,1.0,humidity
+Aquarium,Blue,Blue,51.54184210526315,51.87683984840325,51.20684436212305,0.0,humidity
+Aquarium,Blue,Blue,41.400058823529406,41.58521398501168,41.214903662047135,1.0,humidity
+Arlington,B/C/D/E,Green,39.61554411764706,43.97848322161015,35.252605013683976,0.0,humidity
+Arlington,B/C/D/E,Green,43.47345098039217,46.79162749356157,40.155274467222775,1.0,humidity
+Assembly,Orange,Orange,40.280024999999966,46.07398661267764,34.486063387322304,0.0,humidity
+Assembly,Orange,Orange,43.274111111111104,48.204062725985224,38.34415949623699,1.0,humidity
+Babcock Street,B,Green,50.58225,50.70824064591128,50.45625935408871,0.0,humidity
+Babcock Street,B,Green,38.8584,39.15122694727882,38.565573052721184,1.0,humidity
+Back Bay,Orange,Orange,40.02588,41.073988649142905,38.977771350857104,0.0,humidity
+Back Bay,Orange,Orange,43.21790217391302,52.68605180812453,33.74975253970151,1.0,humidity
+Back Of The Hill,E,Green,41.15130769230769,41.32408904962351,40.97852633499186,1.0,humidity
+Beachmont,Blue,Blue,50.47305000000002,50.75736977456824,50.18873022543178,0.0,humidity
+Beachmont,Blue,Blue,41.07,41.40470640119365,40.73529359880635,1.0,humidity
+Beaconsfield,D,Green,36.320277777777775,36.64327364472558,35.997281910829976,0.0,humidity
+Beaconsfield,D,Green,45.2485,45.49164528903301,45.00535471096699,1.0,humidity
+Blandford Street,B,Green,52.4865,52.61011162297023,52.36288837702977,0.0,humidity
+Blandford Street,B,Green,50.47235714285715,50.79940233078239,50.145311954931906,1.0,humidity
+Boston College,B,Green,43.34777777777778,43.495520620962886,43.20003493459268,0.0,humidity
+Boston College,B,Green,37.023,,,1.0,humidity
+Boston University Central,B,Green,53.60430000000001,53.947862186309955,53.26073781369006,0.0,humidity
+Boston University Central,B,Green,45.83693333333333,46.56766923700822,45.10619742965845,1.0,humidity
+Boston University East,B,Green,43.54031250000001,44.265822225985815,42.81480277401421,1.0,humidity
+Boston University West,B,Green,53.43416666666666,53.93642778589057,52.93190554744275,0.0,humidity
+Boston University West,B,Green,44.22781250000001,44.60082639049204,43.854798609507974,1.0,humidity
+Boylston,B/C/D/E,Green,40.55193939393938,44.21933136524708,36.88454742263169,0.0,humidity
+Boylston,B/C/D/E,Green,46.18728571428571,46.736565647815176,45.63800578075622,1.0,humidity
+Brandon Hall,C,Green,41.86075,43.28130204775128,40.44019795224871,0.0,humidity
+Brandon Hall,C,Green,36.46959999999999,36.80193348139653,36.137266518603454,1.0,humidity
+Brigham Circle,E,Green,34.832449999999994,35.32957462431995,34.33532537568004,0.0,humidity
+Brigham Circle,E,Green,42.71204761904762,44.35056310291329,41.07353213518195,1.0,humidity
+Broadway,Ashmont/Braintree,Red,43.96021875000001,44.37432600853647,43.54611149146355,0.0,humidity
+Broadway,Ashmont/Braintree,Red,41.86703125,42.139885279789894,41.5941772202101,1.0,humidity
+Brookline Hills,D,Green,39.161611111111114,39.22264546873416,39.10057675348807,0.0,humidity
+Brookline Hills,D,Green,48.26634782608694,48.670398746448534,47.86229690572533,1.0,humidity
+Brookline Village,D,Green,34.368117647058824,34.90917146628026,33.82706382783737,0.0,humidity
+Brookline Village,D,Green,48.941321428571435,49.27809336520153,48.60454949194133,1.0,humidity
+Central,Ashmont/Braintree,Red,41.05523333333335,41.11142983790825,40.999036828758435,0.0,humidity
+Central,Ashmont/Braintree,Red,43.19882608695652,44.325211926395454,42.072440247517584,1.0,humidity
+Charles/MGH,Ashmont/Braintree,Red,42.48003999999999,42.720739930757496,42.239340069242495,1.0,humidity
+Chestnut Hill,D,Green,38.5865,38.62507849141684,38.54792150858313,0.0,humidity
+Chestnut Hill,D,Green,45.62766666666666,45.878231709279774,45.377101624053566,1.0,humidity
+Chinatown,Orange,Orange,39.065625,42.01442812268944,36.116821877310564,0.0,humidity
+Chinatown,Orange,Orange,44.83294029850746,53.716059846586994,35.949820750427925,1.0,humidity
+Chiswick Road,B,Green,48.90113333333333,49.18262904927807,48.6196376173886,0.0,humidity
+Cleveland Circle,C,Green,39.17118181818181,40.03643239670596,38.30593123965768,0.0,humidity
+Community College,Orange,Orange,44.69961818181816,51.62803367191162,37.7712026917247,0.0,humidity
+Community College,Orange,Orange,43.861454545454556,50.1173142384066,37.605594852502506,1.0,humidity
+Coolidge Corner,C,Green,42.9488366013072,44.52123229886686,41.37644090374753,0.0,humidity
+Coolidge Corner,C,Green,49.13374999999997,56.763087386953295,41.50441261304664,1.0,humidity
+Copley,B/C/D/E,Green,39.118140495867785,43.1853275793154,35.050953412420164,0.0,humidity
+Copley,B/C/D/E,Green,46.38859139784947,49.51324020676473,43.26394258893421,1.0,humidity
+Davis,Ashmont/Braintree,Red,43.47486666666667,44.01039680898672,42.93933652434662,0.0,humidity
+Davis,Ashmont/Braintree,Red,48.38304347826085,48.68533722477034,48.080749731751354,1.0,humidity
+Dean Road,C,Green,39.58575862068965,40.10157334761428,39.06994389376504,0.0,humidity
+Dean Road,C,Green,52.76731666666668,62.59548585923168,42.93914747410168,1.0,humidity
+Downtown Crossing,Ashmont/Braintree,Red,39.53779069767443,42.13203930490194,36.94354209044693,0.0,humidity
+Downtown Crossing,Ashmont/Braintree,Red,44.05027272727273,50.501109968871525,37.59943548567393,1.0,humidity
+Downtown Crossing,Orange,Orange,39.53779069767443,42.13203930490194,36.94354209044693,0.0,humidity
+Downtown Crossing,Orange,Orange,44.05027272727273,50.501109968871525,37.59943548567393,1.0,humidity
+Eliot,D,Green,47.771714285714296,48.266065794547536,47.277362776881034,1.0,humidity
+Englewood Avenue,C,Green,39.1835625,39.366517492188414,39.00060750781157,0.0,humidity
+Englewood Avenue,C,Green,43.670625,44.45034151899904,42.89090848100094,1.0,humidity
+Fairbanks Street,C,Green,41.086363636363636,41.184846399045504,40.98788087368175,0.0,humidity
+Fairbanks Street,C,Green,37.21191666666667,37.5689675818883,36.85486575144503,1.0,humidity
+Fenway Park,D,Green,35.9755,36.22062226729925,35.730377732700745,0.0,humidity
+Fenway Park,D,Green,47.20705454545453,48.16369400341414,46.25041508749493,1.0,humidity
+Fenwood Road,E,Green,35.809357142857145,36.03968286777826,35.57903141793603,0.0,humidity
+Fenwood Road,E,Green,42.11570212765957,42.24457397416401,41.986830281155136,1.0,humidity
+Fields Corner,Ashmont,Red,45.83823684210528,46.10818743159923,45.56828625261132,0.0,humidity
+Fields Corner,Ashmont,Red,42.27680555555557,42.73843594694458,41.81517516416656,1.0,humidity
+Forest Hills,Orange,Orange,33.969757575757576,34.212388600966506,33.72712655054865,0.0,humidity
+Forest Hills,Orange,Orange,38.2605,38.35058829002706,38.17041170997294,1.0,humidity
+Government Center,B/C/D/E,Green,43.05679012345679,45.85846881094065,40.25511143597295,0.0,humidity
+Government Center,B/C/D/E,Green,43.96284848484849,45.378820771874345,42.54687619782264,1.0,humidity
+Government Center,Blue,Blue,43.05679012345679,45.85846881094065,40.25511143597295,0.0,humidity
+Government Center,Blue,Blue,43.96284848484849,45.378820771874345,42.54687619782264,1.0,humidity
+Green Street,Orange,Orange,39.5061,42.04480448022825,36.96739551977174,0.0,humidity
+Green Street,Orange,Orange,41.42660606060607,42.0806909623674,40.77252115884474,1.0,humidity
+Griggs Street,B,Green,53.345692307692296,53.4210341780958,53.27035043728881,0.0,humidity
+Griggs Street,B,Green,40.06661538461538,40.18403098441764,39.94919978481313,1.0,humidity
+Harvard,Ashmont/Braintree,Red,41.615428571428595,42.08457471691003,41.14628242594714,0.0,humidity
+Harvard,Ashmont/Braintree,Red,50.31330000000001,50.537220883503466,50.089379116496545,1.0,humidity
+Harvard Avenue,B,Green,53.21933333333333,53.49859530711422,52.94007135955244,0.0,humidity
+Harvard Avenue,B,Green,41.114111111111114,41.73552936078329,40.49269286143894,1.0,humidity
+Hawes Street,C,Green,43.08733333333334,43.50592598678514,42.66874067988155,0.0,humidity
+Hawes Street,C,Green,41.436302083333345,42.51154655609577,40.36105761057091,1.0,humidity
+Haymarket,C/E,Green,43.21806542056076,48.43082323423115,38.005307606890376,0.0,humidity
+Haymarket,C/E,Green,43.083724637681144,48.04504784499366,38.12240143036861,1.0,humidity
+Haymarket,Orange,Orange,43.21806542056076,48.43082323423115,38.005307606890376,0.0,humidity
+Haymarket,Orange,Orange,43.083724637681144,48.04504784499366,38.12240143036861,1.0,humidity
+Heath Street,E,Green,32.78957692307693,33.04195397006447,32.53719987608939,0.0,humidity
+Heath Street,E,Green,37.36888405797105,38.65032352043049,36.087444595511606,1.0,humidity
+Hynes Convention Center,B/C/D,Green,44.324269230769225,51.41876324363883,37.22977521789964,0.0,humidity
+Hynes Convention Center,B/C/D,Green,45.75908536585367,49.18300647807957,42.33516425362778,1.0,humidity
+JFK/UMass,Ashmont/Braintree,Red,44.27546875000001,44.53618810033115,44.01474939966886,0.0,humidity
+JFK/UMass,Ashmont/Braintree,Red,45.02672413793103,45.44056907926531,44.61287919659674,1.0,humidity
+Jackson Square,Orange,Orange,40.27932352941176,43.630353969943286,36.928293088880224,0.0,humidity
+Jackson Square,Orange,Orange,37.07642307692308,38.67018208437877,35.48266406946738,1.0,humidity
+Kendall/MIT,Ashmont/Braintree,Red,41.23926086956522,41.4327405413636,41.04578119776683,0.0,humidity
+Kendall/MIT,Ashmont/Braintree,Red,44.06131818181818,44.1912505401779,43.93138582345846,1.0,humidity
+Kenmore,B/C/D,Green,41.46523333333332,46.13173336549232,36.79873330117431,0.0,humidity
+Kenmore,B/C/D,Green,45.580744525547416,48.82541686926357,42.336072181831284,1.0,humidity
+Kent Street,C,Green,43.45752631578947,44.055988917277745,42.859063714301186,0.0,humidity
+Lechmere,E,Green,42.48133333333333,43.13945163346615,41.82321503320052,0.0,humidity
+Lechmere,E,Green,44.373147239263794,46.26302965520614,42.48326482332146,1.0,humidity
+Longwood,D,Green,48.13572727272728,48.6840613889651,47.587393156489455,1.0,humidity
+Longwood Medical Area,E,Green,37.47063157894737,37.58518782933522,37.35607532855952,0.0,humidity
+Longwood Medical Area,E,Green,41.497342657342685,44.492087524335325,38.502597790350045,1.0,humidity
+Malden Center,Orange,Orange,39.1114534883721,48.10404088892789,30.11886608781631,0.0,humidity
+Malden Center,Orange,Orange,42.998014084507034,49.65774996406812,36.33827820494597,1.0,humidity
+Massachusetts Ave,Orange,Orange,36.51615384615385,37.34123924965878,35.6910684426489,0.0,humidity
+Massachusetts Ave,Orange,Orange,43.08596875,51.296573202975644,34.87536429702435,1.0,humidity
+Maverick,Blue,Blue,51.18289655172413,51.698128562211195,50.667664541237066,0.0,humidity
+Maverick,Blue,Blue,42.13272222222223,42.57751838248331,41.68792606196114,1.0,humidity
+Mission Park,E,Green,36.041227272727276,36.186424980900895,35.89602956455365,0.0,humidity
+Mission Park,E,Green,40.32779166666667,41.45157672963629,39.204006603697046,1.0,humidity
+Museum Of Fine Arts,E,Green,38.75660869565217,38.85453015728454,38.6586872340198,0.0,humidity
+Museum Of Fine Arts,E,Green,43.88667741935485,44.447626816187075,43.32572802252261,1.0,humidity
+Newton Centre,D,Green,41.7559,41.843081540779174,41.66871845922082,0.0,humidity
+Newton Centre,D,Green,45.79114285714285,46.18637624208321,45.395909472202476,1.0,humidity
+Newton Highlands,D,Green,42.41568000000001,43.07127201744175,41.760087982558275,0.0,humidity
+Newton Highlands,D,Green,44.21042105263158,44.36535305054232,44.05548905472085,1.0,humidity
+North Station,C/E,Green,42.82238983050848,48.13956925443433,37.505210406582634,0.0,humidity
+North Station,C/E,Green,43.4098349514563,49.06397504504984,37.75569485786275,1.0,humidity
+North Station,Orange,Orange,42.82238983050848,48.13956925443433,37.505210406582634,0.0,humidity
+North Station,Orange,Orange,43.4098349514563,49.06397504504984,37.75569485786275,1.0,humidity
+Northeastern,E,Green,42.865416666666654,45.14314920453947,40.58768412879385,0.0,humidity
+Northeastern,E,Green,42.354731707317065,45.048007194752294,39.66145621988182,1.0,humidity
+Oak Grove,Orange,Orange,51.34839000000001,56.0365231424689,46.66025685753112,0.0,humidity
+Oak Grove,Orange,Orange,39.24963636363636,49.62037829211893,28.878894435153807,1.0,humidity
+Orient Heights,Blue,Blue,53.32612500000001,54.464247389604026,52.18800261039599,0.0,humidity
+Orient Heights,Blue,Blue,43.08965,43.514885943794425,42.664414056205565,1.0,humidity
+Packards Corner,B,Green,50.96950000000001,51.15596980934168,50.78303019065834,0.0,humidity
+Packards Corner,B,Green,39.35454545454545,40.04387015702938,38.66522075206152,1.0,humidity
+Park Street,Ashmont/Braintree,Red,41.909732142857145,46.19506811352426,37.62439617219004,0.0,humidity
+Park Street,Ashmont/Braintree,Red,44.29991150442479,45.789685879465246,42.81013712938434,1.0,humidity
+Park Street,B/C/D/E,Green,41.909732142857145,46.19506811352426,37.62439617219004,0.0,humidity
+Park Street,B/C/D/E,Green,44.29991150442479,45.789685879465246,42.81013712938434,1.0,humidity
+Pleasant Street,B,Green,51.6192,51.68616566284298,51.55223433715702,0.0,humidity
+Pleasant Street,B,Green,42.22175609756098,42.59892163021792,41.84459056490404,1.0,humidity
+Porter,Ashmont/Braintree,Red,42.34166666666668,42.54427759531022,42.13905573802313,0.0,humidity
+Porter,Ashmont/Braintree,Red,50.715756756756754,51.05765142908576,50.373862084427735,1.0,humidity
+Prudential,E,Green,47.17645689655174,52.99622264470204,41.35669114840145,0.0,humidity
+Prudential,E,Green,43.89921951219512,44.53365979749371,43.264779226896536,1.0,humidity
+Reservoir,D,Green,36.711,,,0.0,humidity
+Reservoir,D,Green,49.23165,49.37285767647243,49.0904423235276,1.0,humidity
+Revere Beach,Blue,Blue,45.023210526315786,45.704332197527435,44.34208885510415,0.0,humidity
+Revere Beach,Blue,Blue,40.20557142857143,40.8475642052245,39.56357865191835,1.0,humidity
+Riverside,D,Green,47.533625,47.567850877845366,47.499399122154635,0.0,humidity
+Riverside,D,Green,46.57350000000001,46.62205580981374,46.52494419018628,1.0,humidity
+Riverway,E,Green,41.330825,42.96984830027554,39.69180169972446,1.0,humidity
+Roxbury Crossing,Orange,Orange,40.129166666666656,41.760950636058524,38.497382697274816,0.0,humidity
+Roxbury Crossing,Orange,Orange,39.90385,40.323758921828976,39.48394107817101,1.0,humidity
+Ruggles,Orange,Orange,36.59348275862069,37.27927393991058,35.9076915773308,0.0,humidity
+Ruggles,Orange,Orange,42.44966666666666,42.59993949547121,42.2993938378621,1.0,humidity
+Saint Marys Street,C,Green,40.33714814814815,40.65398585274489,40.020310443551395,0.0,humidity
+Saint Marys Street,C,Green,44.69635714285714,47.801999755919645,41.59071452979463,1.0,humidity
+Saint Paul Street B,B,Green,52.667342857142856,52.83985235267983,52.49483336160589,0.0,humidity
+Saint Paul Street B,B,Green,43.28478571428572,43.70571420786069,42.86385722071074,1.0,humidity
+Saint Paul Street C,C,Green,41.93471084337347,42.79596655637262,41.07345513037433,0.0,humidity
+Saint Paul Street C,C,Green,43.41781395348837,49.26408926582325,37.571538641153495,1.0,humidity
+Savin Hill,Ashmont,Red,40.67918518518519,41.14028671221977,40.21808365815061,1.0,humidity
+Science Park,E,Green,41.01208333333333,41.23387366061422,40.79029300605245,0.0,humidity
+Science Park,E,Green,43.33154545454544,43.617061992038145,43.046028917052745,1.0,humidity
+Shawmut,Ashmont,Red,44.76494285714285,45.01873607344041,44.5111496408453,0.0,humidity
+Shawmut,Ashmont,Red,39.76385714285715,40.660024107530276,38.867690178184034,1.0,humidity
+South Station,Ashmont/Braintree,Red,39.9744074074074,40.44612890764793,39.502685907166864,0.0,humidity
+South Station,Ashmont/Braintree,Red,40.73237931034483,41.50332767871946,39.961430941970185,1.0,humidity
+State,Blue,Blue,44.85980833333329,49.79299827289186,39.92661839377472,0.0,humidity
+State,Blue,Blue,43.0645491803279,48.171684695981206,37.95741366467461,1.0,humidity
+State,Orange,Orange,44.85980833333329,49.79299827289186,39.92661839377472,0.0,humidity
+State,Orange,Orange,43.0645491803279,48.171684695981206,37.95741366467461,1.0,humidity
+Stony Brook,Orange,Orange,39.6327142857143,42.947591418306274,36.317837153122326,0.0,humidity
+Stony Brook,Orange,Orange,40.402888888888896,40.99394533115877,39.81183244661902,1.0,humidity
+Suffolk Downs,Blue,Blue,53.339588235294116,53.52992972407925,53.14924674650898,0.0,humidity
+Suffolk Downs,Blue,Blue,44.3798888888889,46.25555368156426,42.50422409621355,1.0,humidity
+Sullivan Square,Orange,Orange,42.7626049382716,50.93689734905405,34.588312527489144,0.0,humidity
+Sullivan Square,Orange,Orange,44.19438028169014,50.098037676816844,38.29072288656344,1.0,humidity
+Summit Ave/Winchester St,C,Green,43.09752,46.56585429184674,39.62918570815327,0.0,humidity
+Summit Ave/Winchester St,C,Green,43.87246666666668,51.90007104901762,35.844862284315724,1.0,humidity
+Symphony,E,Green,43.44735416666668,47.39170001211342,39.50300832121994,0.0,humidity
+Symphony,E,Green,43.355807692307714,44.802401880947464,41.909213503667935,1.0,humidity
+Tappan Street,C,Green,42.08282758620689,43.55231625016369,40.613338922250094,0.0,humidity
+Tappan Street,C,Green,43.77637037037036,54.997873482178456,32.55486725856225,1.0,humidity
+Tufts Medical Center,Orange,Orange,40.36992452830188,43.27844755322401,37.46140150337975,0.0,humidity
+Tufts Medical Center,Orange,Orange,45.94942000000001,55.275082605095776,36.62375739490425,1.0,humidity
+Waban,D,Green,46.49518181818181,46.71322411123168,46.27713952513195,1.0,humidity
+Warren Street,B,Green,52.526588235294106,52.618308638438336,52.434867832149884,0.0,humidity
+Warren Street,B,Green,39.71652941176471,40.29379626054947,39.13926256297995,1.0,humidity
+Washington Square,C,Green,42.80897368421053,45.12498701665175,40.492960351769305,0.0,humidity
+Washington Square,C,Green,41.99948387096775,50.98173169971934,33.017236042216155,1.0,humidity
+Washington Street,B,Green,51.799294117647065,51.92088963807539,51.67769859721872,0.0,humidity
+Washington Street,B,Green,44.76051162790697,46.45487995200853,43.06614330380541,1.0,humidity
+Wellington,Orange,Orange,40.37116470588232,47.032934654889964,33.70939475687467,0.0,humidity
+Wellington,Orange,Orange,43.19934313725491,48.38856443272578,38.01012184178405,1.0,humidity
+Wonderland,Blue,Blue,40.70422222222222,40.977519577577965,40.43092486686648,1.0,humidity
+Wood Island,Blue,Blue,53.1364722222222,54.225532496453006,52.0474119479914,0.0,humidity
+Wood Island,Blue,Blue,40.29146153846155,40.765712459280294,39.817210617642786,1.0,humidity
+Woodland,D,Green,50.15623529411764,50.33922557029775,49.973245017937536,0.0,humidity
+Woodland,D,Green,41.439473684210526,41.59372649560975,41.28522087281132,1.0,humidity

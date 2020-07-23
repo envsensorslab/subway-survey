@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>MBTA Subway Conditions Survey 2018-2019</title>
+        <link rel=icon type=image/png href=favicon.png>
+
+        <link href=https://fonts.googleapis.com/css?family=Lato&display=swap rel=stylesheet>
+        <link rel=stylesheet href=dist/leaflet@1.5.1/leaflet.css>
+        <script src=dist/leaflet@1.5.1/leaflet.js></script>
+        <script src=dist/leaflet.ajax.js></script>
+        <script src=dist/d3.v4.js></script>
+        <script src=dist/jsnetworkx.js></script>
+
+        <link rel=stylesheet type=text/css href=style.css>
+    </head>
+    <body>
+        <div id=outer>
+
+            <div id=header>
+                <a class=unstyled-link href=https://northeastern.edu>
+                    <img src=img/lockup.png id=logo></img>
+                </a>
+                <div class=header-component>
+                    <a class=header-link href=https://northeastern.edu/envsensorslab/>
+                        <b>Environmental Sensors Lab</b>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    MBTA Subway Conditions Survey 2018-2019
+                </div>
+                <div id=header-right>
+                    <div class=header-component>
+                        <b><a class=header-link href=index.html>System</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class="header-link header-selected" href=commute.html>Commute</a></b>
+                    </div>
+                    <div class=header-component>
+                        <b><a class=header-link href=about.html>About</a></b>
+                    </div>
+                </div>
+            </div>
+
+            <div id=inner-vertical>
+                <div id=map-container>
+                    <div id=map></div>
+                    <div id=exposure-title>
+                        <h2>Commuting conditions assessment tool</h2>
+                    </div>
+                </div>
+                <div id=exposure>
+                    <div id=exposure-instructions>
+                        <h3>Instructions</h3>
+                        <ul>
+                            <li>Click on two different stations above to learn more about the environmental conditions that appear along the route connecting them.</li>
+                            <li>Points along the resulting graph can be hovered over to see their labels.</li>
+                            <li>Click and drag on the map to pan.</li>
+                            <li>Use the scroll wheel on the map or click on the zoom buttons at the top left to zoom</li>
+                        </ul>
+                    </div>
+                    <div id=exposure-interface style="display:none">
+                        Showing <select id=quantity-selector></select> readings from <b id=start-station></b> to <b id=end-station></b>
+                        <img id=exposure-key src=img/key.svg></img>
+                        <div id=exposure-graph></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src=commute.js></script>
+        <script src=commute-graph.js></script>
+    </body>
+</html>
