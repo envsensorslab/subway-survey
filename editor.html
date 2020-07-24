@@ -1,0 +1,852 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <script src=/static/contrib/d3.v5.min.js></script>
+        <style>
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.selection-overlay {
+    fill: white;
+    cursor: pointer;
+}
+
+.vetical-line {
+    pointer-events: none;
+}
+
+.location-label {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.key-item {
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+button, .selection {
+    cursor: pointer;
+}
+
+#caption {
+    font-size: 18px;
+}
+#export {
+    display: inline-block;
+}
+
+#dialogConfirm, #dialogDelete {
+    width: 100%;
+}
+#dialog {
+    height: 150px;
+    width: 270px;
+    background: white;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    z-index: 100;
+}
+#dialogTable {
+    width: 100%;
+    height: 100%;
+}
+
+#selectionGraphContainer {
+    overflow-x: scroll;
+    width: 100%;
+}
+#adxlGraphContainer {
+    overflow-x: scroll;
+    width: 100%;
+    /* cursor: crosshair; */
+    cursor: none;
+}
+#locationGraphContainer {
+    overflow-y: scroll;
+    height: 150px;
+    padding-left: -1000px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id=dialog hidden>
+            <table id=dialogTable>
+                <tr>
+                    <td>Start</td>
+                    <td><input id=dialogStart type=text disabled></input></td>
+                </tr>
+                <tr>
+                    <td>End
+                    <td><input id=dialogEnd type=text disabled></input></td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td><input id=dialogLocation type=text></input></td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td><input id=dialogStatus type=text></input></td>
+                </tr>
+                <tr>
+                    <td><button id=dialogDelete>delete</button></td>
+                    <td><button id=dialogConfirm>ok</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id=adxlGraphContainer>
+            <div id=adxlGraph></div>
+        </div>
+        <div id=selectionGraphContainer>
+            <div id=selectionGraph></div>
+        </div>
+        <div id=locationGraphContainer>
+            <div id=locationGraph></div>
+        </div>
+
+        <div style="padding: 20px;">
+            <div style="float: left;">
+                <img src=/static/neu.png></img>
+                <br>
+                <br><span id=caption>Environmental Sensors Lab - Subway Survey Data Labeler</span>
+            </div>
+            <div style="padding: 0px 50px; float: left;">
+                Key
+                <br>
+                <br>
+                <div style="background: green" class=key-item>Leaving</div>
+                <div style="background: red" class=key-item>Entering</div>
+                <div style="background: blue" class=key-item>Left</div>
+            </div>
+            <div style="float: left;">
+                Currently viewing: <select id=date-selector>
+                </select>
+                <br>
+                <br>
+                <a id=export href=#>Export</a>
+                <a id=clear href=#>Clear</a>
+                <br>
+                <br>
+                Load labels: 
+                <input id=upload type=file>
+            </div>
+        </div>
+        <script>
+// FILLED BY FLASK
+//var sampleDate = "2018-06-18";
+var sampleDate = "%SAMPLE_DATE%";
+// FILLED BY FLASK
+
+var selector = document.getElementById("date-selector");
+var request = new XMLHttpRequest();
+request.addEventListener("load", function() {
+    var dates = JSON.parse(this.response);
+    for (var i = 0; i < dates.length; i++) {
+        var option = document.createElement("option");
+        option.innerHTML = dates[i];
+        selector.appendChild(option);
+        if (dates[i] == sampleDate) {
+            selector.selectionIndex = i;
+            selector.value = sampleDate
+        }
+    }
+});
+request.open("GET", "/data/");
+request.send();
+
+selector.addEventListener("change", function() {
+    window.location.href = "/editor/" + selector.value;
+});
+
+var SPACE_BETWEEN_GRAPHS = 20,
+    TICK_WIDTH = 30,
+    N_TIME_TICKS = 120,
+    N_ACCEL_TICKS = 8,
+    ADXL_SKIP = 20,
+    //PAGE_MARGIN = 10,
+    PAGE_MARGIN = 0,
+    ADXL_ZOOM_WINDOW = 1.5,
+    GRAPH_WIDTH = 30000,
+    TIME_BUFFER = 100000,
+    AXES = {
+        "X": "red",
+        "Y": "blue",
+        "Z": "green"
+    };
+
+var scrollLeft = 0;
+
+var containers = [
+    "adxlGraphContainer",
+    "locationGraphContainer",
+    "selectionGraphContainer"
+]
+for (var i = 0; i < containers.length; i++) {
+    (function(container) {
+        container.addEventListener("scroll", function(e) {
+            scrollLeft = container.scrollLeft;
+            for (var j = 0; j < containers.length; j++) {
+                var otherContainer = document.getElementById(containers[j]);
+                if (otherContainer !== container) {
+                    otherContainer.scrollLeft = scrollLeft;
+                }
+            }
+        });
+    })(document.getElementById(containers[i]));
+}
+
+var adxlGraph;
+var locationGraph;
+var selectionGraph;
+
+function avgRow(rows) {
+    var columns = Object.keys(rows[0]),
+        n = rows.length,
+        avg = {};
+
+    for (var i in columns) {
+        avg[columns[i]] = 0;
+    }
+    rows.forEach(function(row) {
+        for (var i in columns) {
+            var column = columns[i];
+            avg[column] += row[column];
+        }
+    });
+    for (var i in columns) {
+        avg[columns[i]] /= n;
+    }
+
+    return avg
+}
+
+function AdxlSubgraph(parentGraph, axis, subgraphHeight, yOffset) {
+    var thisObject = this;
+
+    this.axis = axis;
+    this.zoomed = false;
+    this.canvas = parentGraph.canvas.append("g")
+        .attr("height", subgraphHeight)
+        .attr("transform", "translate(" + TICK_WIDTH + "," + yOffset + ")")
+
+    this.yScale = d3.scaleLinear()
+        .domain(
+            d3.extent(parentGraph.data, function(row) { return row[axis]; })
+        )
+        .range([subgraphHeight, 0]);
+
+    this.canvas.append("rect")
+        .attr("class", "overlay")
+        .attr("width", parentGraph.width - TICK_WIDTH)
+        .attr("height", subgraphHeight);
+
+    var clipId = "clip-" + axis;
+    this.canvas.append("clipPath")
+        .attr("id", clipId)
+        .append("rect")
+        .attr("width", parentGraph.width - TICK_WIDTH)
+        .attr("height", subgraphHeight);
+
+    this.canvas.append("path")
+        .data([parentGraph.data])
+        .attr("clip-path", "url(#" + clipId + ")")
+        .attr("class", "line")
+        .style("fill", "none")
+        .attr("stroke", AXES[axis]);
+
+    this.canvas.append("g")
+        .attr("class", "y-axis")
+
+    this.scaleData = function(scale) {
+        this.canvas.select(".line")
+            .attr(
+                "d",
+                d3.line()
+                    .x(function(row) { return parentGraph.xScale(row["TIME"]); })
+                    .y(function(row) { return scale(row[axis]); })
+            );
+        this.canvas.select(".y-axis")
+            .call(
+                d3.axisLeft(scale)
+                    .ticks(N_ACCEL_TICKS)
+            );
+    }
+
+    this.canvas.on("contextmenu", function() {
+        d3.event.preventDefault();
+
+        var mouseY = d3.event.pageY - yOffset - PAGE_MARGIN,
+            graphY = thisObject.yScale.invert(mouseY);
+
+        thisObject.zoomed = !thisObject.zoomed;
+        if (thisObject.zoomed) {
+            thisObject.scaleData(
+                d3.scaleLinear()
+                    .domain([graphY - ADXL_ZOOM_WINDOW, graphY + ADXL_ZOOM_WINDOW])
+                    .range([subgraphHeight, 0])
+            );
+        } else {
+            thisObject.scaleData(thisObject.yScale);
+        }
+    });
+
+    thisObject.scaleData(thisObject.yScale);
+}
+
+function AdxlGraph(data, xScale = null, idSelector = "#adxlGraph", width = GRAPH_WIDTH, subgraphHeight = 80, otherVerticalLines = [], selectionGraph = null) {
+    var thisObject = this;
+    var subgraphs = [];
+    var nGraphs = 3;
+    this.data = data;
+    this.height = subgraphHeight * nGraphs + SPACE_BETWEEN_GRAPHS * (nGraphs + 1);
+    this.width = width;
+    this.selectionGraph = selectionGraph;
+
+    if (xScale == null) {
+        this.xScale = d3.scaleTime()
+            .domain(
+                d3.extent(data, function(row) { return row["TIME"]; })
+            )
+            .range([0, this.width]);
+    } else {
+        this.xScale = xScale;
+    }
+
+    this.canvas = d3.select(idSelector)
+        .append("svg")
+        .attr("width", this.width)
+        .attr("height", this.height + TICK_WIDTH);
+
+    this.canvas.append("g")
+        .attr("transform", "translate(" + TICK_WIDTH + "," + this.height + ")")
+        .call(
+            d3.axisBottom(this.xScale)
+                .ticks(N_TIME_TICKS)
+        );
+
+    this.bounds = this.canvas.node().getBoundingClientRect();
+
+    var nGraph = 0
+    for (var axis in AXES) {
+        (function(axis) {
+            nGraph++;
+            var yOffset = (nGraph - 1) * (subgraphHeight + SPACE_BETWEEN_GRAPHS) + TICK_WIDTH;
+            subgraphs.push(new AdxlSubgraph(thisObject, axis, subgraphHeight, yOffset));
+        })(axis);
+    }
+
+    this.verticalLines = [
+        this.canvas.append("line")
+            .attr("class", "vertical-line")
+            .attr("x1", 0)
+            .attr("y1", 0)
+            .attr("x2", 0)
+            .attr("y1", this.height)
+            .style("stroke", "black")
+            .style("stroke-width", 1)
+            .style("stroke-dasharray", ("3, 3"))
+    ];
+    for (var i = 0; i < otherVerticalLines.length; i++) {
+        this.verticalLines.push(otherVerticalLines[i]);
+    }
+
+    this.horizontalLine = this.canvas.append("line")
+        .attr("class", "vertical-line")
+        .attr("x1", 0)
+        .attr("y1", this.height / 2)
+        .attr("x2", this.width)
+        .attr("y1", this.height / 2)
+        .style("stroke", "black")
+        .style("stroke-width", 1)
+        .style("stroke-dasharray", ("3, 3"))
+
+    this.moveHorizontalLine = function(pageY) {
+        thisObject.horizontalLine
+            .attr("y1", pageY - PAGE_MARGIN + 1.5)
+            .attr("y2", pageY - PAGE_MARGIN + 1.5);
+    }
+
+    this.moveVerticalLines = function(pageX) {
+        for (var i = 0; i < thisObject.verticalLines.length; i++) {
+            x = pageX - PAGE_MARGIN + 1.5
+            if (thisObject.verticalLines[i].node().parentNode.parentNode.id == "locationGraph") {
+                x -= TICK_WIDTH
+            }
+            thisObject.verticalLines[i].attr("x1", x).attr("x2", x);
+        }
+    }
+
+    console.log(
+        this.xScale.invert(0 - PAGE_MARGIN)
+        - this.xScale.invert(0 - PAGE_MARGIN - TICK_WIDTH)
+    );
+
+    this.pageXToTime = function(pageX) {
+        return this.xScale.invert(pageX - PAGE_MARGIN - TICK_WIDTH);
+    }
+
+    this.canvas.on("mousemove", function() {
+        thisObject.moveVerticalLines(d3.event.x + scrollLeft);
+        thisObject.moveHorizontalLine(d3.event.y + document.body.scrollTop);
+    });
+
+    var dragSelection = this.canvas.append("rect")
+        .attr("class", "drag-selection")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", 100)
+        .attr("height", this.height)
+        .style("fill", "black")
+        .style("opacity", 0);
+
+    var dragStartX = 0;
+    var dragStartY = 0;
+
+    this.canvas.on("click", function() {
+        console.log(thisObject.pageXToTime(d3.event.x));
+    });
+
+    this.canvas.call(
+        d3.drag()
+            .on("start", function() {
+                var pageX = d3.event.x;
+                dragStartX = pageX;
+                dragSelection
+                    .attr("x", pageX)
+                    .attr("width", 0)
+                    .style("opacity", 0.25);
+
+                dragStartY = d3.event.y;
+                //#console.log(dragStartY);
+            })
+            .on("drag", function() {
+                var pageX = d3.event.x;
+                if (pageX > dragStartX) {
+                    dragSelection
+                        .attr("x", dragStartX)
+                        .attr("width", pageX - dragStartX);
+                } else {
+                    dragSelection
+                        .attr("x", pageX)
+                        .attr("width", dragStartX - pageX);
+                }
+            })
+            .on("end", function() {
+                var pageX = d3.event.x;
+                dragSelection.style("opacity", 0);
+                thisObject.moveVerticalLines(pageX + PAGE_MARGIN);
+
+                pageXTime = thisObject.pageXToTime(pageX);
+                dragStartXTime = thisObject.pageXToTime(dragStartX);
+                if (pageX > dragStartX) {
+                    dragRange = [dragStartXTime, pageXTime];
+                } else {
+                    dragRange = [pageXTime, dragStartXTime];
+                }
+
+                //console.log("drag from " + dragRange[0] + " to " + dragRange[1]);
+                if (thisObject.selectionGraph !== null) {
+                    thisObject.selectionGraph.addSelection(
+                        dragRange[0].getTime(), dragRange[1].getTime()
+                    );
+                }
+            })
+    );
+
+}
+
+function LocationGraph(data, xScale = null, idSelector = "#locationGraph", width = GRAPH_WIDTH, subgraphHeight = 10000, barHeight = 14) {
+    var thisObject = this;
+    this.data = data;
+    this.height = subgraphHeight;
+    this.width = width;
+
+    if (xScale == null) {
+        this.xScale = d3.scaleTime()
+            .domain(
+                d3.extent(data, function(row) { return row["TIME"]; })
+            )
+            .range([0, this.width]);
+    } else {
+        this.xScale = xScale;
+    }
+
+    this.canvas = d3.select(idSelector)
+        .append("svg")
+        .attr("width", this.width)
+        .attr("height", this.height)
+        .attr("transform", "translate(" + TICK_WIDTH + ",0)");
+
+    this.verticalLine = this.canvas.append("line")
+        .attr("class", "vertical-line")
+        .attr("x1", 0)
+        .attr("y1", 0)
+        .attr("x2", 0)
+        .attr("y1", this.height)
+        .style("stroke", "black")
+        .style("stroke-width", 1)
+        .style("stroke-dasharray", ("3, 3"));
+
+    for (var i = 0; i < data.length - 1; i++) {
+        if (data[i]["STATUS"] == "entering") {
+            //console.log(data[i]);
+            data[i]["LOCATION"] = data[i + 1]["LOCATION"];
+            //console.log(data[i + 1]);
+        }
+    }
+
+    for (i = 0; i < data.length - 1; i++) {
+        var row = data[i],
+            nextRow = data[i + 1],
+            timestamp_start = row["TIMESTAMP"],
+            timestamp_end = nextRow["TIMESTAMP"],
+            drawStart = thisObject.xScale(timestamp_start) + PAGE_MARGIN,
+            drawEnd = thisObject.xScale(timestamp_end) + PAGE_MARGIN,
+            drawWidth = drawEnd - drawStart;
+
+        var fillColour = "grey";
+        switch(row["STATUS"]) {
+            case "leaving":
+                fillColour = "green";
+                break;
+            case "entering":
+                fillColour = "red";
+                break;
+            case "left":
+                fillColour = "blue";
+                break;
+        }
+        if ((row["POSITION"] == "START") || (row["POSITION"] == "END")) {
+            fillColour = "black";
+        }
+
+        var box = thisObject.canvas.append("rect")
+            .attr("x", drawStart)
+            .attr("y", barHeight * i)
+            .attr("height", barHeight)
+            .attr("width", drawWidth)
+            .attr("fill", fillColour);
+
+        var label = thisObject.canvas.append("text")
+            .attr("class", "location-label")
+            .attr("x", drawEnd + 1)
+            .attr("y", barHeight * (i + 0.75))
+            .text(row["LOCATION"])
+
+        if (nextRow["LOCATION"] != row["LOCATION"]) {
+            var line = thisObject.canvas.append("rect")
+                .attr("x", drawEnd)
+                .attr("y", 0)
+                .attr("height", thisObject.height)
+                .attr("width", 1);
+        }
+
+    }
+}
+
+function Selection(selectionGraph, start, end, data = null, showDialog = true, locationOverride = null) {
+    var thisObject = this;
+
+    var drawStart = selectionGraph.xScale(start) + PAGE_MARGIN,
+        drawEnd = selectionGraph.xScale(end) + PAGE_MARGIN,
+        drawWidth = drawEnd - drawStart,
+        midpoint = (start + end)/2;
+
+    var dialog = document.getElementById("dialog"),
+        dialogStart = document.getElementById("dialogStart"),
+        dialogEnd = document.getElementById("dialogEnd"),
+        dialogLocation = document.getElementById("dialogLocation"),
+        dialogStatus = document.getElementById("dialogStatus"),
+        dialogConfirm = document.getElementById("dialogConfirm"),
+        dialogDelete = document.getElementById("dialogDelete");
+
+    this.data = data;
+    this.selectionGraph = selectionGraph;
+    var box = null;
+
+    if (data == null) {
+        for (var i = 0; i < selectionGraph.data.length - 1; i++) {
+            var row = selectionGraph.data[i];
+            if (
+                (
+                    (row["TIMESTAMP"] <= midpoint)
+                    && (selectionGraph.data[i + 1]["TIMESTAMP"] > midpoint)
+                )
+                || (selectionGraph.data[i + 1]["TIMESTAMP"] > midpoint)
+            ) {
+                this.data = row;
+                delete this.data["TIMESTAMP"];
+                this.data["START"] = start;
+                this.data["END"] = end;
+                //console.log(this.data);
+                break;
+            }
+        }
+    }
+
+    if (locationOverride != null) {
+        this.data["LOCATION"] = locationOverride;
+    }
+
+    console.log(this.data["LOCATION"])
+
+    this.hideDialog = function() {
+        thisObject.data["LOCATION"] = dialogLocation.value;
+        thisObject.data["STATUS"] = dialogStatus.value;
+        dialog.setAttribute("hidden", "");
+        dialogConfirm.removeEventListener("click", thisObject.hideDialog);
+        dialogDelete.removeEventListener("click", thisObject.deleteEventListener);
+    }
+
+    this.deleteEventListener = function() {
+        var selections = thisObject.selectionGraph.selections;
+        for (var i = 0; i < selections.length; i++) {
+            if (selections[i] == thisObject) {
+                selections.splice(i, 1);
+            }
+        }
+        thisObject.box.remove();
+        thisObject.hideDialog();
+    }
+
+    this.toggle = function() {
+        var data = thisObject.data;
+        dialog.removeAttribute("hidden");
+        dialogStart.value = new Date(data["START"]).toString();
+        dialogEnd.value = new Date(data["END"]).toString();
+        dialogLocation.value = data["LOCATION"];
+        dialogStatus.value = data["STATUS"];
+        dialogConfirm.addEventListener("click", thisObject.hideDialog);
+        dialogDelete.addEventListener("click", thisObject.deleteEventListener);
+    }
+
+    this.box = selectionGraph.canvas.append("rect")
+        .attr("class", "selection")
+        .attr("x", drawStart)
+        .attr("y", 0)
+        .attr("height", selectionGraph.height)
+        .attr("width", drawWidth)
+        .attr("fill", "orange")
+        .attr("stroke", "black")
+        .on("click", this.toggle);
+
+    if (showDialog) {
+        this.toggle();
+    }
+}
+
+function SelectionGraph(locationData, xScale, idSelector = "#selectionGraph", width = GRAPH_WIDTH, subgraphHeight = 20) {
+    var thisObject = this;
+    this.height = subgraphHeight;
+    this.data = locationData;
+    this.width = width;
+    this.xScale = xScale;
+    this.selections = [];
+
+    this.canvas = d3.select(idSelector)
+        .append("svg")
+        .attr("width", this.width)
+        .attr("height", this.height)
+        .attr("transform", "translate(" + TICK_WIDTH + ",0)");
+
+    this.verticalLine = this.canvas.append("line")
+        .attr("class", "vertical-line")
+        .attr("x1", 0)
+        .attr("y1", 0)
+        .attr("x2", 0)
+        .attr("y1", this.height)
+        .style("stroke", "black")
+        .style("stroke-width", 1)
+        .style("stroke-dasharray", ("3, 3"));
+
+    this.addSelection = function(start, end) {
+        if (start != end) {
+            var selection = new Selection(thisObject, start, end);
+            this.selections.push(selection);
+            return selection;
+        }
+    }
+
+    this.sort = function() {
+        return thisObject.selections.sort(function(a, b) {
+            return a.data["START"] - b.data["START"]
+        });
+    }
+
+    this.pageXToTime = function(pageX) {
+        return this.xScale.invert(pageX - PAGE_MARGIN - TICK_WIDTH);
+    }
+
+    this.canvas
+        .append("rect")
+        .attr("class", "selection-overlay")
+        .attr("width", width)
+        .attr("height", subgraphHeight)
+        .on("click", function() {
+            var pageX = d3.event.x + scrollLeft,
+                pageXTimestamp = thisObject.pageXToTime(pageX).getTime(),
+                before = -Infinity,
+                after = Infinity,
+                beforeLocation = null,
+                afterLocation = null
+
+            //console.log(pageX, thisObject.pageXToTime(pageX), pageXTimestamp);
+
+            for (var i = 0; i < thisObject.selections.length; i++) {
+                var selection = thisObject.selections[i],
+                    start = selection.data["START"],
+                    end = selection.data["END"];
+                if (
+                    (end < pageXTimestamp)
+                    && (end > before)
+                ) {
+                    before = end;
+                    beforeLocation = selection.data["LOCATION"];
+                }
+                if (
+                    (start > pageXTimestamp)
+                    && (start < after)
+                ) {
+                    after = start;
+                    afterLocation = selection.data["LOCATION"];
+                }
+            }
+
+            if (
+                (before != -Infinity) && (after != Infinity)
+                && !(beforeLocation.includes(" to "))
+                && !(afterLocation.includes(" to "))
+            ) {
+                //console.log(before, after);
+                var selection = new Selection(
+                    thisObject, before, after,
+                    null, false, beforeLocation + " to " + afterLocation
+                );
+                thisObject.selections.push(selection);
+                selection.toggle();
+            }
+        });
+
+}
+
+var globalXScale;
+
+d3.csv("/data/" + sampleDate + "/location").then(function(data) {
+    data.forEach(function(row) {
+        row["TIMESTAMP"] = +row["TIMESTAMP"] * 1000;
+    });
+
+    globalXScale = d3.scaleTime()
+        .domain(
+            d3.extent(data, function(row) { return row["TIMESTAMP"] + TIME_BUFFER; })
+        )
+        .range([0, GRAPH_WIDTH]);
+
+    locationGraph = new LocationGraph(data, globalXScale);
+    selectionGraph = new SelectionGraph(data, globalXScale);
+});
+
+d3.csv("/data/" + sampleDate + "/adxl").then(function(data) {
+
+    var downsampledData = [],
+        accum = [];
+
+    for (var i = 0; i < data.length; i++) {
+        var row = data[i];
+
+        row["TIME"] = +row["TIME"] * 1000
+        row["X"] = +row["X"];
+        row["Y"] = +row["Y"];
+        row["Z"] = +row["Z"];
+
+        if (i % ADXL_SKIP == 1) {
+            downsampledData.push(avgRow(accum));
+            accum = [];
+
+        } else {
+            accum.push(row);
+        }
+    };
+
+    adxlGraph = new AdxlGraph(downsampledData, globalXScale,
+        "#adxlGraph", GRAPH_WIDTH, 80,
+        [locationGraph.verticalLine, selectionGraph.verticalLine],
+        selectionGraph
+    );
+
+});
+
+document.getElementById("export").addEventListener("click", function() {
+    selectionGraph.sort();
+    var selections = selectionGraph.selections;
+    if (selections.length == 0) {
+        alert("No data to export")
+    } else {
+        var columns = Object.keys(selections[0].data),
+            lines = ["data:text/csv;charset=utf-8," + columns.join(",")];
+
+        for (var i = 0; i < selections.length; i++) {
+            lines.push(
+                columns.map(function(key) {
+                    return selectionGraph.selections[i].data[key];
+                }).join(",")
+            );
+        }
+
+        this.href = encodeURI(lines.join("\n"));
+        this.target = "_blank";
+        this.download = "labels.csv";
+    }
+});
+
+document.getElementById("clear").addEventListener("click", function() {
+    var selections = selectionGraph.selections;
+    for (var i = selections.length - 1; i > -1; i--) {
+        selections[i].deleteEventListener();
+    }
+});
+
+function loadCsv(contents) {
+    d3.csvParse(contents).forEach(function(row) {
+        row["START"] = parseInt(row["START"]);
+        row["END"] = parseInt(row["END"]);
+        selectionGraph.selections.push(new Selection(
+            selectionGraph, row["START"], row["END"],
+            row, false
+        ));
+    });
+}
+
+document.getElementById("upload").addEventListener("change", function() {
+    var reader = new FileReader();
+    var file = document.querySelector("input[type=file]").files[0];
+
+    reader.addEventListener("load", function() {
+        loadCsv(reader.result);
+    });
+
+    if (file) {
+        reader.readAsText(file);
+    }
+})
+
+document.addEventListener("keypress", function(e) {
+    if ((e.keyCode == 13) && !(document.getElementById("dialog").hidden)) {
+        document.getElementById("dialogConfirm").click();
+    }
+});
+
+        </script>
+    </body>
+</html>

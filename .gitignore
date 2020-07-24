@@ -1,0 +1,15 @@
+# python
+__pycache__/
+.ipynb_checkpoints/
+CONTEXTILY_CACHE/
+
+# outputs
+/*.csv
+/*.db
+/*.geojson
+data/
+data_2018/
+labels/
+output/
+output_images/
+EXTRA_*

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel=stylesheet href=static/style.css>
+    </head>
+    <body>
+        <br>
+        <table style="width: 100%;" id=sensor-inputs>
+            <tr id=sensor-input-headers>
+                <th>location input</th>
+                <th id=response-header>response</th>
+            </tr>
+            <tr id=sensor-input-forms>
+                <td>
+                    <form id=location-form action=update_location target=response-frame method=post enctype=multipart/form-data>
+                        <table>
+                            <tr>
+                                <td>
+                                    location
+                                </td>
+                                <td>
+                                    <input type=text name=location_name id=location>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    position
+                                </td>
+                                <td>
+                                    <input type=text name=position_name id=position>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    status
+                                </td>
+                                <td>
+                                    <input type=text name=status id=status>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    <input type=submit value=submit style="width: 100%;">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+                <td id=response-cell>
+                    <iframe name=response-frame id=response-frame></iframe>
+                </td>
+                <td id=branding style="text-align: center;">
+                    <img src=static/neu.png style="max-width: 100%; max-height: 100%;">
+                    <br><em>environmental sensors lab  - subway survey</em>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <table style="table-layout: fixed; width: 100%;">
+            <tr>
+                <td style="width: 66%;">
+                    <table id=status-selector class=selector></table>
+                    <br>
+                    <table id=position-selector class=selector></table>
+                </td>
+                <td class=large-button id=prev-state>
+                    ⇦ car
+                    <br>+ ⏎
+                </td>
+                <td class=large-button id=selector-submit>
+                    ⏎
+                </td>
+                <td class=large-button id=next-state>
+                    car ⇨
+                    <br>+ ⏎
+                </td>
+            </tr>
+        </table>
+
+        <table style="table-layout: fixed; width: 100%;">
+            <tr>
+
+                <td style="width: 75%;">
+                    <div id=subway-lines>
+                        <table class=blue-line>
+                            <tr>
+                                <td>bowdoin</td>
+                                <td>government center blue</td>
+                                <td>state street blue</td>
+                                <td>aquarium</td>
+                                <td>maverick</td>
+                                <td>airport</td>
+                                <td>wood island</td>
+                                <td>orient heights</td>
+                                <td>suffolk downs</td>
+                                <td>beachmont</td>
+                                <td>revere beach</td>
+                                <td>wonderland</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class=green-line>
+                            <tr>
+                                <td>boston college</td>
+                                <td>south street</td>
+                                <td>chestnut hill ave</td>
+                                <td>chiswick road</td>
+                                <td>sutherland road</td>
+                                <td>washington street</td>
+                                <td>warren street</td>
+                                <td>allston street</td>
+                                <td>griggs street</td>
+                                <td>harvard ave</td>
+                                <td>packards corner</td>
+                                <td>babcock street</td>
+                                <td>pleasant street</td>
+                                <td>st paul street b</td>
+                                <td>boston university west</td>
+                                <td>boston university central</td>
+                                <td>boston university east</td>
+                                <td>blandford street</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>cleveland circle</td>
+                                <td>englewood ave</td>
+                                <td>dean road</td>
+                                <td>tappan street</td>
+                                <td>washington square</td>
+                                <td>fairbanks street</td>
+                                <td>brandon hall</td>
+                                <td>summit ave</td>
+                                <td>collidge corner</td>
+                                <td>st paul street c</td>
+                                <td>kent street</td>
+                                <td>hawes street</td>
+                                <td>st mary's street</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>riverside</td>
+                                <td>woodland</td>
+                                <td>waban</td>
+                                <td>eliot</td>
+                                <td>newton highlands</td>
+                                <td>newton centre</td>
+                                <td>chestnut hill</td>
+                                <td>reservoir</td>
+                                <td>beaconsfield</td>
+                                <td>brookline hills</td>
+                                <td>brookline village</td>
+                                <td>longwood</td>
+                                <td>fenway</td>
+                                <td>kenmore</td>
+                                <td>hynes convention center</td>
+                                <td>copley</td>
+                                <td>arlington</td>
+                                <td>boylston</td>
+                                <td>park street green</td>
+                                <td>government center green</td>
+                                <td>haymarket green</td>
+                                <td>north station green</td>
+                                <td>science park/west end</td>
+                                <td>lechmere</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>heath street</td>
+                                <td>back of the hill</td>
+                                <td>riverway</td>
+                                <td>mission park</td>
+                                <td>fenwood road</td>
+                                <td>brigham circle</td>
+                                <td>longwood medical area</td>
+                                <td>museum of fine arts</td>
+                                <td>northeastern</td>
+                                <td>symphony</td>
+                                <td>prudential</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class=orange-line>
+                            <tr>
+                                <td>forest hills</td>
+                                <td>green street</td>
+                                <td>stony brook</td>
+                                <td>jackon square</td>
+                                <td>roxbury crossing</td>
+                                <td>ruggles</td>
+                                <td>mass ave</td>
+                                <td>back bay</td>
+                                <td>tufts medical center</td>
+                                <td>chinatown</td>
+                                <td>downtown crossing orange</td>
+                                <td>state street orange</td>
+                                <td>haymarket orange</td>
+                                <td>north station orange</td>
+                                <td>community college</td>
+                                <td>sullivan square</td>
+                                <td>assembly</td>
+                                <td>wellington</td>
+                                <td>malden center</td>
+                                <td>oak grove</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <table class=red-line>
+                            <tr>
+                                <td>mattapan</td>
+                                <td>capen street</td>
+                                <td>valley road</td>
+                                <td>central ave</td>
+                                <td>milton</td>
+                                <td>butler</td>
+                                <td>cedar grove</td>
+                                <td>ashmont</td>
+                                <td>shawmut</td>
+                                <td>fields corner</td>
+                                <td>savin hill</td>
+                                <td>jfk umass</td>
+                                <td>andrew</td>
+                                <td>broadway</td>
+                                <td>south station</td>
+                                <td>downtown crossing red</td>
+                                <td>park street red</td>
+                                <td>charles/mgh</td>
+                                <td>kendall/mit</td>
+                                <td>central</td>
+                                <td>harvard</td>
+                                <td>porter</td>
+                                <td>davis</td>
+                                <td>alewife</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>braintree</td>
+                                <td>quincy adams</td>
+                                <td>quincy center</td>
+                                <!-- <td>wollaston</td> -->
+                                <td>north quincy</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <br>
+                    </div>
+                </td>
+
+                <td>
+                    <div id=numpad-timer>timer</div>
+                    <div id=numpad-container></div>
+                </td>
+
+            </tr>
+        </table>
+
+        <script src=static/location_ui.js></script>
+        <script src=static/sensor_ui.js></script>
+        <script src=static/numpad_timer.js></script>
+    </body>
+</html>
