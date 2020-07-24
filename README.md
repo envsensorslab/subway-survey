@@ -8,6 +8,6 @@ The MBTA Subway Conditions Survey 2018-2019 was a project to quantify the enviro
 ![](img/system.png)
 
 ### Commute conditions assessment tool
-![](img/comute.png)
+![](img/commute.png)
 
 More documentation to follow
