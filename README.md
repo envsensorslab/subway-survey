@@ -1,6 +1,6 @@
 # MBTA Subway Conditions Survey 2018-2019 surveying and analysis tools
 
-To view the website source code, see the [gh-pages branch of this repository](https://github.com/envsensorslab/subway-survey). To view the website itself, click here: [envsensorslab.github.io/subway-survey/](envsensorslab.github.io/subway-survey/)
+To view the website source code, see the [gh-pages branch of this repository](https://github.com/envsensorslab/subway-survey/tree/gh-pages). To view the website itself, click here: [envsensorslab.github.io/subway-survey/](envsensorslab.github.io/subway-survey/)
 
 This repository contains tools for collecting and analyzing subway survey data. The following components are included:
 
